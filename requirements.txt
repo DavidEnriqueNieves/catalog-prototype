@@ -1,0 +1,5 @@
+sudo apt install npm
+
+install mariadb or mysql 
+
+npm install mariadB
