@@ -48,8 +48,8 @@ fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
 	    var arr = row.split(",");
 	    for(i = 0; i < arr.length; i++)
 	    {
-		    console.log(i);
-		    console.log(arr[i].trim());
+	//	    console.log(i);
+	//	    console.log(arr[i].trim());
 		    if(!isNaN(arr[i]))
 		    {
 			    arr[i] = parseInt(arr[i]);
@@ -61,7 +61,7 @@ fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
 		    }
 	    }
 //	    var arr = row.split(",");
-	    console.log(arr);
+	  //  console.log(arr);
            csvData.push(arr);        
 
 	           //csvData.push(row.split(","));        
@@ -107,7 +107,7 @@ fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
 
 	    }
 
-				    console.log("query is " + query);
+
 				    
 //      con.connect(function(err) {
 //      if (err) throw err;
@@ -116,13 +116,20 @@ fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
 //	      console.log(result);
 //						        });
 //				    });
-      for(i = 0 ; i< 35; i++)
-{
+				    //
+				    //
+				   
+				  
 
+      con.connect(function(err) {
+      if (err) throw err;
+      for(let i = 0 ; i< 35; i++)
+{
+	ingest_query = ""
       ingest_query = "INSERT INTO prototype_table (" 
       pre_ingest_query = ""
       post_ingest_query = ""
-	console.log(csvData[i]);
+	//console.log(csvData[i]);
 	for(p = 0;  p < csvData[i].length; p++)
 	{
 		post_ingest_query += "'" + csvData[i][p] + "'";
@@ -137,25 +144,27 @@ fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
 			pre_ingest_query+=")";
 			post_ingest_query+=")";
 		}
+	}
+	ingest_query = ingest_query + pre_ingest_query + " VALUES (" + post_ingest_query;
+
+    console.log(ingest_query);
+	if(i!=0)
+	{
+
+	 con.query(ingest_query, function (err, result, fields) {
+      if (err) throw err;
+	      //console.log(result);
+	        });
+	}
+
 
 
 	}
-	ingest_query = ingest_query + pre_ingest_query + " VALUES (" + post_ingest_query;
-	console.log("Query is " + ingest_query);
-
-//      con.connect(function(err) {
-//      if (err) throw err;
-//      con.query(ingest_query, function (err, result, fields) {
-//      if (err) throw err;
-//	      console.log(result);
-//						        });
-//				    });
-
-}
 
 
+    });
 
-	                                    });
+});
 
 app.use('/static', express.static(absolute_path))
 app.get('/' , function(req, res){
