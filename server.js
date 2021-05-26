@@ -8,8 +8,8 @@ var con = mysql.createConnection({
 	  
 	host: "localhost",
 	  user: "debbido",
-	  password: "debbido677357"
-
+	  password: "debbido677357",
+	database: "prototype"
 	  });
 
 
@@ -65,7 +65,7 @@ fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
 
 				    var arr = csvData[1];
 
-				    query = "CREATE TABLE prototype (";
+				    query = "CREATE TABLE prototype_table (";
 				    var sql_type = [];
 
 	    for(i = 0; i < arr.length; i++)
@@ -99,13 +99,52 @@ fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
 
 				    console.log("query is " + query);
 				    
-      con.connect(function(err) {
-      if (err) throw err;
-      con.query(query, function (err, result, fields) {
-      if (err) throw err;
-	      console.log(result);
-						        });
-				    });
+//      con.connect(function(err) {
+//      if (err) throw err;
+//      con.query(query, function (err, result, fields) {
+//      if (err) throw err;
+//	      console.log(result);
+//						        });
+//				    });
+      for(i = 0 ; i< 35; i++)
+{
+
+      ingest_query = "INSERT INTO prototype_table (" 
+      pre_ingest_query = ""
+      post_ingest_query = ""
+	console.log(csvData[i]);
+	for(p = 0;  p < csvData[i].length; p++)
+	{
+		post_ingest_query += "'" + csvData[i][p] + "'";
+		pre_ingest_query +=  csvData[0][p].replace('/\"/ig', "");
+		if(p< csvData[i].length - 1)
+		{
+			pre_ingest_query+=",";
+                        post_ingest_query+=",";
+		}
+		else
+		{
+			pre_ingest_query+=")";
+			post_ingest_query+=")";
+		}
+
+
+	}
+	ingest_query = ingest_query + pre_ingest_query + " VALUES (" + post_ingest_query;
+	console.log("Query is " + ingest_query);
+
+//      con.connect(function(err) {
+//      if (err) throw err;
+//      con.query(ingest_query, function (err, result, fields) {
+//      if (err) throw err;
+//	      console.log(result);
+//						        });
+//				    });
+
+}
+
 
 
 	                                    });
+
+
