@@ -1,10 +1,16 @@
 sudo apt install -y xclip 
 sudo apt install -y git
 sudo apt update
+sudo apt install -y net-tools
 sudo apt install -y nodejs
 sudo apt install -y npm
 
 
 install mariadb or mysql 
 
-npm install mariadB
+npm install mysql2
+
+
+consult this stackOverFlow page for the authorization issues:
+
+https://stackoverflow.com/questions/37239970/connect-to-mysql-server-without-sudo
