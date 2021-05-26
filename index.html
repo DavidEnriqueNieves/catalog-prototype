@@ -3,7 +3,7 @@
 
 <html>
 	<head>
-		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
 
 	</head>
 
@@ -15,10 +15,26 @@
 {
 	console.log("Adding Table!! SHOWING AJAX PLEASE");
 	$.ajax({
-		url: 'https://google.com',
+		url: 'http://localhost:3000/data',
 		success: function(data) {
-			    console.log(data);
-			 }
+
+			tableHTML = "";
+			console.log(data);
+
+			for(i = 0; i < data.length; i++)
+			{
+				tableHTML += "<tr>"
+
+				for (const [key, value] of Object.entries(data[i])) {
+					console.log(`${key}: ${value}`);
+					tableHTML+="<td>" + `${value}` + "</td>";
+				} 
+
+				tableHTML+="</tr>"
+
+			}
+			document.getElementById("data_table").innerHTML = tableHTML;
+		}
 	});
 }
 	</script>
