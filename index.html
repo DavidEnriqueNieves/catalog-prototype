@@ -4,6 +4,9 @@
 <html>
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css" integrity="sha256-ze/OEYGcFbPRmvCnrSeKbRTtjG4vGLHXgOqsyLFTRjg=" crossorigin="anonymous" />
+
 
 	</head>
 
@@ -13,6 +16,7 @@
 
 		function addTable()
 {
+	
 	console.log("Adding Table!! SHOWING AJAX PLEASE");
 	$.ajax({
 		url: 'http://localhost:3000/data',
@@ -23,7 +27,40 @@
 
 			for(i = 0; i < data.length; i++)
 			{
+
+
+				if(i == 0)
+				{
+					tableHTML += "<thead style='border: solid 1px black; height: 100px;'><tr style='height: 100px;'>";
+			for (const [key, value] of Object.entries(data[i])) {
+				console.log(`${key}: ${value}`);
+				tableHTML+="<th style='height: 100px;'><p>" + `${key}` + "</p><select  id='" +`${key}` + "' placeholder='select an option'><option value=''></option>"; 				
+			for(z = 0; z < data.length; z++)
+			{
+
+				for (const [key2, value2] of Object.entries(data[z])) {
+					if(`${key2}` == `${key}`)
+					{
+						tableHTML+="<option value='" + `${value2}` + "'>" + `${value2}` + "</option>";
+					}
+					console.log(`${key}: ${value}`);
+				} 
+			}
+
+
+
+				tableHTML += + `${key}` + "</select></th>";
+
+
+
+
+			}
+					tableHTML+="</tr></thead>"
+					tableHTML+="<tbody>"
+
+				}
 				tableHTML += "<tr>"
+
 
 				for (const [key, value] of Object.entries(data[i])) {
 					console.log(`${key}: ${value}`);
@@ -33,7 +70,11 @@
 				tableHTML+="</tr>"
 
 			}
+			tableHTML+="</tbody>"
 			document.getElementById("data_table").innerHTML = tableHTML;
+			 $('select').selectize({
+				           sortField: 'text'
+				       });
 		}
 	});
 }
@@ -47,7 +88,7 @@
 
 		<p>This is a paragraph.</p>
 
-		<table id="data_table">
+		<table id="data_table" style="border: 1px solid black;">
 		</table>
 
 

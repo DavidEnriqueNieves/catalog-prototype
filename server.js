@@ -120,7 +120,6 @@ fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
 				    //
 				   
 				  
-
       con.connect(function(err) {
       if (err) throw err;
       for(let i = 0 ; i< 35; i++)
@@ -151,10 +150,10 @@ fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
 	if(i!=0)
 	{
 
-	 con.query(ingest_query, function (err, result, fields) {
-      if (err) throw err;
-	      //console.log(result);
-	        });
+//	 con.query(ingest_query, function (err, result, fields) {
+//      if (err) throw err;
+//	      //console.log(result);
+//	        });
 	}
 
 
