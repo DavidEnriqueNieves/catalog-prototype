@@ -1,7 +1,17 @@
 const mysql = require('mysql2');
+const express = require('express');
+const path  = require('path');
+const app = express();
+
+
 var fs = require('fs');
 var parse = require('csv-parse');
 //var parse = require('csv-parse/lib/sync');
+
+
+const absolute_path = __dirname.toString() + "/public";
+app.use(express.urlencoded());
+app.use(express.json());
 
 
 var con = mysql.createConnection({
@@ -147,4 +157,26 @@ fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
 
 	                                    });
 
+app.use('/static', express.static(absolute_path))
+app.get('/' , function(req, res){
+		res.sendFile(path.join(__dirname, '/index.html'));
+})
+
+app.get("/data", function(req, res){
+
+
+	query = "SELECT * FROM prototype_table";
+      con.connect(function(err) {
+      if (err) throw err;
+      con.query(query, function (err, result, fields) {
+      if (err) throw err;
+      console.log(result);
+	res.send(result);
+
+						        });
+    });
+
+});
+
+app.listen(3000);
 

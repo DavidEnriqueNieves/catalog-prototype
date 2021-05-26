@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	</head>
+
+	</title>
+
+	<script>
+
+		function addTable()
+{
+	console.log("Adding Table!! SHOWING AJAX PLEASE");
+	$.ajax({
+		url: 'https://google.com',
+		success: function(data) {
+			    console.log(data);
+			 }
+	});
+}
+	</script>
+
+
+	<body onload="addTable()">
+
+
+		<h1>This is a heading</h1>
+
+		<p>This is a paragraph.</p>
+
+		<table id="data_table">
+		</table>
+
+
+
+	</body>
+
+</html>

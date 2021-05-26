@@ -11,7 +11,8 @@ install mariadb or mysql
 npm install mysql2
 npm install fs
 npm install csv-parse
-
+npm install express
+npm install path
 consult this stackOverFlow page for the authorization issues:
 
 https://stackoverflow.com/questions/37239970/connect-to-mysql-server-without-sudo
