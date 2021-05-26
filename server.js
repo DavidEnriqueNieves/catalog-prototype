@@ -40,11 +40,20 @@ fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
 	    {
 		    console.log(i);
 		    console.log(arr[i].trim());
-		    arr[i] = arr[i].trim();
+		    if(!isNaN(arr[i]))
+		    {
+			    arr[i] = parseInt(arr[i]);
+		    }
+		    else
+		    {
+			 arr[i] = arr[i].trim();
+
+		    }
 	    }
 //	    var arr = row.split(",");
 	    console.log(arr);
            csvData.push(arr);        
+
 	           //csvData.push(row.split(","));        
 //	    console.log("Row is " + row);
 	                })
@@ -53,5 +62,50 @@ fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
 				        console.log("CSV data is ")
 	                                console.log(csvData.length);
 				        console.log(csvData[0]);
-				        console.log(csvData[35][3]);
+
+				    var arr = csvData[1];
+
+				    query = "CREATE TABLE prototype (";
+				    var sql_type = [];
+
+	    for(i = 0; i < arr.length; i++)
+	    {
+		    if(!isNaN(arr[i]))
+		    {
+			    if(arr[i]%1 == 0)
+			    {
+				    sql_type[i] = "INT(10)";
+			    }
+			    else
+			    {
+				    sql_type[i] = "FLOAT(10)";
+			    }
+		    }
+		    else
+		    {
+			 sql_type[i] = "VARCHAR(30)";
+		    }
+		    query+= "\n" + csvData[0][i].replace('/\"/ig', "")  + " " + sql_type[i];
+		    if(i == arr.length - 1)
+		    {
+			    query+="\n )"
+		    }
+		    else
+		    {
+			    query+=",\n"
+		    }
+
+	    }
+
+				    console.log("query is " + query);
+				    
+      con.connect(function(err) {
+      if (err) throw err;
+      con.query(query, function (err, result, fields) {
+      if (err) throw err;
+	      console.log(result);
+						        });
+				    });
+
+
 	                                    });

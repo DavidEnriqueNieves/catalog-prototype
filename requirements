@@ -15,3 +15,7 @@ npm install csv-parse
 consult this stackOverFlow page for the authorization issues:
 
 https://stackoverflow.com/questions/37239970/connect-to-mysql-server-without-sudo
+
+had to create the database as root and then do this
+grant all privileges on `prototype`.* to 'debbido'@'localhost';
+
