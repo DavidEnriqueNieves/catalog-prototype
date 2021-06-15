@@ -10,7 +10,7 @@ var parse = require('csv-parse');
 
 
 const absolute_path = __dirname.toString() + "/public";
-app.use(express.urlencoded());
+app.use((express.static(__dirname + '/public')));
 app.use(express.json());
 
 
@@ -37,7 +37,7 @@ var con = mysql.createConnection({
 //});
  
 var csvData=[];
-fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
+fs.createReadStream("/home/debbido/Desktop/prototype/public/data/cities.csv")
     .pipe(parse({delimiter: '\n', quote: ''}))
     .on('data', function(csvrow) {
 	            //console.log(csvrow);
@@ -165,9 +165,12 @@ fs.createReadStream("/home/debbido/Desktop/prototype/cities.csv")
 
 });
 
-app.use('/static', express.static(absolute_path))
 app.get('/' , function(req, res){
-		res.sendFile(path.join(__dirname, '/index.html'));
+		res.sendFile(path.join(__dirname, '/tree.html'));
+})
+
+app.get('/catalog' , function(req, res){
+		res.sendFile(path.join(__dirname, 'public/data/flares.json'));
 })
 
 app.get("/data", function(req, res){
