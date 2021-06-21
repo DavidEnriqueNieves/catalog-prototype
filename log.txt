@@ -1,1530 +1,3105 @@
 ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora
+object
 ,,,,,,,
+object
 ,,,,,,,
+object
 444,,,,,,,Serafin
+object
 703,,,,,,,Serafin
+object
 2380,,,,,,,Serafin
+object
 4017,MANECILLA UNIVERSAL,,,,,,Serafin
+object
 4249,,,,,,,Serafin
+object
 4918,,,,,,,Serafin
+object
 6254,,,,,,,Serafin
+object
 2481,MESC BIDET LF,MEIJIE,860911CP,,,,Serafin
-3584,NIPLE 3/8,5,BRASS,03,11,Niples,Serafin
-3595,NIPLE 3/8,2 1/2,BRASS,03,11,Niples,Serafin
+object
+3584,NIPLE 3/8,5,BRASS,3,11,Niples,Serafin
+object
+3595,NIPLE 3/8,2 1/2,BRASS,3,11,Niples,Serafin
+object
 2375,,2,ROSCA,,,,Serafin
+object
 1407,,4,S/STEEL,,,,Serafin
-2287,ABRASADERA INCORP,4 1/2,,03,11,Abrasaderas,Serafin
-2544,ABRASADERA MANGA,4,,03,11,Abrasaderas,Serafin
-36,ABRASADERA MANGA,5/8,44230,03,11,Abrasaderas,Serafin
-52,ABRASADERA MANGA,1,44231,03,11,Abrasaderas,Serafin
-35,ABRASADERA MANGA,1/2,44231,03,11,Abrasaderas,Serafin
-53,ABRASADERA MANGA,5/8-7/8,44234,03,11,Abrasaderas,Serafin
-37,ABRASADERA MANGA,3/4,44235,03,11,Abrasaderas,Serafin
-38,ABRASADERA MANGA,11/4,44236,03,11,Abrasaderas,Serafin
-6309,ABRASADERA MANGA (5),1 3/4,44238,03,11,Abrasaderas,Serafin
-6342,ABRASADERA MANGA (5),2,44239,03,11,Abrasaderas,Serafin
-6308,ABRASADERA MANGA (5),1 1/2,AB-16,03,11,Abrasaderas,Serafin
-6355,ABRASADERA MANGA (5),2 1/2,AB-32,03,11,Abrasaderas,Serafin
-4931,ABRASADERA MANGA,3,AB-40,03,11,Abrasaderas,Serafin
-6393,ABRASADERA MANGA (5),4,AB-56,03,11,Abrasaderas,Serafin
-6394,ABRASADERA MANGA (5),6,AB-88,03,11,Abrasaderas,Serafin
-6303,ABRASADERA MANGA,2,M-24 AB,03,11,Abrasaderas,Serafin
-30,ACEITE 3-1,3 OZ,10035,03,,Aceite,Serafin
-66,ACEITE LAMPARA,20 OZ,,03,,Aceite,Serafin
-4906,ACEITE LAMPARA,32 OZ,COLORES,03,,Aceite,Serafin
-3478,ACEITE LUBRICANTE GR,,LM-1,03,,Aceite,Serafin
-1350,ACEITE WD-40,8 OZ,52008,03,,Aceite,Serafin
-32,ACEITE WD-40,9.6 OZ,52028,03,,Aceite,Serafin
-1352,ACEITERA 10 OZ,ACEF-300,14872,03,,Aceitera,Serafin
-10,ACS BANO LUJO,VENUS,CROMO,03,,Sistema ACS,Serafin
-9,ACS BANO METAL TW,5 PCS,2CCS006,03,11,Sistema ACS,Serafin
-25,ACS BANO PLAST TW,5 PCS,P1116P,03,11,,Serafin
-1328,AD DISCO PULIR 5/8 D,ADT275/8,10542,03,,AD,Serafin
-1327,AD DISCO PULIR 5/8 F,ADC5/8,10540,03,,AD,Serafin
-5655,AD H MANGA 1/4 PRES,TIPE6,19088,03,11,AD,Serafin
-5030,AD MANGA BRCE HEM-MA,03/04/21,12708,03,11,AD,Serafin
-5040,AD MANGA BRCE HEM-MA,05/08/21,12706,03,11,AD,Serafin
-1806,AD MANGA HEMBRA,3/4,01F,03,11,Manga,Serafin
-1805,AD MANGA HEMBRA,1/2,05F,03,11,Manga,Serafin
-271,AD MANGA HEMBRA BR,1/2,12700,03,11,Manga,Serafin
-1154,AD MANGA HEMBRA BR,5/8,CF-5/8B,03,11,Manga,Serafin
-108,AD MANGA HEMBRA SURT,1/2,130377,03,11,Manga,Serafin
-109,AD MANGA HEMBRA SURT,5/8-3/4,130380,03,11,Manga,Serafin
-111,AD MANGA HEMBRA TW,1/2,R817A,03,11,Manga,Serafin
-4393,AD MANGA HEMBRA TW,5/8,R817C,03,11,Manga,Serafin
-1804,AD MANGA MACHO,3/4,01M,03,11,Manga,Serafin
-1803,AD MANGA MACHO,1/2,O5M,03,11,Manga,Serafin
-317,AD MANGA MACHO BR,1/2,12702,03,11,Manga,Serafin
-5031,AD MANGA MACHO BR,5/8,CM-5/8B,03,11,Manga,Serafin
-110,AD MANGA MACHO SURTE,1/2,130376,03,11,Manga,Serafin
-148,AD MANGA MACHO SURTE,5/8-3/4,130379,03,11,Manga,Serafin
-112,AD MANGA MACHO TW,1/2,R816A,03,11,Manga,Serafin
-4392,AD MANGA MACHO TW,5/8,R816C,03,11,Manga,Serafin
-1322,AD MOTOR,1/2,410-C,03,,Motor,Serafin
-1323,AD MOTOR,5/8,411-c,03,,Motor,Serafin
-3489,AEREATOR MESCLADORA,HEMBRA,R111P,03,,Aereator,Serafin
-8000,AJUSTE,,,03,,Ajuste,Serafin
-50,ALAMBRE GALV,.50 QQ,12/2 LB,03,,Alambre,Serafin
-56,ALAMBRE GALV,QQ,12/5 LB,03,,Alambre,Serafin
-19,ALAMBRE GALV,2LB,16,03,,Alambre,Serafin
-20,ALAMBRE GALV,5LB,16,03,,Alambre,Serafin
-29,ALAMBRE GALV CAJA,40 LB/CJ,16/2 LB,03,,Alambre,Serafin
-1177,ALAMBRE GATA 2LB,4.5,40LB/CJ,03,,Alambre,Serafin
-1180,ALAMBRE GATA 4 1/2,5000 AM,,03,,Alambre,Serafin
-1178,ALAMBRE GATA 5LB,4.5,20LB/BAG,03,,Alambre,Serafin
-11,ALAMBRE MACHETE,,,03,,Alambre,Serafin
-51,ALAMBRE QUEMADO,20R-3LB,,03,,Alambre,Serafin
-59,ALDABA,2,CD,03,,Aldaba,Serafin
-60,ALDABA,3,CD,03,,Aldaba,Serafin
-63,ALDABA,4,CD,03,,Aldaba,Serafin
-7,ALICATE C/AZULEJOS,,,03,,Alicate,Serafin
-5338,ALICATE ELECT FOY,8,142042,03,,Alicate,Serafin
-4257,ALICATE ELECT FOYD,9,142043,03,,Alicate,Serafin
-5270,ALICATE ELECT MEX,9,WF0829,03,,Alicate,Serafin
-24,ALICATE ELECT SURTEK,7,967V,03,,Alicate,Serafin
-3990,ALICATE ELECT TRUPER,7,17303,03,,Alicate,Serafin
-1846,ALICATE ELECT TRUPER,8,17304,03,,Alicate,Serafin
-3975,ALICATE ELECT TRUPER,9,17305,03,,Alicate,Serafin
-3991,ALICATE ELECT TRUPER,6,17306,03,,Alicate,Serafin
-5277,ALICATE ELECT TRUPER,8,17308,03,,Alicate,Serafin
-3992,ALICATE ELECT TRUPER,9,17328,03,,Alicate,Serafin
-1848,ALICATE ELECT TRUPER,8,17330,03,,Alicate,Serafin
-18,ALICATE JAULA,,TW,03,,Alicate,Serafin
-23,ALICATE JAULA HD,,ESQUINA,03,,Alicate,Serafin
-21,ALICATE JAULA HD,,TW,03,,Alicate,Serafin
-214,ALICATE MEC TOLSEN,6,10311,03,,Alicate,Serafin
-215,ALICATE MEC TOLSEN,8,10313,03,,Alicate,Serafin
-5274,ALICATE MECANICO,6,TW,03,,Alicate,Serafin
-5,ALICATE MECANICO,8,TW,03,,Alicate,Serafin
-5653,ALICATE MECANICO 10,PCH10,17302,03,,Alicate,Serafin
-5281,ALICATE MECANICO 6,PCH6,17300,03,,Alicate,Serafin
-5283,ALICATE MECANICO 8,PCH8,17301,03,,Alicate,Serafin
-5275,ALICATE MECANICO FOY,10,PM10,03,,Alicate,Serafin
-213,ALICATE P/LORO,8,17350,03,,Alicate,Serafin
-199,ALICATE P/LORO,10,PEX-10,03,,Alicate,Serafin
-200,ALICATE P/LORO,12,PEX-12,03,,Alicate,Serafin
-44,ALICATE PELAR CABLE,PECA6,17356,03,,Alicate,Serafin
-48,ALICATE PELAR CABLE,AUTOMATI,17376,03,,Alicate,Serafin
-45,ALICATE PELAR CABLE,10,SURTEK,03,,Alicate,Serafin
-6,ALICATE PLOMERO 8,PCH8X,13065,03,,Alicate,Serafin
-1978,ALICATE PREION 8 TE,PPP8R,17425,03,,Alicate,Serafin
-1921,ALICATE PRESION,4,17419,03,,Alicate,Serafin
-1923,ALICATE PRESION,5,17420,03,,Alicate,Serafin
-1926,ALICATE PRESION,7,17421,03,,Alicate,Serafin
-1927,ALICATE PRESION,10,17423,03,,Alicate,Serafin
-1961,ALICATE PRESION,11,17427,03,,Alicate,Serafin
-1928,ALICATE PRESION,11,17429,03,,Alicate,Serafin
-1929,ALICATE PRESION,12,17429,03,,Alicate,Serafin
-5063,ALICATE PRESION,7,84-368,03,,Alicate,Serafin
-1885,ALICATE PRESION,10,84-369,03,,Alicate,Serafin
-1847,ALICATE PRESION,10,PPT-10R,03,,Alicate,Serafin
-1870,ALICATE PRESION,7,PPT-7R,03,,Alicate,Serafin
-5210,ALICATE PRESION 2 PC,DUOPPT,17447,03,,Alicate,Serafin
-5217,ALICATE PRESION 3 PC,SURTEK,115085,03,,Alicate,Serafin
-5219,ALICATE PRESION C/MA,10,115095,03,,Alicate,Serafin
-5234,ALICATE PRESION CURV,10,115082,03,,Alicate,Serafin
-5065,ALICATE PRESION LARG,6,17432,03,,Alicate,Serafin
-5067,ALICATE PRESION LARG,9,17433,03,,Alicate,Serafin
-5068,ALICATE PRESION LARG,4,17434,03,,Alicate,Serafin
-5221,ALICATE PRESION RECT,10,115096,03,,Alicate,Serafin
-5222,ALICATE PRESION SARG,11,115089,03,,Alicate,Serafin
-5077,ALICATE PRESION SARG,4,17467,03,,Alicate,Serafin
-5078,ALICATE PRESION SARG,6,17468,03,,Alicate,Serafin
-5079,ALICATE PRESION SARG,8,17469,03,,Alicate,Serafin
-1873,ALICATE PRESION SOLD,9 FOY,115087,03,,Alicate,Serafin
-54,ALICATE PRESION SURT,10,115082,03,,Alicate,Serafin
-1890,ALICATE PRESION T/C,6,17413,03,,Alicate,Serafin
-1916,ALICATE PRESION T/C,9,17414,03,,Alicate,Serafin
-1917,ALICATE PRESION T/C,18,17415,03,,Alicate,Serafin
-4815,AMARRAS CARPAS,6,,03,,Amarras,Serafin
-4816,AMARRAS CARPAS,9,,03,,Amarras,Serafin
-4812,AMOLADOR CUCHILLO,AFICUX,15147,03,,Amolador,Serafin
-4811,AMOLADOR CUCHILLO,PLAST,4945-14,03,,Amolador,Serafin
-4204,ANCLAJE MADERA (10),,66L,03,,Anclaje,Serafin
-4194,ANCLAJE MADERA (25),,A33,03,,Anclaje,Serafin
-4259,ANCLAJE MADERA  (50),,RR,03,,Anclaje,Serafin
-4208,ANCLAJE MADERA (10),,66T,03,,Anclaje,Serafin
-4203,ANCLAJE MADERA (10),,A66,03,,Anclaje,Serafin
-4234,ANCLAJE MADERA (100),,A34,03,,Anclaje,Serafin
-4253,ANCLAJE MADERA (100),,FB24Z,03,,Anclaje,Serafin
-4193,ANCLAJE MADERA (100),,GA1,03,,Anclaje,Serafin
-4185,ANCLAJE MADERA (100),6,H2.5A,03,,Anclaje,Serafin
-4258,ANCLAJE MADERA (100),,H2.5T,03,,Anclaje,Serafin
-4180,ANCLAJE MADERA (100),2 X 4,LU24,03,,Anclaje,Serafin
-4181,ANCLAJE MADERA (100),2 X 6,LU26,03,,Anclaje,Serafin
-4190,ANCLAJE MADERA (100),INT-EXT,LUS24Z,03,,Anclaje,Serafin
-4191,ANCLAJE MADERA (100),INT-EXT,LUS26Z,03,,Anclaje,Serafin
-4192,ANCLAJE MADERA (100),INT-EXT,LUS28Z,03,,Anclaje,Serafin
-4236,ANCLAJE MADERA (12),,RPBZ,03,,Anclaje,Serafin
-4209,ANCLAJE MADERA (200),,A21Z,03,,Anclaje,Serafin
-4210,ANCLAJE MADERA (200),,A23Z,03,,Anclaje,Serafin
-4195,ANCLAJE MADERA (25),,A44,03,,Anclaje,Serafin
-4184,ANCLAJE MADERA (100),,A35Z,03,,Anclaje,Serafin
-4182,ANCLAJE MADERA (20),,ABA44Z,03,,Anclaje,Serafin
-4189,ANCLAJE MADERA (50),INT,BC40Z,03,,Anclaje,Serafin
-6192,ANCLAJE MADERA (100),,BC4Z,03,,Anclaje,Serafin
-4183,ANCLAJE MADERA (100),,H1,03,,Anclaje,Serafin
-4186,ANCLAJE MADERA (100),45/8,H3,03,,Anclaje,Serafin
-4187,ANCLAJE MADERA (100),2 X 8,LU28,03,,Anclaje,Serafin
-4254,ANCLAJE MADERA (50),,RTA2Z,03,,Anclaje,Serafin
-2294,ANG PERF 11/2X11/2,10,DX003A,03,,,Serafin
-2295,ANG PERF 11/2X21/4,10,DX004A,03,,,Serafin
-6181,ANTORCHA AMERIFLAME,,HT29,03,,Antorcha,Serafin
-6027,ANTORCHA AMERIFLAME,AUTO,HT89,03,,Antorcha,Serafin
-6407,ANTORCHA AMERIFLAME,C/MANGA,JTH7,03,,Antorcha,Serafin
-6488,ANTORCHA C/MANGA,SOP200,16920,03,,Antorcha,Serafin
-6489,ANTORCHA TRUPER,MECHPR,18257,03,,Antorcha,Serafin
-5591,ANZUELO PESCA 1/10,8 1/2,7691DT,03,12,Anzuelo,Serafin
-5592,ANZUELO PESCA 1/10,9 1/2,7691DT,03,12,Anzuelo,Serafin
-5590,ANZUELO PESCA 10/100,7,2330DT,03,12,Anzuelo,Serafin
-5393,ANZUELO PESCA 10/100,8,2330DT,03,12,Anzuelo,Serafin
-5394,ANZUELO PESCA 10/100,9,2330DT,03,12,Anzuelo,Serafin
-5395,ANZUELO PESCA 10/100,10,2330DT,03,12,Anzuelo,Serafin
-5396,ANZUELO PESCA 10/100,11,2330DT,03,12,Anzuelo,Serafin
-5397,ANZUELO PESCA 10/100,12,2330DT,03,12,Anzuelo,Serafin
-5398,ANZUELO PESCA 10/100,14,2330DT,03,12,Anzuelo,Serafin
-5399,ANZUELO PESCA 10/100,16,2330DT,03,12,Anzuelo,Serafin
-5400,ANZUELO PESCA 10/100,18,2330DT,03,12,Anzuelo,Serafin
-5401,ANZUELO PESCA 10/100,20,2330DT,03,12,Anzuelo,Serafin
-5422,ANZUELO PESCA 10/100,1,3407DT,03,12,Antorcha,Serafin
-5421,ANZUELO PESCA 10/100,2,3407DT,03,12,Antorcha,Serafin
-5410,ANZUELO PESCA 10/100,4,3407DT,03,12,Anzuelo,Serafin
-5411,ANZUELO PESCA 10/100,6,3407DT,03,12,Anzuelo,Serafin
-5412,ANZUELO PESCA 10/100,1 1/2,3407SSD,03,12,Anzuelo,Serafin
-5413,ANZUELO PESCA 10/100,2 1/2,3407SSD,03,12,Anzuelo,Serafin
-5424,ANZUELO PESCA 10/100,3 1/2,3407SSD,03,12,Anzuelo,Serafin
-5425,ANZUELO PESCA 10/100,4 1/2,3407SSD,03,12,Anzuelo,Serafin
-5426,ANZUELO PESCA 10/100,5 1/2,3407SSD,03,12,Anzuelo,Serafin
-5427,ANZUELO PESCA 10/25,1,3561ED,03,12,Anzuelo,Serafin
-5428,ANZUELO PESCA 10/25,2,3561ED,03,12,Anzuelo,Serafin
-5429,ANZUELO PESCA 10/25,4,3561ED,03,12,Anzuelo,Serafin
-5430,ANZUELO PESCA 10/25,6,3561ED,03,12,Anzuelo,Serafin
-5431,ANZUELO PESCA 10/25,1 1/2,3561ED,03,12,Anzuelo,Serafin
-5432,ANZUELO PESCA 10/25,3 1/2,3561ED,03,12,Antorcha,Serafin
-5402,ANZUELO PESCA 10/50,1,34007,03,12,Antorcha,Serafin
-5403,ANZUELO PESCA 10/50,2,34007,03,12,Anzuelo,Serafin
-5423,ANZUELO PESCA 10/50,4,34007,03,12,Anzuelo,Serafin
-5404,ANZUELO PESCA 10/50,6,34007,03,12,Anzuelo,Serafin
-5405,ANZUELO PESCA 10/50,8,34007,03,12,Anzuelo,Serafin
-5406,ANZUELO PESCA 10/50,10/50-1/0,34007,03,12,Anzuelo,Serafin
-5407,ANZUELO PESCA 10/50,10/50-2/0,34007,03,12,Anzuelo,Serafin
-5408,ANZUELO PESCA 10/50,10/50-3/0,34007,03,12,Anzuelo,Serafin
-5409,ANZUELO PESCA 10/50,10/50-4/0,34007,03,12,Anzuelo,Serafin
-5481,ANZUELO PESCA 10/50,10/50-5/0,34007,03,12,Anzuelo,Serafin
-5433,ANZUELO PESCA 4/25,4/25-8/0,39960D,03,12,Anzuelo,Serafin
-5434,ANZUELO PESCA 4/25,4/25-9/0,39960D,03,12,Anzuelo,Serafin
-5435,ANZUELO PESCA 4/25,4/25-10/0,39960D,03,12,Anzuelo,Serafin
-5593,ANZUELO PESCA 1/10,1/10-10/0,7691DT,03,12,Anzuelo,Serafin
-4557,ARANDELA CORRUGADA,,,03,11,Arandela,Serafin
-4555,ARANDELA PLANA,5/8,13 PC,03,11,Arandela,Serafin
-4550,ARANDELA PLANA,1/4,150 PC,03,11,Arandela,Serafin
-4554,ARANDELA PLANA,1/2,26 PC,03,11,Arandela,Serafin
-106,ARANDELA PLANA,3/16,361 PC,03,11,Arandela,Serafin
-4596,ARANDELA PLANA,7/16,41 PC,03,11,Arandela,Serafin
-4561,ARANDELA PLANA,1,5 PC,03,11,Arandela,Serafin
-4569,ARANDELA PLANA,7/8,6 PC,03,11,Arandela,Serafin
-4556,ARANDELA PLANA,3/8,67 PC,03,11,Arandela,Serafin
-4552,ARANDELA PLANA,5/16,87 PC,03,11,Arandela,Serafin
-4525,ARANDELA PLANA,3/4,9 PC,03,11,Arandela,Serafin
-103,ARANDELA PRESION,1/2,,03,11,Arandela,Serafin
-100,ARANDELA PRESION,1/4,,03,11,Arandela,Serafin
-105,ARANDELA PRESION,3/4,,03,11,Arandela,Serafin
-102,ARANDELA PRESION,3/8,,03,11,Arandela,Serafin
-104,ARANDELA PRESION,5/8,,03,11,Arandela,Serafin
-314,ARANDELA PRESION,3/16,,03,11,Arandela,Serafin
-101,ARANDELA PRESION,5/16,,03,11,Arandela,Serafin
-107,ARANDELA PRESION,7/16,,03,11,Arandela,Serafin
-3890,ARGOLLA LLAVERO,,,03,02,Argolla,Serafin
-4070,ARNES 5 ANILLOS COMP,ARN5438,14434,03,,Arnés,Serafin
-7998,ARTICULO ESPECIAL,,,03,,Artículo Especial,Serafin
-58,ASIENTO GERBER,,DA005,03,02,Asiento,Serafin
-12,ASIENTO PP DUCHA,,DA003,03,02,Asiento,Serafin
-14,ASIENTO PP LAV,,DA004,03,02,Asiento,Serafin
-15,ASIENTO SAYCO DUCHA,,,03,02,Asiento,Serafin
-16,ASIENTO SAYCO LAV,,DA002,03,02,Asiento,Serafin
-13,ASIENTO STERLING,,DA006,03,02,Asiento,Serafin
-5568,AUTOMATIC PUMP CONTR,,,03,11,Automatic Pump Control – Control de Pompas,Serafin
+object
+2287,ABRASADERA INCORP,4 1/2,,3,11,Abrasaderas,Serafin
+object
+2544,ABRASADERA MANGA,4,,3,11,Abrasaderas,Serafin
+object
+36,ABRASADERA MANGA,5/8,44230,3,11,Abrasaderas,Serafin
+object
+52,ABRASADERA MANGA,1,44231,3,11,Abrasaderas,Serafin
+object
+35,ABRASADERA MANGA,1/2,44231,3,11,Abrasaderas,Serafin
+object
+53,ABRASADERA MANGA,5/8-7/8,44234,3,11,Abrasaderas,Serafin
+object
+37,ABRASADERA MANGA,3/4,44235,3,11,Abrasaderas,Serafin
+object
+38,ABRASADERA MANGA,11/4,44236,3,11,Abrasaderas,Serafin
+object
+6309,ABRASADERA MANGA (5),1 3/4,44238,3,11,Abrasaderas,Serafin
+object
+6342,ABRASADERA MANGA (5),2,44239,3,11,Abrasaderas,Serafin
+object
+6308,ABRASADERA MANGA (5),1 1/2,AB-16,3,11,Abrasaderas,Serafin
+object
+6355,ABRASADERA MANGA (5),2 1/2,AB-32,3,11,Abrasaderas,Serafin
+object
+4931,ABRASADERA MANGA,3,AB-40,3,11,Abrasaderas,Serafin
+object
+6393,ABRASADERA MANGA (5),4,AB-56,3,11,Abrasaderas,Serafin
+object
+6394,ABRASADERA MANGA (5),6,AB-88,3,11,Abrasaderas,Serafin
+object
+6303,ABRASADERA MANGA,2,M-24 AB,3,11,Abrasaderas,Serafin
+object
+30,ACEITE 3-1,3 OZ,10035,3,,Aceite,Serafin
+object
+66,ACEITE LAMPARA,20 OZ,,,,Aceite,Serafin
+object
+4906,ACEITE LAMPARA,32 OZ,COLORES,,,Aceite,Serafin
+object
+3478,ACEITE LUBRICANTE GR,,LM-1,,,Aceite,Serafin
+object
+1350,ACEITE WD-40,8 OZ,52008,,,Aceite,Serafin
+object
+32,ACEITE WD-40,9.6 OZ,52028,,,Aceite,Serafin
+object
+1352,ACEITERA 10 OZ,ACEF-300,14872,,,Aceitera,Serafin
+object
+10,ACS BANO LUJO,VENUS,CROMO,,,Sistema ACS,Serafin
+object
+9,ACS BANO METAL TW,5 PCS,2CCS006,,,Sistema ACS,Serafin
+object
+25,ACS BANO PLAST TW,5 PCS,P1116P,,,,Serafin
+object
+1328,AD DISCO PULIR 5/8 D,ADT275/8,10542,,,AD,Serafin
+object
+1327,AD DISCO PULIR 5/8 F,ADC5/8,10540,,,AD,Serafin
+object
+5655,AD H MANGA 1/4 PRES,TIPE6,19088,,,AD,Serafin
+object
+5030,AD MANGA BRCE HEM-MA,03/04/21,12708,,,AD,Serafin
+object
+5040,AD MANGA BRCE HEM-MA,05/08/21,12706,,,AD,Serafin
+object
+1806,AD MANGA HEMBRA,3/4,01F,,,Manga,Serafin
+object
+1805,AD MANGA HEMBRA,1/2,05F,,,Manga,Serafin
+object
+271,AD MANGA HEMBRA BR,1/2,12700,,,Manga,Serafin
+object
+1154,AD MANGA HEMBRA BR,5/8,CF-5/8B,,,Manga,Serafin
+object
+108,AD MANGA HEMBRA SURT,1/2,130377,,,Manga,Serafin
+object
+109,AD MANGA HEMBRA SURT,5/8-3/4,130380,,,Manga,Serafin
+object
+111,AD MANGA HEMBRA TW,1/2,R817A,,,Manga,Serafin
+object
+4393,AD MANGA HEMBRA TW,5/8,R817C,,,Manga,Serafin
+object
+1804,AD MANGA MACHO,3/4,01M,,,Manga,Serafin
+object
+1803,AD MANGA MACHO,1/2,O5M,,,Manga,Serafin
+object
+317,AD MANGA MACHO BR,1/2,12702,,,Manga,Serafin
+object
+5031,AD MANGA MACHO BR,5/8,CM-5/8B,,,Manga,Serafin
+object
+110,AD MANGA MACHO SURTE,1/2,130376,,,Manga,Serafin
+object
+148,AD MANGA MACHO SURTE,5/8-3/4,130379,,,Manga,Serafin
+object
+112,AD MANGA MACHO TW,1/2,R816A,,,Manga,Serafin
+object
+4392,AD MANGA MACHO TW,5/8,R816C,,,Manga,Serafin
+object
+1322,AD MOTOR,1/2,410-C,,,Motor,Serafin
+object
+1323,AD MOTOR,5/8,411-c,,,Motor,Serafin
+object
+3489,AEREATOR MESCLADORA,HEMBRA,R111P,,,Aereator,Serafin
+object
+8000,AJUSTE,,,,,Ajuste,Serafin
+object
+50,ALAMBRE GALV,.50 QQ,12/2 LB,,,Alambre,Serafin
+object
+56,ALAMBRE GALV,QQ,12/5 LB,,,Alambre,Serafin
+object
+19,ALAMBRE GALV,2LB,16,,,Alambre,Serafin
+object
+20,ALAMBRE GALV,5LB,16,,,Alambre,Serafin
+object
+29,ALAMBRE GALV CAJA,40 LB/CJ,16/2 LB,,,Alambre,Serafin
+object
+1177,ALAMBRE GATA 2LB,4.5,40LB/CJ,,,Alambre,Serafin
+object
+1180,ALAMBRE GATA 4 1/2,"5,000 AM",,,,Alambre,Serafin
+object
+1178,ALAMBRE GATA 5LB,4.5,20LB/BAG,,,Alambre,Serafin
+object
+11,ALAMBRE MACHETE,,,,,Alambre,Serafin
+object
+51,ALAMBRE QUEMADO,20R-3LB,,,,Alambre,Serafin
+object
+59,ALDABA,2,CD,,,Aldaba,Serafin
+object
+60,ALDABA,3,CD,,,Aldaba,Serafin
+object
+63,ALDABA,4,CD,,,Aldaba,Serafin
+object
+7,ALICATE C/AZULEJOS,,,,,Alicate,Serafin
+object
+5338,ALICATE ELECT FOY,8,142042,,,Alicate,Serafin
+object
+4257,ALICATE ELECT FOYD,9,142043,,,Alicate,Serafin
+object
+5270,ALICATE ELECT MEX,9,WF0829,,,Alicate,Serafin
+object
+24,ALICATE ELECT SURTEK,7,967V,,,Alicate,Serafin
+object
+3990,ALICATE ELECT TRUPER,7,17303,,,Alicate,Serafin
+object
+1846,ALICATE ELECT TRUPER,8,17304,,,Alicate,Serafin
+object
+3975,ALICATE ELECT TRUPER,9'',17305,,,Alicate,Serafin
+object
+3991,ALICATE ELECT TRUPER,6,17306,,,Alicate,Serafin
+object
+5277,ALICATE ELECT TRUPER,8,17308,,,Alicate,Serafin
+object
+3992,ALICATE ELECT TRUPER,9,17328,,,Alicate,Serafin
+object
+1848,ALICATE ELECT TRUPER,8,17330,,,Alicate,Serafin
+object
+18,ALICATE JAULA,,TW,,,Alicate,Serafin
+object
+23,ALICATE JAULA HD,,ESQUINA,,,Alicate,Serafin
+object
+21,ALICATE JAULA HD,,TW,,,Alicate,Serafin
+object
+214,ALICATE MEC TOLSEN,6,10311,,,Alicate,Serafin
+object
+215,ALICATE MEC TOLSEN,8,10313,,,Alicate,Serafin
+object
+5274,ALICATE MECANICO,6,TW,,,Alicate,Serafin
+object
+5,ALICATE MECANICO,8,TW,,,Alicate,Serafin
+object
+5653,ALICATE MECANICO 10,PCH10,17302,,,Alicate,Serafin
+object
+5281,ALICATE MECANICO 6,PCH6,17300,,,Alicate,Serafin
+object
+5283,ALICATE MECANICO 8,PCH8,17301,,,Alicate,Serafin
+object
+5275,ALICATE MECANICO FOY,10,PM10,,,Alicate,Serafin
+object
+213,ALICATE P/LORO,8,17350,,,Alicate,Serafin
+object
+199,ALICATE P/LORO,10,PEX-10,,,Alicate,Serafin
+object
+200,ALICATE P/LORO,12,PEX-12,,,Alicate,Serafin
+object
+44,ALICATE PELAR CABLE,PECA6,17356,,,Alicate,Serafin
+object
+48,ALICATE PELAR CABLE,AUTOMATI,17376,,,Alicate,Serafin
+object
+45,ALICATE PELAR CABLE,10,SURTEK,,,Alicate,Serafin
+object
+6,ALICATE PLOMERO 8'',PCH8X,13065,,,Alicate,Serafin
+object
+1978,ALICATE PREION 8 TE,PPP8R,17425,,,Alicate,Serafin
+object
+1921,ALICATE PRESION,4,17419,,,Alicate,Serafin
+object
+1923,ALICATE PRESION,5,17420,,,Alicate,Serafin
+object
+1926,ALICATE PRESION,7,17421,,,Alicate,Serafin
+object
+1927,ALICATE PRESION,10,17423,,,Alicate,Serafin
+object
+1961,ALICATE PRESION,11'',17427,,,Alicate,Serafin
+object
+1928,ALICATE PRESION,11,17429,,,Alicate,Serafin
+object
+1929,ALICATE PRESION,12,17429,,,Alicate,Serafin
+object
+5063,ALICATE PRESION,7,84-368,,,Alicate,Serafin
+object
+1885,ALICATE PRESION,10,84-369,,,Alicate,Serafin
+object
+1847,ALICATE PRESION,10,PPT-10R,,,Alicate,Serafin
+object
+1870,ALICATE PRESION,7,PPT-7R,,,Alicate,Serafin
+object
+5210,ALICATE PRESION 2 PC,DUOPPT,17447,,,Alicate,Serafin
+object
+5217,ALICATE PRESION 3 PC,SURTEK,115085,,,Alicate,Serafin
+object
+5219,ALICATE PRESION C/MA,10,115095,,,Alicate,Serafin
+object
+5234,ALICATE PRESION CURV,10'',115082,,,Alicate,Serafin
+object
+5065,ALICATE PRESION LARG,6,17432,,,Alicate,Serafin
+object
+5067,ALICATE PRESION LARG,9,17433,,,Alicate,Serafin
+object
+5068,ALICATE PRESION LARG,4,17434,,,Alicate,Serafin
+object
+5221,ALICATE PRESION RECT,10'',115096,,,Alicate,Serafin
+object
+5222,ALICATE PRESION SARG,11'',115089,,,Alicate,Serafin
+object
+5077,ALICATE PRESION SARG,4,17467,,,Alicate,Serafin
+object
+5078,ALICATE PRESION SARG,6,17468,,,Alicate,Serafin
+object
+5079,ALICATE PRESION SARG,8,17469,,,Alicate,Serafin
+object
+1873,ALICATE PRESION SOLD,9 FOY,115087,,,Alicate,Serafin
+object
+54,ALICATE PRESION SURT,10,115082,,,Alicate,Serafin
+object
+1890,ALICATE PRESION T/C,6,17413,,,Alicate,Serafin
+object
+1916,ALICATE PRESION T/C,9,17414,,,Alicate,Serafin
+object
+1917,ALICATE PRESION T/C,18,17415,,,Alicate,Serafin
+object
+4815,AMARRAS CARPAS,6,,,,Amarras,Serafin
+object
+4816,AMARRAS CARPAS,9,,,,Amarras,Serafin
+object
+4812,AMOLADOR CUCHILLO,AFICUX,15147,,,Amolador,Serafin
+object
+4811,AMOLADOR CUCHILLO,PLAST,4945-14,,,Amolador,Serafin
+object
+4204,ANCLAJE MADERA (10),,66L,,,Anclaje,Serafin
+object
+4194,ANCLAJE MADERA (25),,A33,,,Anclaje,Serafin
+object
+4259,ANCLAJE MADERA  (50),,RR,,,Anclaje,Serafin
+object
+4208,ANCLAJE MADERA (10),,66T,,,Anclaje,Serafin
+object
+4203,ANCLAJE MADERA (10),,A66,,,Anclaje,Serafin
+object
+4234,ANCLAJE MADERA (100),,A34,,,Anclaje,Serafin
+object
+4253,ANCLAJE MADERA (100),,FB24Z,,,Anclaje,Serafin
+object
+4193,ANCLAJE MADERA (100),,GA1,,,Anclaje,Serafin
+object
+4185,ANCLAJE MADERA (100),6,H2.5A,,,Anclaje,Serafin
+object
+4258,ANCLAJE MADERA (100),,H2.5T,,,Anclaje,Serafin
+object
+4180,ANCLAJE MADERA (100),2 X 4,LU24,,,Anclaje,Serafin
+object
+4181,ANCLAJE MADERA (100),2 X 6,LU26,,,Anclaje,Serafin
+object
+4190,ANCLAJE MADERA (100),INT-EXT,LUS24Z,,,Anclaje,Serafin
+object
+4191,ANCLAJE MADERA (100),INT-EXT,LUS26Z,,,Anclaje,Serafin
+object
+4192,ANCLAJE MADERA (100),INT-EXT,LUS28Z,,,Anclaje,Serafin
+object
+4236,ANCLAJE MADERA (12),,RPBZ,,,Anclaje,Serafin
+object
+4209,ANCLAJE MADERA (200),,A21Z,,,Anclaje,Serafin
+object
+4210,ANCLAJE MADERA (200),,A23Z,,,Anclaje,Serafin
+object
+4195,ANCLAJE MADERA (25),,A44,,,Anclaje,Serafin
+object
+4184,ANCLAJE MADERA (100),,A35Z,,,Anclaje,Serafin
+object
+4182,ANCLAJE MADERA (20),,ABA44Z,,,Anclaje,Serafin
+object
+4189,ANCLAJE MADERA (50),INT,BC40Z,,,Anclaje,Serafin
+object
+6192,ANCLAJE MADERA (100),,BC4Z,,,Anclaje,Serafin
+object
+4183,ANCLAJE MADERA (100),,H1,,,Anclaje,Serafin
+object
+4186,ANCLAJE MADERA (100),45/8,H3,,,Anclaje,Serafin
+object
+4187,ANCLAJE MADERA (100),2 X 8,LU28,,,Anclaje,Serafin
+object
+4254,ANCLAJE MADERA (50),,RTA2Z,,,Anclaje,Serafin
+object
+2294,ANG PERF 11/2X11/2,10',DX003A,,,,Serafin
+object
+2295,ANG PERF 11/2X21/4,10',DX004A,,,,Serafin
+object
+6181,ANTORCHA AMERIFLAME,,HT29,,,Antorcha,Serafin
+object
+6027,ANTORCHA AMERIFLAME,AUTO,HT89,,,Antorcha,Serafin
+object
+6407,ANTORCHA AMERIFLAME,C/MANGA,JTH7,,,Antorcha,Serafin
+object
+6488,ANTORCHA C/MANGA,SOP200,16920,,,Antorcha,Serafin
+object
+6489,ANTORCHA TRUPER,MECHPR,18257,,,Antorcha,Serafin
+object
+5591,ANZUELO PESCA 1/10,8 1/2,7691DT,,,Anzuelo,Serafin
+object
+5592,ANZUELO PESCA 1/10,9 1/2,7691DT,,,Anzuelo,Serafin
+object
+5590,ANZUELO PESCA 10/100,7,2330DT,,,Anzuelo,Serafin
+object
+5393,ANZUELO PESCA 10/100,8,2330DT,,,Anzuelo,Serafin
+object
+5394,ANZUELO PESCA 10/100,9,2330DT,,,Anzuelo,Serafin
+object
+5395,ANZUELO PESCA 10/100,10,2330DT,,,Anzuelo,Serafin
+object
+5396,ANZUELO PESCA 10/100,11,2330DT,,,Anzuelo,Serafin
+object
+5397,ANZUELO PESCA 10/100,12,2330DT,,,Anzuelo,Serafin
+object
+5398,ANZUELO PESCA 10/100,14,2330DT,,,Anzuelo,Serafin
+object
+5399,ANZUELO PESCA 10/100,16,2330DT,,,Anzuelo,Serafin
+object
+5400,ANZUELO PESCA 10/100,18,2330DT,,,Anzuelo,Serafin
+object
+5401,ANZUELO PESCA 10/100,20,2330DT,,,Anzuelo,Serafin
+object
+5422,ANZUELO PESCA 10/100,1,3407DT,,,Antorcha,Serafin
+object
+5421,ANZUELO PESCA 10/100,2,3407DT,,,Antorcha,Serafin
+object
+5410,ANZUELO PESCA 10/100,4,3407DT,,,Anzuelo,Serafin
+object
+5411,ANZUELO PESCA 10/100,6,3407DT,,,Anzuelo,Serafin
+object
+5412,ANZUELO PESCA 10/100,1 1/2,3407SSD,,,Anzuelo,Serafin
+object
+5413,ANZUELO PESCA 10/100,2 1/2,3407SSD,,,Anzuelo,Serafin
+object
+5424,ANZUELO PESCA 10/100,3 1/2,3407SSD,,,Anzuelo,Serafin
+object
+5425,ANZUELO PESCA 10/100,4 1/2,3407SSD,,,Anzuelo,Serafin
+object
+5426,ANZUELO PESCA 10/100,5 1/2,3407SSD,,,Anzuelo,Serafin
+object
+5427,ANZUELO PESCA 10/25,1,3561ED,,,Anzuelo,Serafin
+object
+5428,ANZUELO PESCA 10/25,2,3561ED,,,Anzuelo,Serafin
+object
+5429,ANZUELO PESCA 10/25,4,3561ED,,,Anzuelo,Serafin
+object
+5430,ANZUELO PESCA 10/25,6,3561ED,,,Anzuelo,Serafin
+object
+5431,ANZUELO PESCA 10/25,1 1/2,3561ED,,,Anzuelo,Serafin
+object
+5432,ANZUELO PESCA 10/25,3 1/2,3561ED,,,Antorcha,Serafin
+object
+5402,ANZUELO PESCA 10/50,1,34007,,,Antorcha,Serafin
+object
+5403,ANZUELO PESCA 10/50,2,34007,,,Anzuelo,Serafin
+object
+5423,ANZUELO PESCA 10/50,4,34007,,,Anzuelo,Serafin
+object
+5404,ANZUELO PESCA 10/50,6,34007,,,Anzuelo,Serafin
+object
+5405,ANZUELO PESCA 10/50,8,34007,,,Anzuelo,Serafin
+object
+5406,ANZUELO PESCA 10/50,10/50-1/0,34007,,,Anzuelo,Serafin
+object
+5407,ANZUELO PESCA 10/50,10/50-2/0,34007,,,Anzuelo,Serafin
+object
+5408,ANZUELO PESCA 10/50,10/50-3/0,34007,,,Anzuelo,Serafin
+object
+5409,ANZUELO PESCA 10/50,10/50-4/0,34007,,,Anzuelo,Serafin
+object
+5481,ANZUELO PESCA 10/50,10/50-5/0,34007,,,Anzuelo,Serafin
+object
+5433,ANZUELO PESCA 4/25,4/25-8/0,39960D,,,Anzuelo,Serafin
+object
+5434,ANZUELO PESCA 4/25,4/25-9/0,39960D,,,Anzuelo,Serafin
+object
+5435,ANZUELO PESCA 4/25,4/25-10/0,39960D,,,Anzuelo,Serafin
+object
+5593,ANZUELO PESCA 1/10,1/10-10/0,7691DT,,,Anzuelo,Serafin
+object
+4557,ARANDELA CORRUGADA,,,,,Arandela,Serafin
+object
+4555,ARANDELA PLANA,5/8,13 PC,,,Arandela,Serafin
+object
+4550,ARANDELA PLANA,1/4,150 PC,,,Arandela,Serafin
+object
+4554,ARANDELA PLANA,1/2,26 PC,,,Arandela,Serafin
+object
+106,ARANDELA PLANA,3/16,361 PC,,,Arandela,Serafin
+object
+4596,ARANDELA PLANA,7/16,41 PC,,,Arandela,Serafin
+object
+4561,ARANDELA PLANA,1,5 PC,,,Arandela,Serafin
+object
+4569,ARANDELA PLANA,7/8,6 PC,,,Arandela,Serafin
+object
+4556,ARANDELA PLANA,3/8,67 PC,,,Arandela,Serafin
+object
+4552,ARANDELA PLANA,5/16,87 PC,,,Arandela,Serafin
+object
+4525,ARANDELA PLANA,3/4,9 PC,,,Arandela,Serafin
+object
+103,ARANDELA PRESION,1/2,,,,Arandela,Serafin
+object
+100,ARANDELA PRESION,1/4,,,,Arandela,Serafin
+object
+105,ARANDELA PRESION,3/4,,,,Arandela,Serafin
+object
+102,ARANDELA PRESION,3/8,,,,Arandela,Serafin
+object
+104,ARANDELA PRESION,5/8,,,,Arandela,Serafin
+object
+314,ARANDELA PRESION,3/16,,,,Arandela,Serafin
+object
+101,ARANDELA PRESION,5/16,,,,Arandela,Serafin
+object
+107,ARANDELA PRESION,7/16,,,,Arandela,Serafin
+object
+3890,ARGOLLA LLAVERO,,,,,Argolla,Serafin
+object
+4070,ARNES 5 ANILLOS COMP,ARN5438,14434,,,Arnés,Serafin
+object
+7998,ARTICULO ESPECIAL,,,,,Artículo Especial,Serafin
+object
+58,ASIENTO GERBER,,DA005,,,Asiento,Serafin
+object
+12,ASIENTO PP DUCHA,,DA003,,,Asiento,Serafin
+object
+14,ASIENTO PP LAV,,DA004,,,Asiento,Serafin
+object
+15,ASIENTO SAYCO DUCHA,,,,,Asiento,Serafin
+object
+16,ASIENTO SAYCO LAV,,DA002,,,Asiento,Serafin
+object
+13,ASIENTO STERLING,,DA006,,,Asiento,Serafin
+object
+5568,AUTOMATIC PUMP CONTR,,,,,Automatic Pump Control – Control de Pompas,Serafin
+object
 4453,AVELLANADOR,1/2,16634,,,Avellanador,Serafin
+object
 4454,AVELLANADOR,5/8,16636,,,Avellanador,Serafin
+object
 4830,AVELLANADOR,1/2,16643,,,Avellanador,Serafin
+object
 4071,AVELLANADOR,1/2,4140,,,Avellanador,Serafin
+object
 4078,AVELLANADOR,5/8,4142,,,Avellanador,Serafin
+object
 1618,AVELLANADOR,,FT3C,,,Avellanador,Serafin
+object
 1869,AVELLANADOR,,JAV-7,,,Avellanador,Serafin
+object
 4412,AVELLANADOR MADERA,5/8,361-5/8C,,,Avellanador,Serafin
+object
 4650,AVELLANADOR MADERA,1/2,361-C,,,Avellanador,Serafin
+object
 4653,AVELLANADOR MADERA,3/4,362-C,,,Avellanador,Serafin
+object
 4692,AVELLANADOR MADERA,1/2,CS12,,,Avellanador,Serafin
+object
 5570,AVELLANADOR MADERA,3/4,CS34,,,Avellanador,Serafin
+object
 4638,AVELLANADOR MADERA,3/8,CS38,,,Avellanador,Serafin
+object
 4655,AVELLANADOR MADERA,5/8,CS58,,,Avellanador,Serafin
+object
 4770,AVELLANADOR MARTILLO,1,,,,Avellanador,Serafin
+object
 4772,AVELLANADOR MARTILLO,2,,,,Avellanador,Serafin
+object
 4771,AVELLANADOR MARTILLO,1/2,,,,Avellanador,Serafin
+object
 4773,AVELLANADOR MARTILLO,3/4,,,,Avellanador,Serafin
+object
 4774,AVELLANADOR S. EGO,,,,,Avellanador,Serafin
+object
 27,AZADA,,255-B,,,Azada,Serafin
+object
 299,AZADA,,255-C,,,Azada,Serafin
+object
 55,AZADA CHINA GARDEX,2LB,H318,,,Azada,Serafin
+object
 6631,AZADA CON CABO,AM2MA,10898,,,Azada,Serafin
+object
 6632,AZADA CON CABO,AM2M,10899,,,Azada,Serafin
+object
 6576,AZADA CON CABO,TRAMONTI,206/654,,,Azada,Serafin
+object
 6565,AZADA CON CABO,TRUPER,AL-2M,,,Azada,Serafin
+object
 393,AZADA JARDIN,,151564,,,Azada,Serafin
+object
 4280,AZADA JARDIN,,ATJ,,,Azada,Serafin
+object
 4996,AZADA JARDIN IMACASA,,,,,Azada,Serafin
+object
 4993,AZADA JARDIN SURTEK,FOY,,,,Azada,Serafin
+object
 6637,AZADA SIN CABO,AL-1,10603,,,Azada,Serafin
+object
 6638,AZADA SIN CABO,AL-2,10606,,,Azada,Serafin
+object
 57,AZADON GARDEX,03LB,GXH-450,,,Azadón,Serafin
+object
 300,AZADON CON CABO,GARDEX,,,,Azadón,Serafin
+object
 31,AZADON CON CABO,TRAMONTI,7260/754,,,Azadón,Serafin
+object
 28,AZADON GARDEX,GRANDE,GA 4988,,,Azadón,Serafin
+object
 6592,AZADON SIN CABO,,IMACASA,,,Azadón,Serafin
+object
 785,BALANZA COLGANTE,22 LB,17087,,,Balanza,Serafin
+object
 784,BALAS PISTOLAS,0.27 CAL,ROJA,,,Balas,Serafin
+object
 5514,BANDEJA ECONOMICA,,PLASTICA,,,Bandeja,Serafin
+object
 307,BANDEJA PLASTIC J D,,NEGRA,,,Bandeja,Serafin
+object
 5506,BANDEJA PLASTICA,,BRAZIL,,,Bandeja,Serafin
+object
 388,BANDEJA PLASTICA 4,,RM 100,,,Bandeja,Serafin
+object
 306,BANDEJA PLASTICA H/D,RM 403,,,,Bandeja,Serafin
-2527,BARRA FUERZA BELLOTA,6,1.75M,,,Barra Fuerza,Serafin
-3644,BARRA FUERZA GARDEX,5,14LB,,,Barra Fuerza,Serafin
-4086,BARRA FUERZA GARDEX,6,17 LBS,,,Barra Fuerza,Serafin
+object
+2527,BARRA FUERZA BELLOTA,6',1.75M,,,Barra Fuerza,Serafin
+object
+3644,BARRA FUERZA GARDEX,5',14LB,,,Barra Fuerza,Serafin
+object
+4086,BARRA FUERZA GARDEX,6 ',17 LBS,,,Barra Fuerza,Serafin
+object
 1986,BARRA FUERZA IMACAS,5 PIES,,,,Barra Fuerza,Serafin
+object
 2001,BARRA FUERZA IMACAS,6 PIES,,,,Barra Fuerza,Serafin
-276,BARRA FUERZA TRUPER,5,BAP150E,,,Barra Fuerza,Serafin
-1838,BARRA FUERZA TRUPER,6,BAP175,,,Barra Fuerza,Serafin
+object
+276,BARRA FUERZA TRUPER,5',BAP150E,,,Barra Fuerza,Serafin
+object
+1838,BARRA FUERZA TRUPER,6',BAP175,,,Barra Fuerza,Serafin
+object
 5561,BARRA IMPEDIDO,36,1 1/2,,,Barra Impedido,Serafin
+object
 3787,BARRA IMPEDIDO,12,1 1/2,,,Barra Impedido,Serafin
+object
 3168,BARRA IMPEDIDO,18,1 1/2,,,Barra Impedido,Serafin
+object
 2676,BARRA IMPEDIDO,24,1 1/2,,,Barra Impedido,Serafin
+object
 2677,BARRA IMPEDIDO,30,1 1/2,,,Barra Impedido,Serafin
+object
 3808,BARRA IMPEDIDO,42,1 1/2,,,Barra Impedido,Serafin
+object
 165,BARRA UNA 3/4,36,BELLOTA,,,Barra Una,Serafin
+object
 158,BARRA UNA 3/4,24,BROWN,,,Barra Una,Serafin
+object
 161,BARRA UNA 3/4,24,BELLOTA,,,Barra Una,Serafin
+object
 164,BARRA UNA 3/4,30,BELLOTA,,,Barra Una,Serafin
+object
 160,BARRA UNA 3/4,36,BROWN,,,Barra Una,Serafin
+object
 4270,BARRA UNA 3/4,18,BU45,,,Barra Una,Serafin
+object
 4271,BARRA UNA 3/4,24,BU60,,,Barra Una,Serafin
+object
 4272,BARRA UNA 3/4,30,BU75,,,Barra Una,Serafin
+object
 4273,BARRA UNA 3/4,35,BU90,,,Barra Una,Serafin
+object
 159,BARRA UNA 3/4,30,CHINA,,,Barra Una,Serafin
+object
 4284,BARRA UNA 3/4 SURTEK,24,BU60,,,Barra Una,Serafin
+object
 4286,BARRA UNA 3/4 SURTEK,30,BU75,,,Barra Una,Serafin
+object
 4287,BARRA UNA 3/4 SURTEK,36,BU90,,,Barra Una,Serafin
+object
 4279,BARRA UNA 5/8 SURTEK,18,BU45,,,Barra Una,Serafin
+object
 5303,BARRENA CEMENTO,7/32,,,,Barrena Cemento,Serafin
+object
 5304,BARRENA CEMENTO,9/32,,,,Barrena Cemento,Serafin
+object
 144,BARRENA CEMENTO 1,6,,,,Barrena Cemento,Serafin
+object
 274,BARRENA CEMENTO 1,12,,,,Barrena Cemento,Serafin
+object
 138,BARRENA CEMENTO 1/2,4,,,,Barrena Cemento,Serafin
+object
 139,BARRENA CEMENTO 1/2,6,,,,Barrena Cemento,Serafin
+object
 140,BARRENA CEMENTO 1/2,12,,,,Barrena Cemento,Serafin
+object
 128,BARRENA CEMENTO 1/4,4,,,,Barrena Cemento,Serafin
+object
 129,BARRENA CEMENTO 1/4,6,,,,Barrena Cemento,Serafin
+object
 130,BARRENA CEMENTO 1/4,12,,,,Barrena Cemento,Serafin
+object
 126,BARRENA CEMENTO 1/8,3,,,,Barrena Cemento,Serafin
+object
 127,BARRENA CEMENTO 3/16,4,,,,Barrena Cemento,Serafin
+object
 131,BARRENA CEMENTO 3/16,6,,,,Barrena Cemento,Serafin
+object
 143,BARRENA CEMENTO 3/4,6,,,,Barrena Cemento,Serafin
+object
 145,BARRENA CEMENTO 3/4,12,,,,Barrena Cemento,Serafin
+object
 135,BARRENA CEMENTO 3/8,4,,,,Barrena Cemento,Serafin
+object
 136,BARRENA CEMENTO 3/8,6,,,,Barrena Cemento,Serafin
+object
 137,BARRENA CEMENTO 3/8,12,,,,Barrena Cemento,Serafin
+object
 132,BARRENA CEMENTO 5/16,4,,,,Barrena Cemento,Serafin
+object
 133,BARRENA CEMENTO 5/16,6,,,,Barrena Cemento,Serafin
+object
 134,BARRENA CEMENTO 5/16,12,,,,Barrena Cemento,Serafin
+object
 4056,BARRENA CEMENTO 5/8,4,,,,Barrena Cemento,Serafin
+object
 141,BARRENA CEMENTO 5/8,6,,,,Barrena Cemento,Serafin
+object
 142,BARRENA CEMENTO 5/8,12,,,,Barrena Cemento,Serafin
+object
 5305,BARRENA CEMENTO 5/8,16,,,,Barrena Cemento,Serafin
+object
 147,BARRENA CEMENTO 7/16,6,,,,Barrena Cemento,Serafin
+object
 146,BARRENA CEMENTO 7/8,6,,,,Barrena Cemento,Serafin
+object
 179,BARRENA CEMENTO 7/8,12,,,,Barrena Cemento,Serafin
+object
 4057,BARRENA CEMENTO 9/16,6,,,,Barrena Cemento,Serafin
+object
 5583,BARRENA CEMENTO SDS,5/16X6,,,,Barrena Cemento,Serafin
+object
 5535,BARRENA CEMENTO SDS,1/4 X 6,,,,Barrena Cemento,Serafin
+object
 5536,BARRENA CEMENTO SDS,3/8 X 6,,,,Barrena Cemento,Serafin
+object
 5581,BARRENA CEMENTO SDS,1/2 X 6,,,,Barrena Cemento,Serafin
+object
 5534,BARRENA CEMENTO SDS,3/16 X 6,,,,Barrena Cemento,Serafin
+object
 5533,BARRENA CEMENTO SDS,5/32 X 6,,,,Barrena Cemento,Serafin
+object
 6436,BARRENA CERAMICA,1/4,BVI-1/4,,,Barrena Cerámica,Serafin
+object
 6432,BARRENA CERAMICA,1/8,BVI-1/8,,,Barrena Cerámica,Serafin
+object
 6433,BARRENA CERAMICA,3/16,BVI-3/16,,,Barrena Cerámica,Serafin
+object
 2005,BARRENA CONTAP 3/16,4  1/2,,,,Barrena Contap,Serafin
+object
 284,BARRENA CONTAP 3/16,5  1/2,,,,Barrena Contap,Serafin
+object
 3475,BARRENA CONTAP 5/32,4  1/2,,,,Barrena Contap,Serafin
+object
 273,BARRENA CONTAP 5/32,5  1/2,,,,Barrena Contap,Serafin
+object
 123,BARRENA HSS,1/4,,,,Barrena HSS,Serafin
+object
 116,BARRENA HSS,1/8,,,,Barrena HSS,Serafin
+object
 5191,BARRENA HSS,3/8,,,,Barrena HSS,Serafin
+object
 113,BARRENA HSS,1/16,,,,Barrena HSS,Serafin
+object
 5294,BARRENA HSS,1/64,,,,Barrena HSS,Serafin
+object
 121,BARRENA HSS,3/16,,,,Barrena HSS,Serafin
+object
 115,BARRENA HSS,3/32,,,,Barrena HSS,Serafin
+object
 5296,BARRENA HSS,3/64,,,,Barrena HSS,Serafin
+object
 239,BARRENA HSS,5/16,,,,Barrena HSS,Serafin
+object
 119,BARRENA HSS,5/32,,,,Barrena HSS,Serafin
+object
 117,BARRENA HSS,5/64,,,,Barrena HSS,Serafin
+object
 153,BARRENA HSS,7/32,,,,Barrena HSS,Serafin
+object
 114,BARRENA HSS,7/64,,,,Barrena HSS,Serafin
+object
 237,BARRENA HSS,9/32,,,,Barrena HSS,Serafin
+object
 118,BARRENA HSS,9/64,,,,Barrena HSS,Serafin
+object
 241,BARRENA HSS,11/32,,,,Barrena HSS,Serafin
+object
 120,BARRENA HSS,11/64,,,,Barrena HSS,Serafin
+object
 321,BARRENA HSS,13/32,,,,Barrena HSS,Serafin
+object
 122,BARRENA HSS,13/64,,,,Barrena HSS,Serafin
+object
 245,BARRENA HSS,15/32,,,,Barrena HSS,Serafin
+object
 374,BARRENA HSS,15/64,,,,Barrena HSS,Serafin
+object
 236,BARRENA HSS,17/64,,,,Barrena HSS,Serafin
+object
 238,BARRENA HSS,19/64,,,,Barrena HSS,Serafin
+object
 240,BARRENA HSS,21/64,,,,Barrena HSS,Serafin
+object
 242,BARRENA HSS,23/64,,,,Barrena HSS,Serafin
+object
 243,BARRENA HSS,25/64,,,,Barrena HSS,Serafin
+object
 244,BARRENA HSS,27/64,,,,Barrena HSS,Serafin
+object
 248,BARRENA HSS,29/64,,,,Barrena HSS,Serafin
+object
 246,BARRENA HSS,31/64,,,,Barrena HSS,Serafin
+object
 4758,BARRENA HSS,1/2,CARDET,,,Barrena HSS,Serafin
+object
 4756,BARRENA HSS,1/4,CARDET,,,Barrena HSS,Serafin
+object
 4751,BARRENA HSS,1/8,CARDET,,,Barrena HSS,Serafin
+object
 249,BARRENA HSS,3/8,CARDET,,,Barrena HSS,Serafin
+object
 4755,BARRENA HSS,3/16,CARDET,,,Barrena HSS,Serafin
+object
 4757,BARRENA HSS,5/16,CARDET,,,Barrena HSS,Serafin
+object
 4753,BARRENA HSS,5/32,CARDET,,,Barrena HSS,Serafin
+object
 5295,BARRENA HSS,7/64,CARDET,,,Barrena HSS,Serafin
+object
 4122,BARRENA HSS COBALTO,01/04/21,,,,Barrena HSS,Serafin
+object
 4116,BARRENA HSS COBALTO,01/08/21,,,,Barrena HSS,Serafin
+object
 4044,BARRENA HSS COBALTO,03/08/21,,,,Barrena HSS,Serafin
+object
 4035,BARRENA HSS COBALTO,01/16/21,,,,Barrena HSS,Serafin
+object
 4121,BARRENA HSS COBALTO,03/16/21,,,,Barrena HSS,Serafin
+object
 4037,BARRENA HSS COBALTO,3/32,,,,Barrena HSS,Serafin
+object
 5292,BARRENA HSS COBALTO,31/64,,,,Barrena HSS,Serafin
+object
 4042,BARRENA HSS COBALTO,05/16/21,,,,Barrena HSS,Serafin
+object
 4119,BARRENA HSS COBALTO,5/32,,,,Barrena HSS,Serafin
+object
 4036,BARRENA HSS COBALTO,5/64,,,,Barrena HSS,Serafin
+object
 4046,BARRENA HSS COBALTO,07/16/21,,,,Barrena HSS,Serafin
+object
 4039,BARRENA HSS COBALTO,7/32,,,,Barrena HSS,Serafin
+object
 4117,BARRENA HSS COBALTO,7/64,,,,Barrena HSS,Serafin
+object
 4118,BARRENA HSS COBALTO,9/64,,,,Barrena HSS,Serafin
+object
 4120,BARRENA HSS COBALTO,11/64,,,,Barrena HSS,Serafin
+object
 4038,BARRENA HSS COBALTO,13/64,,,,Barrena HSS,Serafin
+object
 4040,BARRENA HSS COBALTO,15/64,,,,Barrena HSS,Serafin
+object
 4041,BARRENA HSS COBALTO,17/64,,,,Barrena HSS,Serafin
+object
 4043,BARRENA HSS COBALTO,21/64,,,,Barrena HSS,Serafin
+object
 4045,BARRENA HSS COBALTO,25/64,,,,Barrena HSS,Serafin
+object
 4126,BARRENA HSS COBALTO,01/02/21,RED,,,Barrena HSS,Serafin
+object
 150,BARRENA HSS D/P,1/8,552-T,,,Barrena HSS,Serafin
+object
 1360,BARRENA HSS ESCALON,1/8-1/2,358-C,,,Barrena HSS,Serafin
+object
 1357,BARRENA HSS ESCALON,1/4-3/4,359-C,,,Barrena HSS,Serafin
+object
 4759,BARRENA HSS RED,15/32,,,,Barrena HSS,Serafin
+object
 4761,BARRENA HSS RED,27/64,,,,Barrena HSS,Serafin
+object
 4760,BARRENA HSS RED,29/64,,,,Barrena HSS,Serafin
+object
 125,BARRENA HSS RED,1/2,¼,,,Barrena HSS,Serafin
+object
 247,BARRENA HSS RED,3/8,¼,,,Barrena HSS,Serafin
+object
 124,BARRENA HSS RED,5/16,¼,,,Barrena HSS,Serafin
+object
 953,BARRENA HSS RED,7/16,¼,,,Barrena HSS,Serafin
+object
 997,BARRENA HSS RED,1/2,03/08/21,,,Barrena HSS,Serafin
+object
 4168,BARRENA HSS RED,5/8,RE 1/2,,,Barrena HSS,Serafin
+object
 5312,BARRENA HSS SET COBA,17 PC,JBAV17,,,Barrena HSS,Serafin
+object
 162,BARRENA HSS SET COBA,7 PC,JBAV7,,,Barrena HSS,Serafin
+object
 149,BARRENA HSS SET COBA,10 PC,JBVA10,,,Barrena HSS,Serafin
+object
 4961,BARRENA HSS TITANIUM,1/2,,,,Barrena HSS,Serafin
+object
 4957,BARRENA HSS TITANIUM,1/4,,,,Barrena HSS,Serafin
+object
 3933,BARRENA HSS TITANIUM,1/8,,,,Barrena HSS,Serafin
+object
 4959,BARRENA HSS TITANIUM,3/8,,,,Barrena HSS,Serafin
+object
 5329,BARRENA HSS TITANIUM,1/16,,,,Barrena HSS,Serafin
+object
 3934,BARRENA HSS TITANIUM,3/16,,,,Barrena HSS,Serafin
+object
 5327,BARRENA HSS TITANIUM,3/32,,,,Barrena HSS,Serafin
+object
 4958,BARRENA HSS TITANIUM,5/16,,,,Barrena HSS,Serafin
+object
 5325,BARRENA HSS TITANIUM,5/32,,,,Barrena HSS,Serafin
+object
 5330,BARRENA HSS TITANIUM,5/64,,,,Barrena HSS,Serafin
+object
 4128,BARRENA HSS TITANIUM,7/16,,,,Barrena HSS,Serafin
+object
 5331,BARRENA HSS TITANIUM,7/32,,,,Barrena HSS,Serafin
+object
 3993,BARRENA HSS TITANIUM,7/64,,,,Barrena HSS,Serafin
+object
 5328,BARRENA HSS TITANIUM,9/64,,,,Barrena HSS,Serafin
+object
 5324,BARRENA HSS TITANIUM,11/64,,,,Barrena HSS,Serafin
+object
 4127,BARRENA HSS TITANIUM,13/64,,,,Barrena HSS,Serafin
+object
 5333,BARRENA HSS TITANIUM,15/64,,,,Barrena HSS,Serafin
+object
 5349,BARRENA HSS TITANIUM,25/64,,,,Barrena HSS,Serafin
+object
 4513,BARRENA PALETA,1/4,14454,,,Barrena Paleta,Serafin
+object
 4540,BARRENA PALETA,5/16,14455,,,Barrena Paleta,Serafin
+object
 4541,BARRENA PALETA,3/8,14456,,,Barrena Paleta,Serafin
+object
 4538,BARRENA PALETA,7/16,14457,,,Barrena Paleta,Serafin
+object
 4545,BARRENA PALETA,9/16,14459,,,Barrena Paleta,Serafin
+object
 4536,BARRENA PALETA,11/16,14461,,,Barrena Paleta,Serafin
+object
 4566,BARRENA PALETA,13/16,14463,,,Barrena Paleta,Serafin
+object
 4539,BARRENA PALETA,15/16,14465,,,Barrena Paleta,Serafin
+object
 4514,BARRENA PALETA,1 3/8,14472,,,Barrena Paleta,Serafin
+object
 4482,BARRENA PALETA,5/16,BPT5/1,,,Barrena Paleta,Serafin
+object
 4483,BARRENA PALETA,1/2,BROWN,,,Barrena Paleta,Serafin
+object
 4572,BARRENA PALETA,3/4,BROWN,,,Barrena Paleta,Serafin
+object
 4484,BARRENA PALETA,5/8,BROWN,,,Barrena Paleta,Serafin
+object
 4858,BARRENA PALETA,7/8,BROWN,,,Barrena Paleta,Serafin
+object
 2785,BARRENA PALETA SWD,1,,,,Barrena Paleta,Serafin
+object
 4849,BARRENA PALETA SWD,5/16,,,,Barrena Paleta,Serafin
+object
 4855,BARRENA PALETA SWD,11/16,,,,Barrena Paleta,Serafin
+object
 4860,BARRENA PALETA 2260,1,BROWN,,,Barrena Paleta,Serafin
+object
 4864,BARRENA PALETA 2264,1 1/2,,,,Barrena Paleta,Serafin
+object
 2782,BARRENA PALETA 27707,1/4,,,,Barrena Paleta,Serafin
+object
 2784,BARRENA PALETA 27790,3/4,,,,Barrena Paleta,Serafin
+object
 4634,BARRENA PALETA BOSH,3/8-16,DLSB1003,,,Barrena Paleta,Serafin
+object
 4612,BARRENA PALETA BOSH,1/2-16,DLSB1005,,,Barrena Paleta,Serafin
+object
 4477,BARRENA PALETA BOSH,5/8-16,DLSB1007,,,Barrena Paleta,Serafin
+object
 4542,BARRENA PALETA BOSH,1/2,DSB1005,,,Barrena Paleta,Serafin
+object
 4543,BARRENA PALETA BOSH,5/8,DSB1007,,,Barrena Paleta,Serafin
+object
 4544,BARRENA PALETA BOSH,3/4,DSB1009,,,Barrena Paleta,Serafin
+object
 4512,BARRENA PALETA BOSH,7/8,DSB1011,,,Barrena Paleta,Serafin
+object
 4511,BARRENA PALETA BOSH,1,DSB1013,,,Barrena Paleta,Serafin
+object
 4515,BARRENA PALETA BOSH,1 1/4,DSB1017,,,Barrena Paleta,Serafin
+object
 4510,BARRENA PALETA BOSH,1 1/2,DSB1021,,,Barrena Paleta,Serafin
+object
 4516,BARRENA PALETA BOSH,1 1/8,DSB41015,,,Barrena Paleta,Serafin
+object
 4486,BARRENA PALETA GX,1,,,,Barrena Paleta,Serafin
+object
 4852,BARRENA PALETA GX,1/2,,,,Barrena Paleta,Serafin
+object
 4848,BARRENA PALETA GX,1/4,,,,Barrena Paleta,Serafin
+object
 4856,BARRENA PALETA GX,3/4,,,,Barrena Paleta,Serafin
+object
 4850,BARRENA PALETA GX,3/8,,,,Barrena Paleta,Serafin
+object
 4854,BARRENA PALETA GX,5/8,,,,Barrena Paleta,Serafin
+object
 4851,BARRENA PALETA GX,7/16,,,,Barrena Paleta,Serafin
+object
 4532,BARRENA PALETA GX,1.5,,,,Barrena Paleta,Serafin
+object
 4485,BARRENA PALETA GX,1.25,,,,Barrena Paleta,Serafin
+object
 6060,BARRENA PALETA GX,1/2-16,,,,Barrena Paleta,Serafin
+object
 6061,BARRENA PALETA GX,3/8-16,,,,Barrena Paleta,Serafin
+object
 6313,BARRENA PALETA GX,5/8-16,,,,Barrena Paleta,Serafin
+object
 163,BARRENA PALETA SET,13 PC,JBP13,,,Barrena Paleta,Serafin
+object
 4859,BARRENA PALETA SWD,15/16,,,,Barrena Paleta,Serafin
+object
 235,BASE PATA RECTA,,,,,Base Pata Recta,Serafin
+object
 6079,BATERIA GP,D,,,,Batería GP,Serafin
+object
 6420,BATERIA GP,C,14AU-C2,,,Batería GP,Serafin
+object
 6304,BATERIA GP,AA,15AU-C2,,,Batería GP,Serafin
+object
 6306,BATERIA GP,9 VOLT,1604AU-C,,,Batería GP,Serafin
+object
 6305,BATERIA GP,AAA,24AU-C2,,,Batería GP,Serafin
+object
 6080,BATERIA GP 908G,6 VOLT,SPRING,,,Batería GP,Serafin
+object
 6212,BATERIA GP 918S,6 VOLT,TORNILLO,,,Batería GP,Serafin
+object
 259,BEJUCO PAJILLA,1000 PIE,,,,Bejuco Pajulla,Serafin
+object
 261,BERBIQUI MANAUL,BC-12M,10970,,,Berbioui Manaul,Serafin
+object
 198,BISAGRA,5,,,,Bisagra,Serafin
+object
 190,BISAGRA,3,CD,,,Bisagra,Serafin
+object
 191,BISAGRA,4,CD,,,Bisagra,Serafin
+object
 192,BISAGRA,5,CD,,,Bisagra,Serafin
+object
 193,BISAGRA,6,CD,,,Bisagra,Serafin
+object
 189,BISAGRA,8,CD,,,Bisagra,Serafin
+object
 5118,BISAGRA H/D LISA CAR,10,T6100ZP,,,Bisagra,Serafin
+object
 5519,BISAGRA H/D LISA CAR,12,T6120ZP,,,Bisagra,Serafin
+object
 5116,BISAGRA H/D LISA CAR,6,T6560ZP,,,Bisagra,Serafin
+object
 5117,BISAGRA H/D LISA CAR,8,T6580ZP,,,Bisagra,Serafin
+object
 5369,BLANCO LLAVE KW1,,,,,Blanco Llave,Serafin
+object
 1361,BLANCO LLAVE M1,,,,,Blanco Llave,Serafin
+object
 5368,BLANCO LLAVE Y1,,,,,Blanco Llave,Serafin
-2370,BLUE TAPE,1,,,,Blue Tape,Serafin
+object
+2370,BLUE TAPE,1'',,,,Blue Tape,Serafin
+object
 2514,BLUE TAPE,03/04/21,,,,Blue Tape,Serafin
+object
 2322,BLUE TAPE,2,BT2,,,Blue Tape,Serafin
-2347,BLUE TAPE,1 1/2,PT14,,,Blue Tape,Serafin
+object
+2347,BLUE TAPE,1 1/2'',PT14,,,Blue Tape,Serafin
+object
 319,BOLA DELTA BRONCE,SUELTA,,,,Bola Delta,Serafin
+object
 5268,BOLA DELTA,,M/ACRI,,,Bola Delta,Serafin
+object
 4059,BOLA DELTA  TW,,S/STEE,,,Bola Delta,Serafin
+object
 318,BOLA DELTA BRONCE,CARDET,R1205,,,Bola Delta,Serafin
+object
 323,BOLSA ARENA (250),,1-1130,,,Bolsa,Serafin
+object
 361,BOLSA BASURA,55 GAL,20 PC,,,Bolsa,Serafin
+object
 354,BOLSA CONSTRUCCION 2,42 GAL,20 PC,,,Bolsa,Serafin
+object
 364,BOLSA EMPAQUE,8X3X20,1000 PC,,,Bolsa,Serafin
+object
 362,BOLSA EMPAQUE,6.5X3X15,1000 PC,,,Bolsa,Serafin
+object
 483,BOMBA AGUA,1/2 H. P,QB-60,,,Bomba,Serafin
+object
 486,BOMBA AGUA,3/4 H. P,QB-70,,,Bomba,Serafin
+object
 487,BOMBA AGUA,1 H. P,QB-80,,,Bomba,Serafin
+object
 424,BOMBA AGUA PROTOL,1 H. P.,,,,Bomba,Serafin
+object
 439,BOMBA AGUA PROTOL,3/4 H. P,,,,Bomba,Serafin
-471,BOMBA AIRE BICI 23,BOMTR,14863,,,Bomba,Serafin
+object
+471,BOMBA AIRE BICI 23'',BOMTR,14863,,,Bomba,Serafin
+object
 466,BOMBA AIRE BICI MINI,BOMMI,13790,,,Bomba,Serafin
+object
 465,BOMBA AIRE BICICLETA,BOMMIX,11997,,,Bomba,Serafin
+object
 464,BOMBA AIRE BICICLETA,BOMBAP,21695,,,Bomba,Serafin
+object
 6016,BOMBA AIRE PEDAL,BOPEP,21693,,,Bomba,Serafin
+object
 488,BOMBA MANUAL DIESEL,BOMEX25,10067,,,Bomba,Serafin
+object
 490,BOMBA MANUAL DIESEL,BOMEX28,16856,,,Bomba,Serafin
+object
 491,BOMBA MANUAL DIESEL,BOMEX31,16857,,,Bomba,Serafin
+object
 4867,BOMBILLA,25W,2 PC,,,Bombilla,Serafin
+object
 6640,BOMBILLA SPIRAL LED,7W,1 PC,,,Bombilla,Serafin
+object
 5192,BOMBILLA HALOGENO,300 WATT,H300X2,,,Bombilla,Serafin
+object
 61,BOMBILLA HALOGENO,500 WATT,H500X2,,,Bombilla,Serafin
+object
 6401,BOMBILLA LED,7 W,1 PC,,,Bombilla,Serafin
+object
 6411,BOMBILLA LED,9 W,1 PC,,,Bombilla,Serafin
+object
 6400,BOMBILLA LED,7 W,2 PCS,,,Bombilla,Serafin
+object
 6423,BOMBILLA LED,9 W,2 PCS,,,Bombilla,Serafin
+object
 155,BOMBILLA LINTERNA,2.4 VOLT,PLACA,,,Bombilla,Serafin
+object
 156,BOMBILLA LINTERNA,2.5 VOLT,ROSCA,,,Bombilla,Serafin
+object
 175,BOMBILLA LINTERNA,3.8 VOLT,ROSCA,,,Bombilla,Serafin
+object
 176,BOMBILLA LINTERNA,6.2 VOLT,ROSCA,,,Bombilla,Serafin
+object
 223,BOMBILLA NEVERA,40W,J2944,,,Bombilla,Serafin
+object
 394,BOMBILLA NIGHT LIGHT,2 PCS,CARDET,,,Bombilla,Serafin
+object
 5502,BOMBILLA NIGHT LIGHT,50pcs,COLORES,,,Bombilla,Serafin
+object
 351,BOMBILLA NIGHT LIGHT,25PCS,NL-C,,,Bombilla,Serafin
+object
 6641,BOMBILLA SPIRAL LED,9W,1 PC,,,Bombilla,Serafin
+object
 6397,BOMBILLA SPIRAL,18W,1PC,,,Bombilla,Serafin
+object
 6398,BOMBILLA SPIRAL,23W,1PC,,,Bombilla,Serafin
+object
 6399,BOMBILLA SPIRALSWD,15W/60W,1PC,,,Bombilla,Serafin
+object
 277,BOTAS ALTA,6,,,,Botas,Serafin
+object
 278,BOTAS ALTA,7,,,,Botas,Serafin
+object
 279,BOTAS ALTA,8,,,,Botas,Serafin
+object
 280,BOTAS ALTA,9,,,,Botas,Serafin
+object
 281,BOTAS ALTA,10,,,,Botas,Serafin
+object
 282,BOTAS ALTA,11,,,,Botas,Serafin
+object
 283,BOTAS ALTA,12,,,,Botas,Serafin
+object
 6471,BOTAS ALTA,13,,,,Botas,Serafin
+object
 285,BOTAS ALTA P/ACERO,8,,,,Botas,Serafin
+object
 286,BOTAS ALTA P/ACERO,9,,,,Botas,Serafin
+object
 287,BOTAS ALTA P/ACERO,10,,,,Botas,Serafin
+object
 288,BOTAS ALTA P/ACERO,11,,,,Botas,Serafin
+object
 290,BOTAS ALTA P/ACERO,12,,,,Botas,Serafin
+object
 291,BOTAS ALTA P/ACERO,13,,,,Botas,Serafin
+object
 356,BOTON GAB,,A/B,,,Botón,Serafin
+object
 357,BOTON GAB,,A/C,,,Botón,Serafin
+object
 358,BOTON GAB,,W/G,,,Botón,Serafin
+object
 4788,BOTON GAB BRONCE,,,,,Botón,Serafin
-315,BOYA INODORO,4,PLASTICA,,,Boya,Serafin
+object
+315,BOYA INODORO,4'',PLASTICA,,,Boya,Serafin
+object
 316,BOYA INODORO,5,PLASTICA,,,Boya,Serafin
-4125,BOYA TW,6,PLASTICA,,,Boya,Serafin
+object
+4125,BOYA TW,6'',PLASTICA,,,Boya,Serafin
+object
 4129,BOYA WATTS,6,USA,,,Boya,Serafin
+object
 5488,BOYAS FLOTANTES,1,202 R/W,,,Boya,Serafin
+object
 5503,BOYAS FLOTANTES,1 1/4,203 R/ W,,,Boya,Serafin
+object
 359,BRACKET FILTRO CISTE,,78-51-S,,,Bracket,Serafin
+object
 322,BRACKET LAVABO,7,,,,Bracket,Serafin
+object
 360,BRAZO DUCHA METAL,1/2 X 17,241-17,,,Brazo Ducha,Serafin
+object
 355,BRAZO DUCHA METAL,8,627CHP,,,Brazo Ducha,Serafin
+object
 301,BRAZO DUCHA METAL,6,MTL,,,Brazo Ducha,Serafin
+object
 302,BRAZO DUCHA PLASTICO,,R304P,,,Brazo Ducha,Serafin
+object
 310,BRAZO DUCHA SET CROM,,PLA,,,Brazo Ducha,Serafin
+object
 844,BROCHA 1123,3,1123,,,Brocha,Serafin
+object
 454,BROCHA 1123,1.5,1123,,,Brocha,Serafin
+object
 822,BROCHA 1123,2.5,1123,,,Brocha,Serafin
+object
 230,BROCHA 1610,1,100,,,Brocha,Serafin
+object
 226,BROCHA 1610,1.5,150,,,Brocha,Serafin
+object
 227,BROCHA 1610,2,200,,,Brocha,Serafin
+object
 228,BROCHA 1610,2.5,250,,,Brocha,Serafin
+object
 229,BROCHA 1610,3,300,,,Brocha,Serafin
+object
 231,BROCHA 1610,4,400,,,Brocha,Serafin
+object
 207,BROCHA 445,1 B,445,,,Brocha,Serafin
+object
 209,BROCHA 445,2 B,445,,,Brocha,Serafin
+object
 211,BROCHA 445,3 B,445,,,Brocha,Serafin
+object
 212,BROCHA 445,4 B,445,,,Brocha,Serafin
+object
 210,BROCHA 445,2 1/2 B,445,,,Brocha,Serafin
+object
 208,BROCHA 445,1  1/2 B,445,,,Brocha,Serafin
+object
 201,BROCHA 459,1,459,,,Brocha,Serafin
+object
 203,BROCHA 459,2,459,,,Brocha,Serafin
+object
 205,BROCHA 459,3,459,,,Brocha,Serafin
+object
 206,BROCHA 459,4,459,,,Brocha,Serafin
+object
 202,BROCHA 459,1.5,459,,,Brocha,Serafin
+object
 204,BROCHA 459,2.5,459,,,Brocha,Serafin
+object
 289,BROCHA 479,3,479,,,Brocha,Serafin
+object
 256,BROCHA 832,2,,,,Brocha,Serafin
+object
 255,BROCHA 832,3,,,,Brocha,Serafin
+object
 254,BROCHA 832,1.5,,,,Brocha,Serafin
+object
 258,BROCHA 832,2.5,,,,Brocha,Serafin
+object
 2169,BROCHA C/DIAGONAL,2,2123,,,Brocha,Serafin
+object
 5151,BROCHA FOAM,4PCS,7040,,,Brocha,Serafin
+object
 233,BROCHA FOAM SET,3 PCS,,,,Brocha,Serafin
+object
 232,BROCHA MAGEY USA,,40031,,,Brocha,Serafin
+object
 5259,BROCHA MARINE,1 1/2,710-15,,,Brocha,Serafin
+object
 5248,BROCHA MARINE,2,710-20,,,Brocha,Serafin
+object
 5249,BROCHA MARINE,2 1/2,710-25,,,Brocha,Serafin
+object
 5258,BROCHA MARINE,3,710-30,,,Brocha,Serafin
+object
 3804,BROCHA PREMIUM,1 1/2,700-15,,,Brocha,Serafin
+object
 3805,BROCHA PREMIUM,2,700-20,,,Brocha,Serafin
+object
 3806,BROCHA PREMIUM,2 1/2,700-25,,,Brocha,Serafin
+object
 3807,BROCHA PREMIUM,3,700-30,,,Brocha,Serafin
+object
 2576,BROCHA RUBIA,44198,,,,Brocha,Serafin
+object
 216,BROCHA RUBIA,1,100,,,Brocha,Serafin
+object
 217,BROCHA RUBIA,1.5,150,,,Brocha,Serafin
+object
 218,BROCHA RUBIA,2,200,,,Brocha,Serafin
+object
 219,BROCHA RUBIA,2.5,250,,,Brocha,Serafin
+object
 220,BROCHA RUBIA,3,300,,,Brocha,Serafin
+object
 234,BROCHA RUBIA,4,1500,,,Brocha,Serafin
+object
 221,BROCHA RUBIA,4,1504,,,Brocha,Serafin
+object
 222,BROCHA RUBIA HD,1,,,,Brocha,Serafin
+object
 250,BROCHA RUBIA HD,2,,,,Brocha,Serafin
+object
 252,BROCHA RUBIA HD,3,,,,Brocha,Serafin
+object
 253,BROCHA RUBIA HD,4,,,,Brocha,Serafin
+object
 224,BROCHA RUBIA HD,1.5,,,,Brocha,Serafin
+object
 251,BROCHA RUBIA HD,2.5,,,,Brocha,Serafin
+object
 308,BUZON PARED HORIZON,,10225,,,Buzón,Serafin
+object
 309,BUZON PARED VERTICA,,10215,,,Buzón,Serafin
+object
 5282,C CLAMP,,3 PCS,,,C Clamp,Serafin
+object
 860,C-CLAMP SURTEK,4,107054,,,C Clamp,Serafin
+object
 861,C-CLAMP SURTEK,6,107056,,,C Clamp,Serafin
+object
 862,C-CLAMP SURTEK,8,107058,,,C Clamp,Serafin
+object
 865,C-CLAMP TOLSEN,4,10113,,,C Clamp,Serafin
+object
 873,C-CLAMP TOLSEN,6,10114,,,C Clamp,Serafin
+object
 875,C-CLAMP TOLSEN,8,10115,,,C Clamp,Serafin
+object
 1866,C-CLAMP TRUPER,5,17662,,,C Clamp,Serafin
+object
 6244,C-CLAMP TRUPER,3,PNT-3,,,C Clamp,Serafin
+object
 1837,C-CLAMP TRUPER,4,PNT-4,,,C Clamp,Serafin
+object
 1835,C-CLAMP TRUPER,6,PNT-6,,,C Clamp,Serafin
+object
 1836,C-CLAMP TRUPER,8,PNT-8,,,C Clamp,Serafin
+object
 644,C/ACERO 1/4 CR,250,S/FORRO,,,C/Acero,Serafin
+object
 803,C/ACERO 1/4 KH,250,S/FORRO,,,C/Acero,Serafin
+object
 1167,C/ACERO 1/4-5/16 CR,200,FORR,,,C/Acero,Serafin
+object
 645,C/ACERO 1/4-5/16 KH,200,FORR,,,C/Acero,Serafin
+object
 5010,C/ACERO 1/8 CR,250,S/FORRO,,,C/Acero,Serafin
+object
 3891,C/ACERO 1/8 KH,250,S/FORR,,,C/Acero,Serafin
+object
 4868,C/ACERO 1/8-3/16 CR,200,FORR,,,C/Acero,Serafin
+object
 1939,C/ACERO 1/8-3/16 KH,200,FORR,,,C/Acero,Serafin
+object
 1367,C/ACERO 1/8-5/32 CR,200,FORR,,,C/Acero,Serafin
+object
 643,C/ACERO 3/16 CR,250,S/FORRO,,,C/Acero,Serafin
+object
 821,C/ACERO 3/16 KH,250,S/FORRO,,,C/Acero,Serafin
+object
 1369,C/ACERO 3/16-1/4 CR,200,FORR,,,C/Acero,Serafin
+object
 4874,C/ACERO 3/16-1/4 KH,200,FORR,,,C/Acero,Serafin
+object
 5339,C/ACERO 3/32-1/8,250,FORR,,,C/Acero,Serafin
+object
 646,C/ACERO 3/32-1/8 KH,200,FORR,,,C/Acero,Serafin
+object
 3106,C/ACERO 3/8 KH,250,S/FORRO,,,C/Acero,Serafin
+object
 1170,C/ACERO 5/16-3/8 CR,200,FORR,,,C/Acero,Serafin
+object
 1168,C/ACERO 5/16-3/8 KH,200,FORR,,,C/Acero,Serafin
+object
 4426,C/BOLA ROUTER,,22562,,,C/Bola,Serafin
+object
 2595,C/FRIO 1,10,,,,C/Frío,Serafin
+object
 4668,C/FRIO 1,12,,,,C/Frío,Serafin
+object
 3918,C/FRIO 1,12,C-1X12,,,C/Frío,Serafin
+object
 6197,C/FRIO 1,8,C-1X8,,,C/Frío,Serafin
+object
 3917,C/FRIO 1,10,C1X10,,,C/Frío,Serafin
+object
 4061,C/FRIO 1 C/PROT,10,12273,,,C/Frío,Serafin
+object
 4068,C/FRIO 1 C/PROT,8,12276,,,C/Frío,Serafin
+object
 526,C/FRIO 1/2,6,,,,C/Frío,Serafin
+object
 528,C/FRIO 1/2,10,,,,C/Frío,Serafin
+object
 538,C/FRIO 1/2,12,,,,C/Frío,Serafin
+object
 527,C/FRIO 1/2,8,5827,,,C/Frío,Serafin
+object
 2639,C/FRIO 1/2,10,C1/2X10,,,C/Frío,Serafin
+object
 6196,C/FRIO 1/2,12,C1/2X12,,,C/Frío,Serafin
+object
 2634,C/FRIO 1/2,6,C1/2X6,,,C/Frío,Serafin
+object
 2635,C/FRIO 1/2,8,C1/2X8,,,C/Frío,Serafin
+object
 4666,C/FRIO 3/4,8,,,,C/Frío,Serafin
+object
 4667,C/FRIO 3/4,10,,,,C/Frío,Serafin
+object
 534,C/FRIO 3/4,12,,,,C/Frío,Serafin
+object
 2594,C/FRIO 3/4,12,,,,C/Frío,Serafin
+object
 548,C/FRIO 3/4,6,,,,C/Frío,Serafin
+object
 533,C/FRIO 3/4,10,C/PROTEC,,,C/Frío,Serafin
+object
 532,C/FRIO 3/4,12,C/PROTEC,,,C/Frío,Serafin
+object
 3915,C/FRIO 3/4,10,C3/4X10,,,C/Frío,Serafin
+object
 3916,C/FRIO 3/4,12,C3/4X12,,,C/Frío,Serafin
+object
 1868,C/FRIO 3/4,6,C3/4X6,,,C/Frío,Serafin
+object
 3914,C/FRIO 3/4,8,C3/4X8,,,C/Frío,Serafin
+object
 2593,C/FRIO 3/4 C/PROT,10,12275,,,C/Frío,Serafin
+object
 549,C/FRIO 3/4 C/PROT,8,12278,,,C/Frío,Serafin
+object
 1969,C/FRIO 5/8,6,,,,C/Frío,Serafin
+object
 4746,C/FRIO 5/8,8,,,,C/Frío,Serafin
+object
 531,C/FRIO 5/8,10,,,,C/Frío,Serafin
+object
 530,C/FRIO 5/8,10,C/PROTEC,,,C/Frío,Serafin
+object
 529,C/FRIO 5/8,12,C/PROTEC,,,C/Frío,Serafin
+object
 2638,C/FRIO 5/8,10,C5/8X10,,,C/Frío,Serafin
+object
 4575,C/FRIO 5/8,12,C5/8X12,,,C/Frío,Serafin
+object
 2636,C/FRIO 5/8,6,C5/8X6,,,C/Frío,Serafin
+object
 2637,C/FRIO 5/8,8,C5/8X8,,,C/Frío,Serafin
+object
 4669,C/FRIO 7/8,10,12154,,,C/Frío,Serafin
+object
 4701,C/FRIO 7/8,12,12157,,,C/Frío,Serafin
+object
 4062,C/FRIO 7/8 C/PROT,10,12274,,,C/Frío,Serafin
+object
 4069,C/FRIO 7/8 C/PROT,8,12277,,,C/Frío,Serafin
+object
 4974,C/FRIO FLAT,4,,,,C/Frío,Serafin
+object
 4972,C/FRIO FLAT,3 1/2-8,CL-31/2,,,C/Frío,Serafin
+object
 5087,C/FRIO FLAT C/PROT,CL23410G,12187,,,C/Frío,Serafin
+object
 5093,C/FRIO FLAT C/PROT,CL31/2X8,12193,,,C/Frío,Serafin
+object
 4416,C/FRIOS SET,6 PC,117193,,,C/Frío,Serafin
-664,C/LINE 100 ALUM,100,11013,,,C/Line,Serafin
-1747,C/LINE 50 ALUM,50,11010,,,C/Line,Serafin
+object
+664,C/LINE 100' ALUM,100,11013,,,C/Line,Serafin
+object
+1747,C/LINE 50' ALUM,50,11010,,,C/Line,Serafin
+object
 5070,C/LINE ALUM,50,TW,,,C/Line,Serafin
+object
 662,C/LINE SET BLUE,100,11081,,,C/Line,Serafin
+object
 1979,C/LINE SET BLUE,100,TL-100,,,C/Line,Serafin
+object
 5069,C/LINE SET BLUE,50,TL-50P,,,C/Line,Serafin
-661,C/LINE SET BLUE SURT,100 MET,130561,,,C/Line,Serafin
-663,C/LINE SET BLUE SURT,100 PLA,130569,,,C/Line,Serafin
-667,C/LINE SET PLAST,50,142612,,,C/Line,Serafin
-669,C/LINE SET PLAST,100,TW,,,C/Line,Serafin
-4073,CABLE ARNES 6.5,CAB54892,14436,,,Cable,Serafin
+object
+661,C/LINE SET BLUE SURT,100' MET,130561,,,C/Line,Serafin
+object
+663,C/LINE SET BLUE SURT,100' PLA,130569,,,C/Line,Serafin
+object
+667,C/LINE SET PLAST,50',142612,,,C/Line,Serafin
+object
+669,C/LINE SET PLAST,100',TW,,,C/Line,Serafin
+object
+4073,CABLE ARNES 6.5',CAB54892,14436,,,Cable,Serafin
+object
 4105,CABLE ARNES C/SHOCK,CAB-5430,14446,,,Cable,Serafin
+object
 1826,CABLE BLANCO 12/2 10,CDU12300,40044,,,Cable,Serafin
+object
 657,CABLE DUPLEX 18/2,250,AMARILLO,,,Cable,Serafin
+object
 658,CABLE DUPLEX 18/2,,CL,,,Cable,Serafin
+object
 1774,CABLE DUPLEX 18/2,,GOLD,,,Cable,Serafin
+object
 5366,CABLE TIES,8,BLANCO,,,Sujetacables,Serafin
+object
 6441,CABLE TIES,11,BLANCO,,,Sujetacables,Serafin
+object
 6442,CABLE TIES,14,BLANCO,,,Sujetacables,Serafin
+object
 574,CABLE TIES,6,BLANCO,,,Sujetacables,Serafin
+object
 4176,CABLE TIES,5.5,BLANCO,,,Sujetacables,Serafin
+object
 4177,CABLE TIES,7.5,BLANCO,,,Sujetacables,Serafin
+object
 4385,CABLE TIES,11.5,BLANCO,,,Sujetacables,Serafin
+object
 4386,CABLE TIES,14.5,BLANCO,,,Sujetacables,Serafin
+object
 6105,CABLE TIES,11.5,NEGRO,,,Sujetacables,Serafin
+object
 6138,CABLE TIES,14.5,NEGRO,,,Sujetacables,Serafin
+object
 4448,CABLE TIES,17.75,NEGRO,,,Sujetacables,Serafin
+object
 6104,CABLE TIES,7 1/2,NEGRO,,,Sujetacables,Serafin
+object
 6443,CABLE TIES   12.7 mm,21.6875,BLANCO,,,Sujetacables,Serafin
+object
 5246,CABLE TIES   8 mm,21.6875,BLANCO,,,Sujetacables,Serafin
+object
 6639,CABLE TIES 75 PCS,CIN75,48990,,,Sujetacables,Serafin
+object
 5245,CABLE TIES 8mm,17 3/4,BLANCO,,,Sujetacables,Serafin
+object
 1786,CABLES MAQ SOLDAR EL,CAB300,14349,,,Cables,Serafin
+object
 552,CABO AZADA,45,SPAIN,,,Cabo,Serafin
+object
 1950,CABO AZADA ESPANA,55,,,,Cabo,Serafin
+object
 914,CABO AZADA T/NA,56,1400/42,,,Cabo,Serafin
+object
 1633,CABO AZADON SPAIN,47,ESPANA,,,Cabo,Serafin
+object
 5577,CABO AZADON T/NA,48,BRAZIL,,,Cabo,Serafin
+object
 2447,CABO CARRETILLAS TRA,756006,T/NA,,,Cabo,Serafin
+object
 5496,CABO HACHA BELLOTA,,8016,,,Cabo,Serafin
+object
 561,CABO HACHA ESPANOL,36,,,,Cabo,Serafin
+object
 560,CABO HACHA TRAMONTIN,11542/04,TR/NA,,,Cabo,Serafin
+object
 562,CABO HACHUELA,12,ESPANOL,,,Cabo,Serafin
+object
 592,CABO LIMA PLASTICO,9/10,,,,Cabo,Serafin
+object
 600,CABO LIMA PLASTICO,4.5,ROYAL,,,Cabo,Serafin
+object
 874,CABO MACHETE,C/REMACH,CHISPA,,,Cabo,Serafin
+object
 2152,CABO MACHETE C/REMAC,,COCODRIL,,,Cabo,Serafin
+object
 589,CABO MACHETE,,IDEAL,,,Cabo,Serafin
+object
 820,CABO MACHETE,,JIBARO,,,Cabo,Serafin
+object
 640,CABO MARRON T/NA,30,BRAZIL,,,Cabo,Serafin
+object
 632,CABO MARRON,14,ESPANA,,,Cabo,Serafin
+object
 635,CABO MARRON,16,ESPANA,,,Cabo,Serafin
+object
 636,CABO MARRON,18,ESPANA,,,Cabo,Serafin
+object
 2541,CABO MARRON,24,ESPANA,,,Cabo,Serafin
+object
 633,CABO MARRON,12,MG-MD-4,,,Cabo,Serafin
+object
 6198,CABO MARRON,30,SPAIN,,,Cabo,Serafin
+object
 6199,CABO MARRON,36,SPAIN,,,Cabo,Serafin
+object
 6299,CABO MARRON 6/16 LB,36,MGMD6/16,,,Cabo,Serafin
+object
 665,CABO MARRON T/NA,36,11035/42,,,Cabo,Serafin
+object
 1538,CABO MARTILLO,,MGMA-1,,,Cabo,Serafin
+object
 580,CABO MARTILLO,,SPAIN,,,Cabo,Serafin
+object
 2579,CABO MARTILLO,CAB5,SURTEK,,,Cabo,Serafin
+object
 557,CABO PALA CURVO,,ESPANA,,,Cabo,Serafin
+object
 564,CABO PALA RECTO,47,ESPANA,,,Cabo,Serafin
+object
 556,CABO PALA RECTO TRAM,,11150/04,,,Cabo,Serafin
+object
 559,CABO PALA YD,,T/NA,,,Cabo,Serafin
+object
 2592,CABO PICO,C/GOMA,MG-ZP-5X,,,Cabo,Serafin
+object
 554,CABO PICO,36,TRAMONTI,,,Cabo,Serafin
+object
 3674,CABO PICO BELLOTA,,8017,,,Cabo,Serafin
+object
 2610,CABO PICO SPAIN,36,,,,Cabo,Serafin
+object
 2596,CABO PICO SURTEK,,CAB6,,,Cabo,Serafin
+object
 2591,CABO PICO T/CRAFT,,MEX,,,Cabo,Serafin
+object
 598,CABO PICO T/NA,C/GOMA,78752/01,,,Cabo,Serafin
+object
 1600,CABO SERRUCHO,,GN13,,,Cabo,Serafin
+object
 813,CADENA GALV 1/2,35,,,,Cadena,Serafin
+object
 823,CADENA GALV 1/2,50,,,,Cadena,Serafin
-826,CADENA GALV 1/2,38,MEX,,,Cadena,Serafin
-900,CADENA GALV 1/4,113.75,44262,,,Cadena,Serafin
-824,CADENA GALV 1/4,159,MEX,,,Cadena,Serafin
+object
+826,CADENA GALV 1/2,38',MEX,,,Cadena,Serafin
+object
+900,CADENA GALV 1/4,113.75',44262,,,Cadena,Serafin
+object
+824,CADENA GALV 1/4,159',MEX,,,Cadena,Serafin
+object
 902,CADENA GALV 1/4X113.,CAGA1/4,44271,,,Cadena,Serafin
-808,CADENA GALV 1/8,243.75,44260,,,Cadena,Serafin
-814,CADENA GALV 1/8,500,MEX,,,Cadena,Serafin
+object
+808,CADENA GALV 1/8,243.75',44260,,,Cadena,Serafin
+object
+814,CADENA GALV 1/8,500',MEX,,,Cadena,Serafin
+object
 827,CADENA GALV 1/8X 243,CAGA1/8,44269,,,Cadena,Serafin
+object
 825,CADENA GALV 3/16,250,,,,Cadena,Serafin
-815,CADENA GALV 3/16,335,MEX,,,Cadena,Serafin
+object
+815,CADENA GALV 3/16,335',MEX,,,Cadena,Serafin
+object
 828,CADENA GALV 3/16X211,CAGA3/16,44270,,,Cadena,Serafin
-906,CADENA GALV 3/8,32.5,44264,,,Cadena,Serafin
-913,CADENA GALV 3/8,66,MEX,,,Cadena,Serafin
+object
+906,CADENA GALV 3/8,32.5',44264,,,Cadena,Serafin
+object
+913,CADENA GALV 3/8,66',MEX,,,Cadena,Serafin
+object
 907,CADENA GALV 5/16,92,,,,Cadena,Serafin
-911,CADENA GALV 5/16,86,MEX,,,Cadena,Serafin
-901,CADENA GALV 5/16X65,CAGA5/16,44272,,,Cadena,Serafin
+object
+911,CADENA GALV 5/16,86',MEX,,,Cadena,Serafin
+object
+901,CADENA GALV 5/16X65',CAGA5/16,44272,,,Cadena,Serafin
+object
 843,CADENA LAMP ALUM,,GOLD,,,Cadena,Serafin
+object
 847,CADENA LAMP METAL,,CR,,,Cadena,Serafin
+object
 842,CADENA LAMP METAL,,GOLD,,,Cadena,Serafin
+object
 6461,CADENA PASEO 1.5,48,0,,,Cadena,Serafin
+object
 732,CADENA PASEO 1.6,48,,,,Cadena,Serafin
+object
 733,CADENA PASEO 2.0,48,448,,,Cadena,Serafin
+object
 6045,CADENA PASEO 2.3,48,QU2348,,,Cadena,Serafin
+object
 4345,CADENA PASEO 2.5,48,,,,Cadena,Serafin
+object
 725,CADENA PASEO 3.0,48,548,,,Cadena,Serafin
+object
 4051,CADENA PASEO 3.5,48,,,,Cadena,Serafin
+object
 744,CADENA PASEO 4.0,48,648,,,Cadena,Serafin
+object
 6712,CADENA PASEO NYLON,,1.5MM,,,Cadena,Serafin
+object
 6711,CADENA PASEO NYLON,,1MM,,,Cadena,Serafin
+object
 6714,CADENA PASEO NYLON,,2.5MM,,,Cadena,Serafin
+object
 6713,CADENA PASEO NYLON,,2MM,,,Cadena,Serafin
+object
 731,CADENA PERRO 1.6,6,,,,Cadena,Serafin
+object
 4341,CADENA PERRO 2.0,10,,,,Cadena,Serafin
+object
 730,CADENA PERRO 2.0,15,,,,Cadena,Serafin
+object
 4344,CADENA PERRO 2.0,6,QU2006,,,Cadena,Serafin
+object
 6042,CADENA PERRO 2.3,6,QU2306,,,Cadena,Serafin
+object
 6043,CADENA PERRO 2.3,10,QU2310,,,Cadena,Serafin
+object
 6044,CADENA PERRO 2.3,15,QU2315,,,Cadena,Serafin
+object
 726,CADENA PERRO 2.5,6,,,,Cadena,Serafin
+object
 748,CADENA PERRO 2.5,15,,,,Cadena,Serafin
+object
 727,CADENA PERRO 2.5,10,QU2510,,,Cadena,Serafin
+object
 728,CADENA PERRO 3.0,6,,,,Cadena,Serafin
+object
 750,CADENA PERRO 3.0,15,,,,Cadena,Serafin
+object
 729,CADENA PERRO 3.0,10,QU3010,,,Cadena,Serafin
+object
 4366,CADENA PERRO 3.5,6,,,,Cadena,Serafin
+object
 4367,CADENA PERRO 3.5,10,,,,Cadena,Serafin
+object
 6245,CADENA PERRO 3.5,15,,,,Cadena,Serafin
+object
 806,CADENA TIESTO,200,,,,Cadena,Serafin
+object
 6357,CADENA TIESTO TW,200,,,,Cadena,Serafin
+object
 856,CAJA 2X4,1/2,58361,,,Caja,Serafin
+object
 992,CAJA 2X4,3/4,58361,,,Caja,Serafin
+object
 857,CAJA 4X4,1/2,52151,,,Caja,Serafin
+object
 955,CAJA 4X4,3/4,52151,,,Caja,Serafin
+object
 950,CAJA BOLA RUEDA/CARR,,(10 PCS),,,Caja,Serafin
+object
 3463,CAJA CERRADURA PORTO,,,,,Caja,Serafin
+object
 4712,CAJA CORTE PLAST,,PMB12,,,Caja,Serafin
+object
 974,CAJA HERRAMIENTA,CPE16G,10552,,,Caja,Serafin
+object
 966,CAJA HERRAMIENTA,23,11506,,,Caja,Serafin
+object
 961,CAJA HERRAMIENTA,17,19656,,,Caja,Serafin
+object
 965,CAJA HERRAMIENTA ORA,14,19854,,,Caja,Serafin
+object
 960,CAJA HERRAMIENTAS,16 PLAST,143201,,,Caja,Serafin
+object
 952,CAJA HERRAMIENTAS,22 PLAST,143202,,,Caja,Serafin
+object
 858,CAJA OCTAGONAL,1/2,54151,,,Caja,Serafin
+object
 956,CAJA OCTAGONAL,3/4,54151,,,Caja,Serafin
+object
 964,CAJA PESCA PLAST,16,10539,,,Caja,Serafin
+object
 6513,CALENTADOR DUCHA,110V/23A,AHSH2500,,,Calentador,Serafin
+object
 6593,CALENTADOR LINEA,220 VOLT,9.5 KW,,,Calentador,Serafin
+object
 6351,CALENTADOR LINEA,220V-40A,BOSTEMP,,,Calentador,Serafin
+object
 6396,CALENTADOR LINEA AM/,220V-40A,S-9,,,Calentador,Serafin
+object
 6356,CALENTADOR LINEA AM/,ADK-3,,,,Calentador,Serafin
+object
 6594,CALENTADOR LINEA AM/,220V-30A,A-67,,,Calentador,Serafin
+object
 6526,CALENTADOR LINEA AM/,80/18KW,AH-18 3B,,,Calentador,Serafin
+object
 6527,CALENTADOR LINEA AM/,240/21kw,AH-2135,,,Calentador,Serafin
+object
 6528,CALENTADOR LINEA AM/,120/24KW,AH-24 4B,,,Calentador,Serafin
+object
 6529,CALENTADOR LINEA AM/,120/27KW,AH-27 45,,,Calentador,Serafin
+object
 6524,CALENTADOR LINEA AM/,110V-29A,M-4,,,Calentador,Serafin
+object
 6525,CALENTADOR LINEA AM/,220V-29A,M-7,,,Calentador,Serafin
+object
 6473,CALENTADOR LINEA AM/,220V-37A,M-9,,,Calentador,Serafin
+object
 5474,CANA PESCAR C/CARRET,,SP502N,,,Caña de Pescar,Serafin
+object
 1449,CANASTITO BANERA,,,,,Canasto,Serafin
+object
 647,CANASTITO FREGADERO,,CD,,,Canasto,Serafin
+object
 3794,CANASTITO FREGADERO,C2010,MALLA,,,Canasto,Serafin
+object
 606,CANASTITO FREGADERO,C/P,R405P,,,Canasto,Serafin
+object
 624,CANASTITO FREGADERO,S/P,R405B,,,Canasto,Serafin
+object
 675,CANASTITO PILETA,,R409A,,,Canasto,Serafin
+object
 591,CANASTO FREG MTL,,R401,,,Canasto,Serafin
+object
 607,CANASTO FREG PVC C/T,TRUPER,49353,,,Canasto,Serafin
+object
 605,CANASTO FREG PVC C/T,,R401P,,,Canasto,Serafin
+object
 1066,CANASTO FREG PVC EZF,SIN T/P,CARDET,,,Canasto,Serafin
+object
 6412,CANASTO FREG PVC S/T,,C/REY,,,Canasto,Serafin
+object
 691,CANASTO PILETA,,MTL,,,Canasto,Serafin
+object
 690,CANASTO PILETA PVC,,R402P,,,Canasto,Serafin
+object
 789,CANCAMO ABIERTO,1,,,,Cancamo,Serafin
+object
 799,CANCAMO ABIERTO,2,,,,Cancamo,Serafin
+object
 792,CANCAMO ABIERTO,1.75,,,,Cancamo,Serafin
+object
 788,CANCAMO ABIERTO,3/4,R819AA,,,Cancamo,Serafin
+object
 790,CANCAMO ABIERTO,1.25,R819CC,,,Cancamo,Serafin
+object
 791,CANCAMO ABIERTO,1.5,R819DD,,,Cancamo,Serafin
+object
 6031,CANCAMO ABIERTO,5/8,R819FF,,,Cancamo,Serafin
+object
 6047,CANCAMO ABIERTO T/F,3/16,3,,,Cancamo,Serafin
+object
 6049,CANCAMO ABIERTO T/F,1/4,4,,,Cancamo,Serafin
+object
 2612,CANCAMO CERRADO 1/2,3,,,,Cancamo,Serafin
+object
 1855,CANCAMO CERRADO 1/2,5,,,,Cancamo,Serafin
+object
 1858,CANCAMO CERRADO 1/2,7,,,,Cancamo,Serafin
+object
 2605,CANCAMO CERRADO 1/2,4,808CF,,,Cancamo,Serafin
+object
 1850,CANCAMO CERRADO 1/2,6,808CH,,,Cancamo,Serafin
+object
 225,CANCAMO CERRADO 1/2,8,R808CJ,,,Cancamo,Serafin
+object
 898,CANCAMO CERRADO 1/2,10,R808CL,,,Cancamo,Serafin
+object
 1423,CANCAMO CERRADO 1/4,5,,,,Cancamo,Serafin
+object
 4779,CANCAMO CERRADO 1/4,3,DR808D,,,Cancamo,Serafin
+object
 1396,CANCAMO CERRADO 1/4,2,R808DC,,,Cancamo,Serafin
+object
 1397,CANCAMO CERRADO 1/4,4,R808DF,,,Cancamo,Serafin
+object
 1419,CANCAMO CERRADO 1/4,6,R808DI,,,Cancamo,Serafin
+object
 804,CANCAMO CERRADO 3/16,2,R808ED,,,Cancamo,Serafin
+object
 5347,CANCAMO CERRADO 3/16,3,R808EE,,,Cancamo,Serafin
+object
 6424,CANCAMO CERRADO 3/8,2,,,,Cancamo,Serafin
+object
 1561,CANCAMO CERRADO 3/8,5,,,,Cancamo,Serafin
+object
 1851,CANCAMO CERRADO 3/8,7,,,,Cancamo,Serafin
+object
 6446,CANCAMO CERRADO 3/8,3.5,,,,Cancamo,Serafin
+object
 6447,CANCAMO CERRADO 3/8,6.5,,,,Cancamo,Serafin
+object
 6336,CANCAMO CERRADO 3/8,3,DR808BE,,,Cancamo,Serafin
+object
 1394,CANCAMO CERRADO 3/8,4,R808BF,,,Cancamo,Serafin
+object
 1395,CANCAMO CERRADO 3/8,6,R808BH,,,Cancamo,Serafin
+object
 1849,CANCAMO CERRADO 3/8,8,R808BJ,,,Cancamo,Serafin
+object
 897,CANCAMO CERRADO 3/8,10,R808BL,,,Cancamo,Serafin
+object
 5029,CANCAMO CERRADO 5/16,2,,,,Cancamo,Serafin
+object
 1560,CANCAMO CERRADO 5/16,5,,,,Cancamo,Serafin
+object
 5024,CANCAMO CERRADO 5/16,2.5,DR808AD,,,Cancamo,Serafin
+object
 5346,CANCAMO CERRADO 5/16,3,R808AE,,,Cancamo,Serafin
+object
 1392,CANCAMO CERRADO 5/16,4,R808AF,,,Cancamo,Serafin
+object
 1393,CANCAMO CERRADO 5/16,6,R808AH,,,Cancamo,Serafin
+object
 5356,CANCAMO CERRADO T/F,1/4  (50,2,,,Cancamo,Serafin
+object
 5348,CANCAMO CERRADO T/F,3/16 (50,2,,,Cancamo,Serafin
+object
 5358,CANCAMO CERRADO T/F,1/4  (50,3,,,Cancamo,Serafin
+object
 5351,CANCAMO CERRADO T/F,3/16 (50,3,,,Cancamo,Serafin
+object
 5364,CANCAMO CERRADO T/F,3/8  (20,3,,,Cancamo,Serafin
+object
 5362,CANCAMO CERRADO T/F,5/16 (20,3,,,Cancamo,Serafin
+object
 5616,CANCAMO CERRADO T/F,1/4  (20,4,,,Cancamo,Serafin
+object
 5489,CANCAMO CERRADO T/F,3/8  (20,4,,,Cancamo,Serafin
+object
 5363,CANCAMO CERRADO T/F,5/16 (20,4,,,Cancamo,Serafin
+object
 2084,CANDADO 209 BELL,2050,CD,,,Candado,Serafin
+object
 484,CANDADO 415 BELL,325,,,,Candado,Serafin
+object
 485,CANDADO 416 BELL,330,,,,Candado,Serafin
+object
 456,CANDADO 461,,,,,Candado,Serafin
+object
 457,CANDADO 462,,,,,Candado,Serafin
+object
 472,CANDADO 462,,CD,,,Candado,Serafin
+object
 458,CANDADO 463,,,,,Candado,Serafin
+object
 443,CANDADO 463,,CD,,,Candado,Serafin
+object
 459,CANDADO 464,,,,,Candado,Serafin
+object
 474,CANDADO 464,,CD,,,Candado,Serafin
+object
 5464,CANDADO 464 C/L,,,,,Candado,Serafin
+object
 467,CANDADO 464 C/L,,CD,,,Candado,Serafin
+object
 460,CANDADO 465,,,,,Candado,Serafin
+object
 475,CANDADO 465,,CD,,,Candado,Serafin
+object
 5467,CANDADO 465 (KA4),,,,,Candado,Serafin
+object
 5469,CANDADO 465 (KA6),,CD,,,Candado,Serafin
+object
 5465,CANDADO 465 C/L,,,,,Candado,Serafin
+object
 470,CANDADO 465 C/L,,CD,,,Candado,Serafin
+object
 461,CANDADO 466,,,,,Candado,Serafin
+object
 446,CANDADO 466,,CD,,,Candado,Serafin
+object
 6055,CANDADO 466  C/L,,CD,,,Candado,Serafin
+object
 5468,CANDADO 466 (KA4),,,,,Candado,Serafin
+object
 6054,CANDADO 466 (KA6),,,,,Candado,Serafin
+object
 5471,CANDADO 466 C/L,,,,,Candado,Serafin
+object
 5470,CANDADO 467,,.,,,Candado,Serafin
+object
 462,CANDADO 467,,CD,,,Candado,Serafin
+object
 2383,CANDADO BRONCE,20MM,CD 3/4,,,Candado,Serafin
+object
 698,CANDADO C/BUMPER,40MM,C/L,,,Candado,Serafin
+object
 697,CANDADO C/BUMPER,50MM,C/L,,,Candado,Serafin
+object
 695,CANDADO C/BUMPER,40MM,VINYL,,,Candado,Serafin
+object
 696,CANDADO C/BUMPER,50MM,VINYL,,,Candado,Serafin
+object
 711,CANDADO G/D,30MM,VINYL,,,Candado,Serafin
+object
 712,CANDADO G/D,40MM,VINYL,,,Candado,Serafin
+object
 713,CANDADO G/D,50MM,VINYL,,,Candado,Serafin
+object
 854,CANDADO G/D (KA4),40MM,BUMPER,,,Candado,Serafin
+object
 853,CANDADO G/D (KA4),50MM,BUMPER,,,Candado,Serafin
+object
 499,CANDADO HINO SET C/B,,6PC,,,Candado,Serafin
-613,CANDADO LAMINADO,1 1/4,BRL030,,,Candado,Serafin
-615,CANDADO LAMINADO,1 1/2,BRL040,,,Candado,Serafin
+object
+613,CANDADO LAMINADO,1 1/4'',BRL030,,,Candado,Serafin
+object
+615,CANDADO LAMINADO,1 1/2'',BRL040,,,Candado,Serafin
+object
 610,CANDADO LAMINADO,2,BRL050,,,Candado,Serafin
+object
 848,CANDADO LAMINADO C/L,2,C/LARGO,,,Candado,Serafin
+object
 849,CANDADO LAMINADO C/L,1 1/2,C/LARGO,,,Candado,Serafin
-846,CANDADO LAMINADO C/L,1 1/4,C/LARGO,,,Candado,Serafin
+object
+846,CANDADO LAMINADO C/L,1 1/4'',C/LARGO,,,Candado,Serafin
+object
 892,CANDADO MASTER,,15 LH,,,Candado,Serafin
+object
 479,CANDADO MASTER,,15D,,,Candado,Serafin
+object
 494,CANDADO MASTER,,15KA,,,Candado,Serafin
+object
 4992,CANDADO MASTER,,15KALH,,,Candado,Serafin
+object
 489,CANDADO MASTER,,17 LH,,,Candado,Serafin
+object
 480,CANDADO MASTER,,17D,,,Candado,Serafin
+object
 481,CANDADO MASTER,,1D,,,Candado,Serafin
+object
 5317,CANDADO MASTER,,1KA,,,Candado,Serafin
+object
 477,CANDADO MASTER,,3D,,,Candado,Serafin
+object
 482,CANDADO MASTER,,3KA,,,Candado,Serafin
+object
 478,CANDADO MASTER,,5D,,,Candado,Serafin
+object
 985,CANDADO MASTER,4PCS,5ESPQHC,,,Candado,Serafin
+object
 476,CANDADO MASTER,,5KA,,,Candado,Serafin
+object
 4990,CANDADO MASTER,2 PCS,5KA 5T,,,Candado,Serafin
+object
 890,CANDADO MASTER,,5LF,,,Candado,Serafin
+object
 5076,CANDADO MASTER,,5LF KA,,,Candado,Serafin
+object
 891,CANDADO MASTER,,5LJ,,,Candado,Serafin
+object
 4991,CANDADO MASTER,,5LJ KA,,,Candado,Serafin
+object
 5323,CANDADO MASTER BCE,3D,1903D,,,Candado,Serafin
+object
 655,CANDADO MASTER BCE,3D 2PC,1903T,,,Candado,Serafin
+object
 578,CANDADO SET,24 PCS,411-24,,,Candado,Serafin
+object
 593,CANDADO SET,12 PCS,JUMBO,,,Candado,Serafin
+object
 577,CANDADO SET GRANDE,12 PCS,GDE,,,Candado,Serafin
+object
 576,CANDADO SET PEQUENO,12 PCS,46234,,,Candado,Serafin
+object
 1153,CANDADO VICTORY,32MM,CD,,,Candado,Serafin
+object
 1152,CANDADO VICTORY,38MM,CD,,,Candado,Serafin
+object
 6494,CAP DELTA,,32164,,,Cap,Serafin
+object
 4142,CAP TOILET,,AZUL,,,Cap,Serafin
+object
 4140,CAP TOILET,,WH,,,Cap,Serafin
+object
 4141,CAP TOILET,,YELLOW,,,Cap,Serafin
+object
 2012,CAPA AGUA 2PCS,MED,J001,,,Capa de Agua,Serafin
+object
 2013,CAPA AGUA 2PCS,LARGE,J002,,,Capa de Agua,Serafin
+object
 2014,CAPA AGUA 2PCS,XLARGE,J003,,,Capa de Agua,Serafin
+object
 2503,CAPA AGUA 2PCS,XXLARGE,J004,,,Capa de Agua,Serafin
+object
 6548,CAPA AGUA 2PCS,LARGE,TRUPER,,,Capa de Agua,Serafin
+object
 6549,CAPA AGUA 2PCS,X-LARGE,TRUPER,,,Capa de Agua,Serafin
+object
 5318,CAPA AGUA 3PCS,XL,,,,Capa de Agua,Serafin
+object
 1316,CAPA AGUA 3PCS,MED,,,,Capa de Agua,Serafin
+object
 1317,CAPA AGUA 3PCS,LARGE,,,,Capa de Agua,Serafin
+object
 1351,CAPA AGUA 3PCS,2XLARGE,,,,Capa de Agua,Serafin
+object
 558,CAPACETE PLAST ALA,10567,WHITE,,,Capacete,Serafin
+object
 555,CAPACETE PLAST ALA,10566,YELLOW,,,Capacete,Serafin
+object
 543,CAPACETE PLASTICO,738CB,BLUE,,,Capacete,Serafin
+object
 542,CAPACETE PLASTICO,,GREEN,,,Capacete,Serafin
+object
 545,CAPACETE PLASTICO,,ORANGE,,,Capacete,Serafin
+object
 546,CAPACETE PLASTICO,,RED,,,Capacete,Serafin
+object
 541,CAPACETE PLASTICO,738CW,WHITE,,,Capacete,Serafin
+object
 544,CAPACETE PLASTICO,738CY,YELLOW,,,Capacete,Serafin
+object
 1089,CARETA FACE SHIELD,SEGURIDA,FS-100,,,Careta,Serafin
+object
 1081,CARETA SOLDAR TRUPER,CASO-3,13729,,,Careta,Serafin
+object
 1069,CARETA SOLDAR TW,,WH701B,,,Careta,Serafin
+object
 1068,CARETA TRIMMER,SE3756,MALLA,,,Careta,Serafin
+object
 1067,CARETA TRIMMER,SE3740,PLASTICA,,,Careta,Serafin
+object
 4818,CARRETILLA BELLOTA,5PC,75670P5,,,Carretilla,Serafin
+object
 4833,CARRETILLA GOMA SOLI,5 PIES,C/METAL,,,Carretilla,Serafin
-4629,CARRETILLA PLAST 8,TP8,19810,,,Carretilla,Serafin
+object
+4629,CARRETILLA PLAST 8',TP8,19810,,,Carretilla,Serafin
+object
 4834,CARRETILLA T/NA,5 PIES,GOMA SOL,,,Carretilla,Serafin
+object
 4571,CARRETILLA TRUPER,5.5 FT,CAP-50NB,,,Carrito,Serafin
+object
 586,CARRITO CORREDERA,,HD,,,Carrito,Serafin
+object
 585,CARRITO NEVERA,33,JD113,,,Carrito,Serafin
-596,CARRITO NEVERA,48,JD114,,,Carrito,Serafin
+object
+596,CARRITO NEVERA,48'',JD114,,,Carrito,Serafin
+object
 1800,CARTABON METAL,,BROWN,,,Cartabón,Serafin
+object
 4720,CARTABON PLASTIC,,CS12P,,,Cartabón,Serafin
+object
 6275,CARTUCHO MASCARILLA,,226,,,Cartucho Mascarilla,Serafin
+object
 715,CAULKING LATEX WH,,0736MX,,,Caulking Latex,Serafin
+object
 6451,CAUTIN MIYAKO,PISTOLA,74B32,,,Cautín,Serafin
+object
 4730,CAUTIN T/LAPIZ MIYAK,,74B30,,,Cautín,Serafin
+object
 1546,CAUTIN T/LAPIZ TRUPE,,CAU30P2,,,Cautín,Serafin
+object
 3467,CEDAZO CANASTO FREG,4.375,C2015,,,Cedazo Canasto,Serafin
+object
 855,CEPILLERA BANO TW,,,,,Cepillera,Serafin
+object
 4997,CEPILLO ALAMBRE,3 PCS,10652,,,Cepillo,Serafin
+object
 4943,CEPILLO ALAMBRE,3PCS,1660-3,,,Cepillo,Serafin
+object
 6312,CEPILLO ALAMBRE,30PCS,1872,,,Cepillo,Serafin
+object
 5054,CEPILLO ALAMBRE,36PCS,1875,,,Cepillo,Serafin
+object
 6642,CEPILLO ALAMBRE,50PCS,1880,,,Cepillo,Serafin
+object
 763,CEPILLO ALAMBRE,,M/C,,,Cepillo,Serafin
+object
 2720,CEPILLO ALAMBRE,,M/C ESP,,,Cepillo,Serafin
+object
 764,CEPILLO ALAMBRE,,M/L,,,Cepillo,Serafin
+object
 2721,CEPILLO ALAMBRE,,M/L ESP,,,Cepillo,Serafin
+object
 2749,CEPILLO ALAMBRE C/M,CEA82,12655,,,Cepillo,Serafin
+object
 1320,CEPILLO ALAMBRE CONI,25PCS,1852,,,Cepillo,Serafin
+object
 2741,CEPILLO ALAMBRE D/M,D/MANGO,12656,,,Cepillo,Serafin
+object
 2740,CEPILLO ALAMBRE ONDU,CEA-10,11540,,,Cepillo,Serafin
+object
 2790,CEPILLO ALAMBRE ONDU,5 X 5/8,11541,,,Cepillo,Serafin
+object
 2832,CEPILLO ALAMBRE ONDU,CT-608,14186,,,Cepillo,Serafin
+object
 2745,CEPILLO ALAMBRE PLAS,CEA18F,11539,,,Cepillo,Serafin
-2746,CEPILLO ALAMBRE PLAS,7,11556,,,Cepillo,Serafin
+object
+2746,CEPILLO ALAMBRE PLAS,7'',11556,,,Cepillo,Serafin
+object
 5059,CEPILLO ALAMBRE PULI,1/5-8,1828-C,,,Cepillo,Serafin
+object
 5060,CEPILLO ALAMBRE PULI,4/5-8,1829-C,,,Cepillo,Serafin
+object
 2719,CEPILLO ALAMBRE S/S,CEA54I,10656,,,Cepillo,Serafin
+object
 5056,CEPILLO ALAMBRE TALA,2-1/4 CO,1841-C,,,Cepillo,Serafin
+object
 5057,CEPILLO ALAMBRE TALA,3-1/4 CO,1843-C,,,Cepillo,Serafin
+object
 769,CEPILLO COCO,7.25,MANO,,,Cepillo,Serafin
+object
 771,CEPILLO COCO C/P,9,44428,,,Cepillo,Serafin
+object
 770,CEPILLO COCO CALLE,14,70200,,,Cepillo,Serafin
+object
 767,CEPILLO INODORO,C/BASE,157,,,Cepillo,Serafin
+object
 775,CEPILLO INODORO,S/BASE,92612,,,Cepillo,Serafin
+object
 2804,CEPILLO MADERA CURVO,E-9C,12059,,,Cepillo,Serafin
+object
 2791,CEPILLO MADERA FLAT,E-9R,12058,,,Cepillo,Serafin
+object
 772,CEPILLO NYLON CALLE,14,70210,,,Cepillo,Serafin
+object
 4903,CEPILLO OFICINA,14,BRAZIL,,,Cepillo,Serafin
+object
 4904,CEPILLO OFICINA,16,BRAZIL,,,Cepillo,Serafin
+object
 4902,CEPILLO OFICINA,18,BRAZIL,,,Cepillo,Serafin
+object
 4901,CEPILLO OFICINA,24,BRAZIL,,,Cepillo,Serafin
+object
 762,CEPILLO OFICINA USA,16,42006,,,Cepillo,Serafin
+object
 774,CEPILLO OFICINA USA,18,42007,,,Cepillo,Serafin
+object
 807,CEPILLO OFICINA USA,24,42008,,,Cepillo,Serafin
+object
 773,CEPILLO OFICINA USA,14,42114 CP,,,Cepillo,Serafin
+object
 766,CEPILLO PLANCHITA,,60179,,,Cepillo,Serafin
+object
 5061,CEPILLO POLO BATERIA,,17110,,,Cepillo,Serafin
+object
 2743,CEPILLO TALADRO TREN,3 X 5/8,17529,,,Cepillo,Serafin
+object
 2752,CEPILLO TALADRO TREN,4-CT610,14187,,,Cepillo,Serafin
+object
 2744,CEPILLO TALADRO TREN,4 X 5/8,17531,,,Cepillo,Serafin
+object
 768,CEPILLO VERDE,14,60143,,,Cepillo,Serafin
-637,CERNIDOR ARENA PLAY,01/08/21,,,,Cernidor,Serafin
-638,CERNIDOR ARENA RIO,01/04/21,,,,Cernidor,Serafin
+object
+637,CERNIDOR ARENA PLAY,1/8'',,,,Cernidor,Serafin
+object
+638,CERNIDOR ARENA RIO,1/4'',,,,Cernidor,Serafin
+object
 639,CERNIDOR POLVILLO,SCREEN,,,,Cernidor,Serafin
+object
 3562,CERRADURA  EXT SURTE,SS 19POP,PROLOK,,,Cerradura,Serafin
+object
 6130,CERRADURA  INT SURTE,SS 20POP,PROLOK,,,Cerradura,Serafin
+object
 3909,CERRADURA BUZON 127/,,,,,Cerradura,Serafin
+object
 5006,CERRADURA COM 1 LL,SS,6871D101,,,Cerradura,Serafin
+object
 5004,CERRADURA COM 2LL,SS,6871D102,,,Cerradura,Serafin
+object
 5266,CERRADURA COMBO 1LL,A/B,5000,,,Cerradura,Serafin
+object
 5009,CERRADURA COMBO 2LL,PB,68717312,,,Cerradura,Serafin
+object
 5273,CERRADURA COMBO 2LL,A/B,5010,,,Cerradura,Serafin
+object
 3569,CERRADURA COMBO LEVE,SS 6481,1 LL C,,,Cerradura,Serafin
+object
 3572,CERRADURA COMBO LEVE,SS 6411,1 LL R,,,Cerradura,Serafin
+object
 3566,CERRADURA COMBO LEVE,SS 6841,1 LL R,,,Cerradura,Serafin
+object
 3573,CERRADURA COMBO LEVE,SS 6411,2 LL C,,,Cerradura,Serafin
+object
 3571,CERRADURA COMBO LEVE,SS 6481,2 LL C,,,Cerradura,Serafin
+object
 3567,CERRADURA COMBO LEVE,SS 6841,2 LL R,,,Cerradura,Serafin
+object
 5605,CERRADURA EXT LEVEL,SS 6481,CURVO,,,Cerradura,Serafin
+object
 5607,CERRADURA EXT LEVEL,SS 6411,RECTO,,,Cerradura,Serafin
+object
 5383,CERRADURA EXT LEVEL,SS 6841,RECTO,,,Cerradura,Serafin
+object
 5250,CERRADURA EXTERIOR,SS 6871,REDSTAR,,,Cerradura,Serafin
+object
 708,CERRADURA GABETA,1.125,3003,,,Cerradura,Serafin
+object
 3564,CERRADURA HERRERO,,C/CAJA,,,Cerradura,Serafin
+object
 3597,CERRADURA HERRERO P/,,P/LORO,,,Cerradura,Serafin
+object
 5606,CERRADURA INT LEVEL,SS 6482,CURVO,,,Cerradura,Serafin
+object
 5608,CERRADURA INT LEVEL,SS 6412,RECTO,,,Cerradura,Serafin
+object
 5384,CERRADURA INT LEVEL,SS 6842,RECTO,,,Cerradura,Serafin
+object
 3561,CERRADURA INTERIOR,SS 6872,REDSTAR,,,Cerradura,Serafin
+object
 673,CERRADURA JAULA (TEL,,,,,Cerradura,Serafin
+object
 4649,CERRADURA RESBALON,,202,,,Cerradura,Serafin
+object
 996,CERRADURA SCREEN,47073,ALUM,,,Cerradura,Serafin
+object
 4736,CERRADURA SCREEN,,BRONZE,,,Cerradura,Serafin
+object
 4735,CERRADURA SCREEN,,WHITE,,,Cerradura,Serafin
+object
 5251,CERRADURA SW  INT AJ,PB,L6130,,,Cerradura,Serafin
+object
 4132,CERRADURA SW EXT  AJ,PB,L6100,,,Cerradura,Serafin
+object
 5255,CERRADURA SWD PB INT,,710,,,Cerradura,Serafin
+object
 4171,CERRADURA VITRINA,,,,,Cerradura,Serafin
+object
 6454,CHALECO SEG CLASE 2,LARGE,LIMA,,,Chaleco,Serafin
+object
 6455,CHALECO SEG CLASE 2,XLARGE,LIMA,,,Chaleco,Serafin
+object
 6449,CHALECO SEG CLASE 2,LARGE,ORANGE,,,Chaleco,Serafin
+object
 6452,CHALECO SEG CLASE 2,XLARGE,ORANGE,,,Chaleco,Serafin
+object
 6590,CHALECO SEGURIDAD LI,,,,,Chaleco,Serafin
+object
 6418,CHALECO SEGURIDAD OR,,301013,,,Chaleco,Serafin
+object
 2191,CHECK VALVE,2,ROSCA,,,Check Valve,Serafin
+object
 2299,CHECK VALVE  LINEAL,1,,,,Check Valve,Serafin
+object
 2290,CHECK VALVE BUGATTI,1/2,192,,,Check Valve,Serafin
+object
 2293,CHECK VALVE BUGATTI,3/4,192,,,Check Valve,Serafin
+object
 2366,CHECK VALVE C/JUNTA,3/4,ITAP,,,Check Valve,Serafin
+object
 2291,CHECK VALVE LIN TW,1,SPRING,,,Check Valve,Serafin
+object
 2292,CHECK VALVE LIN TW,1/2,SPRING,,,Check Valve,Serafin
+object
 2298,CHECK VALVE LINTW,3/4,SPRING,,,Check Valve,Serafin
+object
 2187,CHECK VALVE ROSCA AS,1/2 BC,SPRING,,,Check Valve,Serafin
+object
 5114,CHECK VALVE ROSCA AS,3/4 BC,SPRING,,,Check Valve,Serafin
+object
 689,CHECK VALVE ROSCA TW,1/2,210A,,,Check Valve,Serafin
+object
 688,CHECK VALVE ROSCA TW,3/4,R210B,,,Check Valve,Serafin
+object
 4440,CHUCK TALADRO,1/4,14951,,,Taladro,Serafin
+object
 4401,CHUCK TALADRO,3/8,14953,,,Taladro,Serafin
+object
 4402,CHUCK TALADRO,1/2-3/8,14955,,,Taladro,Serafin
+object
 4438,CHUCK TALADRO,1/2-1/2,14957,,,Taladro,Serafin
+object
 4162,CINTA  F/GLASS,1/2 100M,142086,,,Cinta,Serafin
+object
 3544,CINTA 1 METRICA,8m-26,33994840,,,Cinta,Serafin
-3596,CINTA 1 PULGADAS,25,90178000,,,Cinta,Serafin
+object
+3596,CINTA 1 PULGADAS,25',90178000,,,Cinta,Serafin
+object
 4158,CINTA 1/2 X 50ME FBG,TP50ME,12640,,,Cinta,Serafin
+object
 4159,CINTA 1/2X100MT C/MA,TFC100ME,12645,,,Cinta,Serafin
+object
 4160,CINTA 1/2X50MT C/MAN,TFC50ME,12647,,,Cinta,Serafin
+object
 4161,CINTA 1/2X50MT C/MAN,CRUCE50,12649,,,Cinta,Serafin
+object
 4072,CINTA 3/4,16,33989840,,,Cinta,Serafin
+object
 518,CINTA DESTAPE 1/2,25,5025V,,,Cinta,Serafin
+object
 517,CINTA DESTAPE 1/2,50,5050V,,,Cinta,Serafin
+object
 522,CINTA DESTAPE 1/2,75,5075V,,,Cinta,Serafin
+object
 519,CINTA DESTAPE 1/4,25,10225,,,Cinta,Serafin
+object
 2704,CINTA DESTAPE 3/4,25,6025V,,,Cinta,Serafin
+object
 1524,CINTA DESTAPE 3/4,50,6050V,,,Cinta,Serafin
+object
 1527,CINTA DESTAPE 3/4,75,6075,,,Cinta,Serafin
+object
 4656,CINTA HB/SMITH 1,25,79425,,,Cinta,Serafin
+object
 6008,CINTA HB/SMITH 1 1/4,33,79433,,,Cinta,Serafin
+object
 3952,CINTA HB/SMITH 3/4,16,70316,,,Cinta,Serafin
+object
 3937,CINTA HB/SMITH 3/4,12,79312,,,Cinta,Serafin
+object
 425,CINTA HBSMITH 1/2-12,,,,,Cinta,Serafin
+object
 521,CINTA PERFORADA,,,,,Cinta,Serafin
-4163,CINTA SURTEK  16X1,5MT 16,B122071,,,Cinta,Serafin
+object
+4163,CINTA SURTEK  16'X1,5MT 16',B122071,,,Cinta,Serafin
+object
 5554,CITRONELA BUCKETS,6/ 18 OZ,42496,,,Citronela,Serafin
+object
 5555,CITRONELA BUGS AWAY,12/ 5 OZ,6,,,Citronela,Serafin
+object
 5556,CITRONELA CANDLES,6/ 3 OZ,43127,,,Citronela,Serafin
+object
 5557,CITRONELA DECK LYTES,2 OZ /4P,40238,,,Citronela,Serafin
+object
 5553,CITRONELA EMERGENCY,8/ 3 OZ,44782,,,Citronela,Serafin
+object
 5260,CLAVO ACERO IMP,2,,,,Clavo,Serafin
+object
 5261,CLAVO ACERO IMP,3,,,,Clavo,Serafin
+object
 5482,CLAVO ACERO IMP,1 1/2,,,,Clavo,Serafin
+object
 4878,CLAVO ACERO IMP,2 1/2,,,,Clavo,Serafin
+object
 5262,CLAVO ACERO IMP,3 1/2,,,,Clavo,Serafin
+object
 863,CLAVO CORR,1,,,,Clavo,Serafin
+object
 868,CLAVO CORR,2,,,,Clavo,Serafin
+object
 870,CLAVO CORR,3,,,,Clavo,Serafin
+object
 872,CLAVO CORR,4,,,,Clavo,Serafin
+object
 5001,CLAVO CORR,3/4,,,,Clavo,Serafin
+object
 867,CLAVO CORR,1.5,,,,Clavo,Serafin
+object
 869,CLAVO CORR,2.5,,,,Clavo,Serafin
+object
 871,CLAVO CORR,3.5,,,,Clavo,Serafin
+object
 864,CLAVO CORR,1,S/C,,,Clavo,Serafin
+object
 876,CLAVO CORR,2,S/C,,,Clavo,Serafin
+object
 866,CLAVO CORR,1.5,S/C,,,Clavo,Serafin
+object
 883,CLAVO FUKO,1,# 10 1/2,,,Clavo,Serafin
+object
 886,CLAVO FUKO,2,# 10 1/2,,,Clavo,Serafin
+object
 888,CLAVO FUKO,3,# 10 1/2,,,Clavo,Serafin
+object
 882,CLAVO FUKO,3/4,# 10 1/2,,,Clavo,Serafin
+object
 885,CLAVO FUKO,1.5,# 10 1/2,,,Clavo,Serafin
+object
 884,CLAVO FUKO,1.25,# 10 1/2,,,Clavo,Serafin
+object
 887,CLAVO FUKO,2.5,# 10 1/2,,,Clavo,Serafin
+object
 5501,CLAVO HERRADURA,50MM,,,,Clavo,Serafin
+object
 761,CLAVO HERRADURA,5,-200,,,Clavo,Serafin
+object
 4835,CLAVO HERRADURA,3.5,-200,,,Clavo,Serafin
+object
 4840,CLAVO HERRADURA,4,-200,,,Clavo,Serafin
+object
 4804,CLAVO HERRADURA,4.5,-200,,,Clavo,Serafin
+object
 5587,CLAVO HERRADURA,4.50 GRX,-200,,,Clavo,Serafin
+object
 5662,CLAVO NEGRO 1 1/2 TR,CLC1N,44132,,,Clavo,Serafin
+object
 5661,CLAVO NEGRO 1 TRUPER,CLC1N,44131,,,Clavo,Serafin
+object
 5660,CLAVO NEGRO 3/4 TRUP,CLC3/4C,44130,,,Clavo,Serafin
+object
 5314,CLAVO PANEL,,AZUL,,,Clavo,Serafin
+object
 838,CLAVO PANEL,,BEIGE,,,Clavo,Serafin
+object
 835,CLAVO PANEL,,BLANCO,,,Clavo,Serafin
+object
 836,CLAVO PANEL,,D/ BROWN,,,Clavo,Serafin
+object
 840,CLAVO PANEL,,GOLD,,,Clavo,Serafin
+object
 837,CLAVO PANEL,,L-BROWN,,,Clavo,Serafin
+object
 839,CLAVO PANEL,,NEGRO,,,Clavo,Serafin
+object
 5315,CLAVO PANEL,,WALNUT,,,Clavo,Serafin
+object
 782,CLAVO PISTOLA,3,,,,Clavo,Serafin
+object
 781,CLAVO PISTOLA,2.5,,,,Clavo,Serafin
+object
 776,CLAVO PISTOLA,3/4,H-90,,,Clavo,Serafin
+object
 777,CLAVO PISTOLA,1,H-91,,,Clavo,Serafin
+object
 778,CLAVO PISTOLA,1.25,H-92,,,Clavo,Serafin
+object
 779,CLAVO PISTOLA,1.5,H-93,,,Clavo,Serafin
+object
 780,CLAVO PISTOLA,2,H-94,,,Clavo,Serafin
+object
 787,CLAVO PISTOLA,,OJO,,,Clavo,Serafin
+object
 6149,CLAVO PISTOLA GOMA,3/4,ARANDELA,,,Clavo,Serafin
+object
 6147,CLAVO PISTOLA GOMA,1.5,ARANDELA,,,Clavo,Serafin
+object
 6148,CLAVO PISTOLA GOMA,1.25,ARANDELA,,,Clavo,Serafin
+object
 6075,CLAVO PISTOLA GOMA,1,D-100,,,Clavo,Serafin
+object
 6076,CLAVO PISTOLA GOMA,11/02/21,D-150,,,Clavo,Serafin
+object
 6074,CLAVO PISTOLA GOMA,03/04/21,D75,,,Clavo,Serafin
+object
 796,CLAVO PRIMUS,35 MM,1 1/2,,,Clavo,Serafin
+object
 795,CLAVO PRIMUS,30MM,1 1/4,,,Clavo,Serafin
+object
 794,CLAVO PRIMUS,25MM,1,,,Clavo,Serafin
+object
 798,CLAVO PRIMUS,40MM,2,,,Clavo,Serafin
+object
 793,CLAVO PRIMUS,20MM,03/04/21,,,Clavo,Serafin
+object
 973,CLAVO ROSCA 3/4R-,1,JS2025,,,Clavo,Serafin
+object
 783,CLAVO ROSCA 3/4R- 03,1.25,,,,Clavo,Serafin
+object
 753,CLAVO SALOMONICO,2,,,,Clavo,Serafin
-4895,CLAVO ZINC 44LB,2 1/2,MEX,,,Clavo,Serafin
+object
+4895,CLAVO ZINC 44LB,2 1/2'',MEX,,,Clavo,Serafin
+object
 4890,CLAVO ZINK 50LB,2 1/2,CHINA,,,Clavo,Serafin
+object
 520,CLIP FREGADERO (6),# 1,ALUM,,,Clip,Serafin
+object
 523,CLIP FREGADERO (6),# 4 ELKA,HEAVY,,,Clip,Serafin
+object
 672,CLIP JAULA (GRAPA),,J CLIP,,,Clip,Serafin
+object
 818,CLIP SCREEN ALUMINIO,,CORTO,,,Clip,Serafin
+object
 816,CLIP SCREEN ALUMINIO,,LARGO,,,Clip,Serafin
+object
 819,CLIP SCREEN BLANCO,,CORTO,,,Clip,Serafin
+object
 817,CLIP SCREEN BLANCO,,LARGO,,,Clip,Serafin
+object
 1227,CLIP SCREEN plastico,,CORTO,,,Clip,Serafin
+object
 1193,CLIP SCREEN plastico,,LARGO,,,Clip,Serafin
-5658,COA ACERO 55,BACO140,19987,,,Coa,Serafin
+object
+5658,COA ACERO 55'',BACO140,19987,,,Coa,Serafin
+object
 5003,COA BEST VALUE,2.5 LB,SIN CABO,,,Coa,Serafin
-5223,COA C/CABO,4,130701,,,Coa,Serafin
+object
+5223,COA C/CABO,4'',130701,,,Coa,Serafin
+object
 6429,COA C/CABO,T/NA,550/595,,,Coa,Serafin
+object
 5196,COA C/CABO TRUPER,SCR4,18650,,,Coa,Serafin
+object
 5047,COA C/CABO TRUPER,7,18652,,,Coa,Serafin
+object
 5051,COA C/CABO TRUPER,8,19880,,,Coa,Serafin
+object
 5002,COA S/CABO,T/NA,77550/95,,,Coa,Serafin
+object
 4238,CODO,1/2,BRONCE,,,Codo,Serafin
+object
 5187,CODO,3/4,BRONCE,,,Codo,Serafin
+object
 6225,CODO,01/04/21,BRONCE,,,Codo,Serafin
+object
 6081,CODO,03/08/21,BRONCE,,,Codo,Serafin
-683,CORDER ROPA POLY,100,POLY,,,Corder,Serafin
+object
+683,CORDER ROPA POLY,100',POLY,,,Corder,Serafin
+object
 678,COLLAR PERRO,GDE,,,,Collar,Serafin
+object
 677,COLLAR PERRO,MED,UPC01A,,,Collar,Serafin
+object
 676,COLLAR PERRO,PEQ,UPC03C,,,Collar,Serafin
+object
 6708,COLLAR PERRO NYLON,24/26/28,1,,,Collar,Serafin
+object
 6704,COLLAR PERRO NYLON,18/20/22,01/16/21,,,Collar,Serafin
+object
 6700,COLLAR PERRO NYLON,14/16/18,1/2/2012,,,Collar,Serafin
+object
 608,COMB SWITCH IVORY,,5225I,,,Comb Switch,Serafin
+object
 614,COMB SWITCH IVORY,46001,COAP-S,,,Comb Switch,Serafin
+object
 6511,COMB SWITCH IVORY CH,,,,,Comb Switch,Serafin
+object
 6118,COMB SWITCH WHITE,,5225W,,,Comb Switch,Serafin
+object
 6501,COMB SWITCH WHITE CH,,U18,,,Comb Switch,Serafin
+object
 5131,COMELON,2 TON,,,,Comelón,Serafin
+object
 5132,COMELON,4 TON,,,,Comelón,Serafin
+object
 5135,COMELON CADENA,1 1/2 TO,16842,,,Comelón,Serafin
+object
 5134,COMELON TOLSEN,2 TON,62442,,,Comelón,Serafin
+object
 427,COMP AD HEMBRA TW,1/2-3/8,,,,Comp,Serafin
+object
 448,COMP AD HEMBRA TW,3/4,LF,,,Comp,Serafin
+object
 1778,COMP AD HEMBRA TW,1/2,R1116C,,,Comp,Serafin
+object
 417,COMP AD HEMBRA USA,1/2,66A-10,,,Comp,Serafin
+object
 416,COMP AD HEMBRA USA,3/4,66A-14,,,Comp,Serafin
+object
 428,COMP AD HEMBRA USA,3/8,66A-6C,,,Comp,Serafin
+object
 447,COMP AD MACHO,1/4,,,,Comp,Serafin
+object
 6217,COMP AD MACHO,01/08/21,68A-2A,,,Comp,Serafin
+object
 1779,COMP AD MACHO TW,3/8,,,,Comp,Serafin
+object
 1783,COMP AD MACHO TW,1/2,1117C,,,Comp,Serafin
+object
 449,COMP AD MACHO TW,3/4,LF,,,Comp,Serafin
+object
 431,COMP AD MACHO TW,1/2-3/8,LF,,,Comp,Serafin
+object
 402,COMP AD MACHO USA,1/2,68A-10,,,Comp,Serafin
+object
 413,COMP AD MACHO USA,3/4,68A-14,,,Comp,Serafin
+object
 432,COMP AD MACHO USA,3/8,68A-6C,,,Comp,Serafin
+object
 6293,COMP AD HEMBRA USA,1/2-3/8,66A-6D,,,Comp,Serafin
+object
 433,COMP ANILLA SOLA,3/4,60A-14,,,Comp,Serafin
+object
 435,COMP ANILLA SOLA,3/16,60A-3,,,Comp,Serafin
+object
 436,COMP ANILLA SOLA,1/4,60A-4,,,Comp,Serafin
+object
 437,COMP ANILLA SOLA,3/8,60A-6,,,Comp,Serafin
+object
 468,COMP ANILLA SOLA,1/4,PVC,,,Comp,Serafin
+object
 438,COMP ANILLA SOLA,1/2,R1110B,,,Comp,Serafin
+object
 434,COMP ANILLA SOLA  PV,3/8,PVC,,,Comp,Serafin
+object
 6438,COMP CAP,1/4,,,,Comp,Serafin
+object
 5082,COMP CAP,3/8,N5CT-6,,,Comp,Serafin
+object
 451,COMP CODO HEMBRA TW,1/2,P70-108,,,Comp,Serafin
+object
 441,COMP CODO HEMBRA US,1/2,70A-10,,,Comp,Serafin
+object
 450,COMP CODO MACHO TW,1/2,69-108,,,Comp,Serafin
+object
 440,COMP CODO MACHO USA,1/2,69A-10,,,Comp,Serafin
+object
 1782,COMP CODO TW,3/4,,,,Comp,Serafin
+object
 666,COMP CODO TW,1/2,1115BB,,,Comp,Serafin
+object
 418,COMP CODO TW,3/8,65-CB,,,Comp,Serafin
+object
 705,COMP CODO TW,1/4,R1115D,,,Comp,Serafin
+object
 6437,COMP CODO USA,3/8,,,,Comp,Serafin
+object
 419,COMP CODO USA,1/2,65A-10,,,Comp,Serafin
+object
 420,COMP CODO USA,3/4,65A-1414,,,Comp,Serafin
+object
 6646,COMP FLEX DELTA  H/C,20 SS,R1216BB,,,Comp,Serafin
+object
 6029,COMP FLEX DELTA SS T,20,48037,,,Comp,Serafin
+object
 5083,COMP INSERT LF,1/4,60AE-4,,,Comp,Serafin
+object
 5133,COMP INSERT LF,3/8,60AE-6,,,Comp,Serafin
+object
 463,COMP LLAVE ANG LF,1/2,18-003LF,,,Comp,Serafin
+object
 421,COMP LLAVE ANG TW,1/2,,,,Comp,Serafin
+object
 426,COMP LLAVE ANG USA,1/2 LF,OCR19TZX,,,Comp,Serafin
+object
 1151,COMP LLAVE CUNA TW,1/2,,,,Comp,Serafin
+object
 442,COMP LLAVE PASO TW,1/2,R212A,,,Comp,Serafin
+object
 1133,COMP LLAVE PASO,3/4,R212B,,,Comp,Serafin
+object
 2196,COMP LLAVE PASO BOLA,1/2,107-023N,,,Comp,Serafin
+object
 2209,COMP LLAVE PASO LF,1/2,3401758,,,Comp,Serafin
+object
 6107,COMP TEE MACHO,01/02/21,72A-10,,,Comp,Serafin
+object
 408,COMP TEE RED USA,3/8-1/4,64A-664,,,Comp,Serafin
+object
 1776,COMP TEE TW,3/8,1114AA,,,Comp,Serafin
+object
 1777,COMP TEE TW,1/2,1114BB,,,Comp,Serafin
+object
 6230,COMP TEE TW,1/4,R1114F,,,Comp,Serafin
+object
 423,COMP TEE TW,3/4,TW,,,Comp,Serafin
+object
 406,COMP TEE USA,1/2,64A-10,,,Comp,Serafin
+object
 404,COMP TEE USA,3/4,64A-1414,,,Comp,Serafin
+object
 405,COMP TEE USA,3/8,64A-66,,,Comp,Serafin
+object
 415,COMP TUERCA,3/4,61A-14,,,Comp,Serafin
+object
 401,COMP TUERCA,3/8,61A-6,,,Comp,Serafin
+object
 414,COMP TUERCA LF,1/2,61A-10,,,Comp,Serafin
+object
 453,COMP TUERCA TW,1/4,,,,Comp,Serafin
+object
 6425,COMP UNION,3/16,,,,Comp,Serafin
+object
 6108,COMP UNION,01/08/21,62A-22,,,Comp,Serafin
+object
 2151,COMP UNION  TW,1/2,999010,,,Comp,Serafin
+object
 6064,COMP UNION RED TW,1/2-3/8,,,,Comp,Serafin
+object
 6059,COMP UNION RED TW,3/8-1/4,,,,Comp,Serafin
+object
 85,COMP UNION TW,03/08/21,84758200,,,Comp,Serafin
+object
 6057,COMP UNION TW,3/4,LF,,,Comp,Serafin
+object
 452,COMP UNION TW,5/16,P-62-5,,,Comp,Serafin
+object
 6229,COMP UNION TW LF,1/4,R1113A,,,Comp,Serafin
+object
 6180,COMP UNION USA,03/16/21,62-3,,,Comp,Serafin
+object
 409,COMP UNION USA,1/4,62A-44,,,Comp,Serafin
+object
 422,COMP UNION USA,5/16,62A-55,,,Comp,Serafin
+object
 410,COMP UNION USA,3/8,62A-66,,,Comp,Serafin
+object
 412,COMP UNION USA,3/4,62A141,,,Comp,Serafin
+object
 6007,COMPRESOR AIRE 12V,COMP12P,21689,,,Compresor,Serafin
+object
 5342,CONECTOR EMT,3/4,,,,Conector,Serafin
+object
 539,CONECTOR EMT,1/2,300,,,Conector,Serafin
+object
 540,CONECTOR UF,03/08/21,135,,,Conector,Serafin
-8,CONO SEGURIDAD 27.5,CONO70R,13123,,,Cono,Serafin
-17,CONO SEGURIDAD 35,CONO90R,13127,,,Cono,Serafin
+object
+8,CONO SEGURIDAD 27.5',CONO70R,13123,,,Cono,Serafin
+object
+17,CONO SEGURIDAD 35'',CONO90R,13127,,,Cono,Serafin
+object
 547,CONTAC CEMENT,QTO,ROJO,,,Contac,Serafin
+object
 709,CONTINUOS WASTE PVC,TW,CENTRO,,,PVC,Serafin
+object
 710,CONTINUOS WASTE PVC,,ESQ,,,PVC,Serafin
+object
 4408,COPA MAGNETICA,1/4,15111,,,Copa Magnética,Serafin
+object
 4409,COPA MAGNETICA,5/16,15112,,,Copa Magnética,Serafin
+object
 4410,COPA MAGNETICA,3/8,15113,,,Copa Magnética,Serafin
+object
 6390,COPA MAGNETICA,1/4,608-560,,,Copa Magnética,Serafin
+object
 6391,COPA MAGNETICA,5/16,608-564,,,Copa Magnética,Serafin
+object
 2795,COPA MAGNETICA SWD,3/8,,,,Copa Magnética,Serafin
+object
 704,COPA MAGNETICA SWD,5/16,,,,Copa Magnética,Serafin
+object
 707,COPA MAGNETICA SWD,1/4,CM14,,,Copa Magnética,Serafin
+object
 4628,COPA WING NUT,,,,,Copa Wing Nut,Serafin
-6518,CORDEL ROPA FORRADO,3.5X50,VERDE,,,Cordel,Serafin
-682,CORDER ROPA  PLAST,50,24/50,,,Corder,Serafin
-6517,CORDER ROPA FORRADO,3.5X100,VERDE,,,Corder,Serafin
-6567,CORDER ROPA FORRADO,5.0X100,VERDE,,,Correa,Serafin
+object
+6518,CORDEL ROPA FORRADO,3.5X50',VERDE,,,Cordel,Serafin
+object
+682,CORDER ROPA  PLAST,50',24/50',,,Corder,Serafin
+object
+6517,CORDER ROPA FORRADO,3.5X100',VERDE,,,Corder,Serafin
+object
+6567,CORDER ROPA FORRADO,5.0X100',VERDE,,,Correa,Serafin
+object
 3970,CORREA ESLINGA C/GAN,2 X 5.8M,18344,,,Correa,Serafin
+object
 3969,CORREA ESLINGA OJO,4 X 19,17477,,,Corta,Serafin
+object
 3662,CORTA CERAMICA,14 PULG,CAZ-33,,,Corta,Serafin
+object
 3664,CORTA CERAMICA,17 PULG,CAZ-40,,,Corta,Serafin
+object
 524,CORTA CERAMICA,40,POCKET,,,Corta,Serafin
+object
 6110,CORTA CERAMICA,50,POCKET,,,Corta,Serafin
+object
 2348,CORTA CERAMICA,14 PULG,TS-30,,,Corta,Serafin
+object
 2349,CORTA CERAMICA,16 PULG,TS-40,,,Corta,Serafin
+object
 6286,CORTA CERAMICA,22 PULG,TS-50,,,Corta,Serafin
+object
 2350,CORTA CERAMICA,25 PULG,TS-60,,,Corta,Serafin
+object
 2786,CORTADOR MALEZA,WEC-14,19683,,,Cortador Maleza,Serafin
+object
 4587,CORTATUBO,COT30E,12851,,,Cortatubo,Serafin
+object
 4422,CORTATUBO,1/8-11/8,350F,,,Cortatubo,Serafin
+object
 4570,CORTATUBO,,64104,,,Cortatubo,Serafin
+object
 504,CORTATUBO,2,701,,,Cortatubo,Serafin
+object
 503,CORTATUBO,,725,,,Cortatubo,Serafin
+object
 5169,CORTATUBO,2 QUICK,750,,,Cortatubo,Serafin
+object
 4490,CORTATUBO,32mm,COT-32,,,Cortatubo,Serafin
+object
 4491,CORTATUBO,50mm,COT-50,,,Cortatubo,Serafin
+object
 4489,CORTATUBO,30mm,COT30,,,Cortatubo,Serafin
+object
 508,CORTATUBO (MINI) TW,,,,,Cortatubo,Serafin
+object
 4579,CORTATUBO ECO,COTP,20960,,,Cortatubo,Serafin
+object
 1649,CORTATUBO HD TW,,,,,Cortatubo,Serafin
+object
 6333,CORTATUBO MINI,SULTEK,121153,,,Cortatubo,Serafin
+object
 4421,CORTATUBO MINI,,64100,,,Cortatubo,Serafin
+object
 502,CORTATUBO MINI,,722,,,Cortatubo,Serafin
+object
 4488,CORTATUBO MINI,16mm,COT-16,,,Cortatubo,Serafin
+object
 4098,CORTATUBO MINI TOLSE,,33003,,,Cortatubo,Serafin
+object
 4047,CORTATUBO TOLSEN,,33004,,,Cortatubo,Serafin
+object
 507,CORTATUBO TW,,,,,Cortatubo,Serafin
+object
 4405,CORTATUBO TW,,37-013-1,,,Cortatubo,Serafin
+object
 6364,CPVC AD  MACHO,1/2,,,,CPVC,Serafin
+object
 6365,CPVC AD  MACHO,3/4,,,,CPVC,Serafin
+object
 6374,CPVC AD HEMBRA,1/2,,,,CPVC,Serafin
+object
 6375,CPVC AD HEMBRA,3/4,,,,CPVC,Serafin
+object
 6366,CPVC CAP,1/2,,,,Cap,Serafin
+object
 6367,CPVC CAP,3/4,,,,Cap,Serafin
+object
 6376,CPVC CODO,1/2,,,,Codo,Serafin
+object
 6377,CPVC CODO,3/4,,,,Codo,Serafin
+object
 6382,CPVC CODO C/ROSCA OR,1/2,,,,Codo,Serafin
+object
 6381,CPVC CURVA,1/2,,,,Curva,Serafin
+object
 6523,CPVC CURVA,3/4,,,,Curva,Serafin
+object
 6434,CPVC CURVA NIPLE,3/4,,,,Curva,Serafin
+object
 6428,CPVC LLAVE BOLA,1/2,35-002-1,,,Llave,Serafin
+object
 6430,CPVC LLAVE BOLA,3/4,CPVC-462,,,Llave,Serafin
+object
 6573,CPVC PEGA,1/2 pt,,,,Pega,Serafin
+object
 6378,CPVC PEGA,1/4 PT,,,,Pega,Serafin
+object
 6372,CPVC RED BUSH,3/4-1/2,,,,Red Bush,Serafin
+object
 6370,CPVC TEE,1/2,,,,Tee,Serafin
+object
 6371,CPVC TEE,3/4,,,,Tee,Serafin
+object
 6544,CPVC TEE RED,3/4 X1/2,,,,Tee,Serafin
+object
 6538,CPVC TRANS AL HEMBRA,03/04/21,,,,CPVC,Serafin
+object
 6540,CPVC TRANS AL MACHO,3/4,,,,CPVC,Serafin
+object
 6453,CPVC TRANS BR HEMBRA,1/2,,,,CPVC,Serafin
+object
 6444,CPVC TRANS BR MACHO,1/2,,,,CPVC,Serafin
+object
 6541,CPVC TRANS SS CODO,1/2,ROSCA,,,CPVC,Serafin
+object
 6537,CPVC TRANS SS HEMBRA,01/02/21,,,,CPVC,Serafin
+object
 6539,CPVC TRANS SS MACHO,01/02/21,,,,CPVC,Serafin
+object
 6379,CPVC TUBO,1/2 X 10,,,,Tubo,Serafin
+object
 6373,CPVC TUBO,3/4 X 10,,,,Tubo,Serafin
+object
 6368,CPVC UNION,1/2,,,,Unión,Serafin
+object
 6369,CPVC UNION,3/4,,,,Unión,Serafin
+object
 6543,CPVC UNION UNIV,3/4,,,,Unión,Serafin
+object
 6542,CPVC UNION UNIV,01/02/21,,,,Unión,Serafin
+object
 626,CR CODO,1/2,RQW048B,,,Codo,Serafin
+object
 628,CR TEE,1/2,RQW047B,,,Tee,Serafin
+object
 627,CR UNION,1/2,RQW049B,,,Unión,Serafin
+object
 692,CRAYOLA,,AMARILLO,,,Crayola,Serafin
+object
 699,CRAYOLA,,AZUL,,,Crayola,Serafin
+object
 693,CRAYOLA,,NEGRO,,,Crayola,Serafin
+object
 694,CRAYOLA,,ROJA,,,Crayola,Serafin
+object
 4054,CRISTAL CARETA,,CLEAR,,,Cristal,Serafin
+object
 4053,CRISTAL CARETA,,OSCURO,,,Cristal,Serafin
+object
 668,CRISTAL LAMP,GDE,G04,,,Cristal,Serafin
+object
 550,CRUZETA TUERCA GOMA,LLCR18,15480,,,Tuerca,Serafin
+object
 551,CRUZETA TUERCA GOMA,LLCR20,15481,,,Tuerca,Serafin
+object
 553,CRUZETA TUERCA GOMA,LLCR14X,15484,,,Tuerca,Serafin
+object
 535,CRUZETA TUERCA GOMA,LCR14P,21800,,,Tuerca,Serafin
+object
 537,CRUZETA TUERCA GOMA,LCR18P,21801,,,Tuerca,Serafin
+object
 6440,CTC CAP,1,,,,Cap,Serafin
+object
 336,CTC CAP,1/2,,,,Cap,Serafin
+object
 337,CTC CAP,3/4,,,,Cap,Serafin
+object
 349,CTC CHECK VALVE TW,1/2,SPRING,,,Check Valve,Serafin
+object
 353,CTC CHECK VALVE TW,3/4,SPRING,,,Check Valve,Serafin
+object
 324,CTC CHECK VALVE TW,1/2,TAPITA,,,Check Valve,Serafin
+object
 363,CTC CHECK VALVE TW,1/4,TAPITA,,,Check Valve,Serafin
+object
 376,CTC COBRE,1/4,,,,CTC,Serafin
+object
 702,CTC COBRE,1/8,,,,CTC,Serafin
+object
 377,CTC COBRE,3/8,,,,CTC,Serafin
+object
 80,CTC COBRE,5/16,,,,CTC,Serafin
+object
 389,CTC COBRE,5/16,,,,CTC,Serafin
+object
 386,CTC COBRE,1/2,K,,,CTC,Serafin
+object
 385,CTC COBRE,1/4,K,,,CTC,Serafin
-398,CTC COBRE,1/2 X 30,L X 30,,,CTC,Serafin
-378,CTC COBRE,1/2,L X 60,,,CTC,Serafin
-379,CTC COBRE,3/4,L X 60,,,CTC,Serafin
+object
+398,CTC COBRE,1/2 X 30,L X 30',,,CTC,Serafin
+object
+378,CTC COBRE,1/2,L X 60',,,CTC,Serafin
+object
+379,CTC COBRE,3/4,L X 60',,,CTC,Serafin
+object
 397,CTC COBRE,1/2 X 50,R ID,,,CTC,Serafin
+object
 3585,CTC COBRE RIGIDO,1/2 L,10 PIES,,,CTC,Serafin
+object
 395,CTC COBRE RIGIDO,1/2 M,10 PIES,,,CTC,Serafin
+object
 3586,CTC COBRE RIGIDO,3/4 L,10 PIES,,,CTC,Serafin
+object
 396,CTC COBRE RIGIDO,3/4 M,10 PIES,,,CTC,Serafin
+object
 455,CTC COBRE RIGIDO,3/4 M,20 PIES,,,CTC,Serafin
-411,CTC COBRE VIETNAM,1/2,K X 60,,,CTC,Serafin
-407,CTC COBRE VIETNAM,1/2,L X 30,,,CTC,Serafin
-400,CTC COBRE VIETNAM,1/2,L X 60,,,CTC,Serafin
+object
+411,CTC COBRE VIETNAM,1/2,K X 60',,,CTC,Serafin
+object
+407,CTC COBRE VIETNAM,1/2,L X 30',,,CTC,Serafin
+object
+400,CTC COBRE VIETNAM,1/2,L X 60',,,CTC,Serafin
+object
 1291,CTC CODO,1,,,,Codo,Serafin
+object
 325,CTC CODO,1/2,,,,Codo,Serafin
+object
 338,CTC CODO,3/4,,,,Codo,Serafin
+object
 341,CTC CODO,3/4-1/2,,,,Codo,Serafin
+object
 1165,CTC CODO NIPLE,1/2,,,,Niples,Serafin
+object
 5072,CTC CURVA,1/2,,,,Curva,Serafin
+object
 5073,CTC CURVA,3/4,,,,Curva,Serafin
+object
 4178,CTC D/COUPLING MIPAD,3/4,,,,D/Coupling,Serafin
+object
 2535,CTC D/COUPLING MIPAD,1/2,BZ-PJ0,,,D/Coupling,Serafin
+object
 1532,CTC GRAPA,1/2,COBRE,,,Grapa,Serafin
+object
 1533,CTC GRAPA,3/4,COBRE,,,Grapa,Serafin
+object
 5112,CTC LLAVE BOLA,3/4,,,,Llave,Serafin
+object
 4936,CTC LLAVE BOLA B&K,1/2,107-843N,,,Llave,Serafin
+object
 4998,CTC LLAVE BOLA B&K,3/4,107-844N,,,Llave,Serafin
+object
 5119,CTC LLAVE BOLA BUGAT,3/4,90760134,,,Llave,Serafin
+object
 5113,CTC LLAVE BOLA BUGAT,1/2,92760112,,,Llave,Serafin
+object
 5121,CTC LLAVE BOLA SWD,1/2 LF,135GR,,,Llave,Serafin
+object
 5120,CTC LLAVE BOLA USA,1/2,64203,,,Llave,Serafin
+object
 1842,CTC LLAVE CUNA,1/2,,,,Llave,Serafin
+object
 1844,CTC LLAVE CUNA,3/4,,,,Llave,Serafin
+object
 330,CTC LLAVE CUNA,1/2,TW,,,Llave,Serafin
+object
 331,CTC LLAVE CUNA,3/4,TW,,,Llave,Serafin
+object
 2232,CTC LLAVE CUNA WATTS,3/4,,,,Llave,Serafin
+object
 329,CTC LLAVE PASO,3/4,,,,Llave,Serafin
+object
 369,CTC LLAVE PASO,3/4,,,,Llave,Serafin
+object
 328,CTC LLAVE PASO B&K,1/2,105-503N,,,Llave,Serafin
+object
 2208,CTC LLAVE PASO LF,1/2,800SWBCL,,,Llave,Serafin
+object
 2207,CTC LLAVE PASO LF,3/4,825SWBCL,,,Llave,Serafin
+object
 4872,CTC LLAVE PASO SWD,1/2,200GR,,,Llave,Serafin
+object
 327,CTC LLAVE PASO TW,1/2,R204A,,,Llave,Serafin
+object
 6041,CTC RED BUSH,1 3/4,,,,Red Bush,Serafin
+object
 3538,CTC RED BUSH,3/4-1/2,,,,Red Bush,Serafin
+object
 3540,CTC RED BUSH FLUSH,3/4-1/2,,,,Red Bush,Serafin
+object
 6343,CTC RED COPA,1 1/2,,,,Red Copa,Serafin
+object
 6426,CTC RED COPA,1 3/4,,,,Red Copa,Serafin
+object
 339,CTC RED COPA,3/4-1/2,,,,Red Copa,Serafin
+object
 1279,CTC TEE,1,,,,Tee,Serafin
+object
 333,CTC TEE,1/2,,,,Tee,Serafin
+object
 334,CTC TEE,3/4,,,,Tee,Serafin
+object
 3587,CTC TEE 1/2 X 1/2,3/4,,,,Tee,Serafin
+object
 352,CTC TEE 3/4 X 1/2,1/2,,,,Tee,Serafin
+object
 430,CTC TEE 3/4 X 1/2,3/4,,,,Tee,Serafin
+object
+CSV data is 
+1530
+[ 'ItemNumber',
+  'ALU',
+  'Size',
+  'Attr',
+  'Genero',
+  'SubGenero',
+  'Producto',
+  'Distribuidora' ]
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('ItemNumber','ALU','Size','Attr','Genero','SubGenero','Producto','Distribuidora')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES (' ',' ',' ',' ',' ',' ',' ',' ')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES (' ',' ',' ',' ',' ',' ',' ',' ')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('444',' ',' ',' ',' ',' ',' ','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('703',' ',' ',' ',' ',' ',' ','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('2380',' ',' ',' ',' ',' ',' ','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('4017','MANECILLA UNIVERSAL',' ',' ',' ',' ',' ','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('4249',' ',' ',' ',' ',' ',' ','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('4918',' ',' ',' ',' ',' ',' ','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('6254',' ',' ',' ',' ',' ',' ','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('2481','MESC BIDET LF','MEIJIE','860911CP',' ',' ',' ','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('3584','NIPLE 3/8','5','BRASS','3','11','Niples','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('3595','NIPLE 3/8','2 1/2','BRASS','3','11','Niples','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('2375',' ','2','ROSCA',' ',' ',' ','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('1407',' ','4','S/STEEL',' ',' ',' ','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('2287','ABRASADERA INCORP','4 1/2',' ','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('2544','ABRASADERA MANGA','4',' ','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('36','ABRASADERA MANGA','5/8','44230','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('52','ABRASADERA MANGA','1','44231','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('35','ABRASADERA MANGA','1/2','44231','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('53','ABRASADERA MANGA','5/8-7/8','44234','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('37','ABRASADERA MANGA','3/4','44235','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('38','ABRASADERA MANGA','11/4','44236','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('6309','ABRASADERA MANGA (5)','1 3/4','44238','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('6342','ABRASADERA MANGA (5)','2','44239','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('6308','ABRASADERA MANGA (5)','1 1/2','AB-16','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('6355','ABRASADERA MANGA (5)','2 1/2','AB-32','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('4931','ABRASADERA MANGA','3','AB-40','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('6393','ABRASADERA MANGA (5)','4','AB-56','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('6394','ABRASADERA MANGA (5)','6','AB-88','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('6303','ABRASADERA MANGA','2','M-24 AB','3','11','Abrasaderas','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('30','ACEITE 3-1','3 OZ','10035','3',' ','Aceite','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('66','ACEITE LAMPARA','20 OZ',' ',' ',' ','Aceite','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('4906','ACEITE LAMPARA','32 OZ','COLORES',' ',' ','Aceite','Serafin')
+INSERT INTO prototype_table (ItemNumber,ALU,Size,Attr,Genero,SubGenero,Producto,Distribuidora) VALUES ('3478','ACEITE LUBRICANTE GR',' ','LM-1',' ',' ','Aceite','Serafin')
