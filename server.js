@@ -2,13 +2,15 @@ const mysql = require('mysql2');
 const express = require('express');
 const path  = require('path');
 const app = express();
-
+const {spawn} = require('child_process');
 
 var fs = require('fs');
 var parse = require('csv-parse');
 //var parse = require('csv-parse/lib/sync');
 var csvData=[];
 var reset=false;
+var database_name = "prototype";
+var table_name = database_name + "_table";
 
 
 const absolute_path = __dirname.toString() + "/public";
@@ -21,10 +23,9 @@ var con = mysql.createConnection({
 	host: "localhost",
 	user: "debbido",
 	password: "debbido677357",
-	database: "prototype"
+	database: database_name
 });
 
-var database_name = "prototype";
 function ingest()
 {
 fs.createReadStream("/home/debbido/Desktop/prototype/public/data/listadoSWD.csv")
@@ -52,7 +53,7 @@ fs.createReadStream("/home/debbido/Desktop/prototype/public/data/listadoSWD.csv"
 		//do something with csvData
 		var arr = csvData[1];
 
-		query = "CREATE TABLE prototype_table (";
+		query = "CREATE TABLE " + table_name+ " (";
 		var sql_type = [];
 
 		for(i = 0; i < arr.length; i++)
@@ -86,7 +87,7 @@ fs.createReadStream("/home/debbido/Desktop/prototype/public/data/listadoSWD.csv"
 		      for(let i = 0 ; i<csvData.length; i++)
 		{
 			ingest_query = ""
-		      ingest_query = "INSERT INTO prototype_table (" 
+		      ingest_query = "INSERT INTO " + table_name + " (" 
 		      pre_ingest_query = ""
 		      post_ingest_query = ""
 			for(p = 0;  p < csvData[i].length; p++)
@@ -135,8 +136,114 @@ if(reset==true)
 {
 	ingest();
 }
+create_tree2();
+
+function create_tree2()
+{
+ const python = spawn('python3', ['createTree.py']);
 
 
+}
+
+function create_tree()
+{
+
+	var tree = {"name" : "todo"};
+	var gen_query  = "SELECT DISTINCT Genero FROM " + table_name;
+	con.connect(function(err) {
+			if (err) throw err;
+			con.query(gen_query, function (err, gen_result, fields) {
+				if (err) throw err;
+				console.log(gen_result);
+				console.log
+				var tree = {"name" : "todo"};
+				fs.truncateSync("public/data/sql_tree.json", 0, function(err) {console.log(err);});
+				fs.appendFileSync('public/data/sql_tree.json', '{"name" : "todo", "_children" : [');
+				for(i=0; i<gen_result.length; i++)
+				{
+					for (const [gen_key, gen_value] of Object.entries(gen_result[i])) 
+					{
+						fs.appendFileSync('public/data/sql_tree.json', '\n\t{ "name" : ' + gen_value + ', "_children" : [{');
+						console.log("Key " + gen_key + " - Value " + gen_value);
+						var subgen_query = "SELECT DISTINCT SubGenero FROM " + table_name + " WHERE Genero=\"" + gen_value + "\""; 
+						 con.connect(function(err) {
+							if (err) throw err;
+								con.query(subgen_query, function (err, subgen_result, fields) {
+								if (err) throw err;
+								console.log(subgen_result);
+								for(p = 0; p< subgen_result.length; p++)
+								{
+									for (const [subgen_key, subgen_value] of Object.entries(subgen_result[p])) 
+									{
+										fs.appendFileSync('public/data/sql_tree.json', '\n\t\t{ "name" : ' + subgen_value + ', "_children" : [{');
+										var prod_query = "SELECT DISTINCT Producto FROM " + table_name + " WHERE Genero=\"" + gen_value + "\" AND SubGenero=\"" + subgen_value + "\""; 
+										con.connect(function(err) {
+											if (err) throw err;
+											con.query(prod_query).then(prod_result => {
+												for(k = 0; k < prod_result.length; k++)
+												{
+
+													for (const [prod_key, prod_value] of Object.entries(prod_result[k])) 
+													{	
+														//fs.appendFileSync('public/data/sql_tree.json', '\n\t\t{ "name" : ' + prod_value);
+														console.log(prod_value);
+													}
+//												if(k == prod_result.length - 1 )
+//												{
+//													 fs.appendFileSync('public/data/sql_tree.json', '\n\t\t}');
+//												}
+//												else
+//												{
+//													fs.appendFileSync('public/data/sql_tree.json', '\n\t\t},');
+//										}
+
+
+
+												}
+											});
+										});
+
+									}
+									if(p == subgen_result.length - 1 )
+									{
+										 fs.appendFileSync('public/data/sql_tree.json', '\n\t\t}]}');
+									}
+									else
+									{
+										 fs.appendFileSync('public/data/sql_tree.json', '\n\t\t}]},');
+									}
+
+								}
+							});
+						});
+					
+
+					}
+
+						if(i==gen_result.length - 1)
+						{
+
+							fs.appendFileSync('public/data/sql_tree.json', '\n}]\n}]}');
+						}
+						else
+						{
+
+							fs.appendFileSync('public/data/sql_tree.json', '\n},\n');
+						}
+
+
+				}
+				console.log("Outerloop done");
+
+				console.log("Tree is ");
+				console.log(tree);
+			});
+
+	});
+	console.log("Tree is ");
+	console.log(tree);
+
+}
 
 
 
@@ -151,7 +258,7 @@ app.get('/catalog' , function(req, res){
 app.get("/data", function(req, res){
 
 
-	query = "SELECT * FROM prototype_table";
+	query = "SELECT * FROM " + table_name;
 	con.connect(function(err) {
 		if (err) throw err;
 		con.query(query, function (err, result, fields) {
