@@ -1,7 +1,19 @@
 import mysql.connector
+import json
 # Some other example server values are
 # server = 'localhost\sqlexpress' # for a named instance
 # server = 'myserver,port' # to specify an alternate port
+
+def simplify(text):
+        import unicodedata
+        try:
+            text = unicode(text, 'utf-8')
+        except NameError:
+            pass
+        text = unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode("utf-8")
+        return str(text)
+
+
 database = 'prototype' 
 username = 'debbido' 
 password = 'debbido677357' 
@@ -39,16 +51,19 @@ for genero in cursor:
         query = ("SELECT DISTINCT Producto FROM " + table_name + " WHERE Genero=\"" + genero[0] + "\" AND SubGenero=\"" + subGenero[0]+ "\"")
         cursor3.execute(query)
         for prod in cursor3:
-            subGenTree["_children"]+=prod
+            subGenTree["_children"].append({"name" : simplify(prod[0])})
         cursor3.close()
         generoArr.append(subGenTree)
         print("SubGenTree is " + str(subGenTree))
-    root["_children"].append(generoArr)
+    root["_children"] = generoArr
     cursor2.close()
 
 print("Genero Arr")
 print(generoArr)
 
 print(root)
+
+with open('sql_tree.json', 'w') as outfile:
+        json.dump(root, outfile, indent=4)
 cursor.close()
 cnx.close()
