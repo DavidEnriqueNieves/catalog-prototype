@@ -3,6 +3,9 @@ const express = require('express');
 const path  = require('path');
 const app = express();
 const {spawn} = require('child_process');
+const cors = require('cors');
+
+app.use(cors())
 
 var fs = require('fs');
 var parse = require('csv-parse');
@@ -257,19 +260,38 @@ app.get('/catalog' , function(req, res){
 
 app.get("/data", function(req, res){
 
-
+	console.log(req);
 	query = "SELECT * FROM " + table_name;
 	con.connect(function(err) {
 		if (err) throw err;
 		con.query(query, function (err, result, fields) {
 			if (err) throw err;
-			console.log(result);
+			console.log(req)
 			res.send(result);
 
 		});
 	});
 
 });
+
+app.get("/data2", function(req, res){
+
+	genero = req.query['genero'];
+	subgenero = req.query['subgenero'];
+	prod = req.query['prod'];
+	query = "SELECT * FROM " + table_name + " WHERE SubGenero=\"" + subgenero + "\" AND Genero=\"" + genero + "\" AND Producto=\"" + prod + "\"" ;
+	con.connect(function(err) {
+		if (err) throw err;
+		con.query(query, function (err, result, fields) {
+			if (err) throw err;
+		//	console.log(fields)
+			res.send(result);
+
+		});
+	});
+
+});
+
 
 app.listen(3000);
 
