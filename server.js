@@ -254,6 +254,9 @@ app.get('/' , function(req, res){
 	res.sendFile(path.join(__dirname, '/cloudtable.html'));
 })
 
+
+
+
 app.get('/catalog' , function(req, res){
 	res.sendFile(path.join(__dirname, 'public/data/flares.json'));
 })
@@ -274,6 +277,8 @@ app.get("/data", function(req, res){
 
 });
 
+var query_result = {};
+
 app.get("/data2", function(req, res){
 
 	genero = req.query['genero'];
@@ -284,13 +289,54 @@ app.get("/data2", function(req, res){
 		if (err) throw err;
 		con.query(query, function (err, result, fields) {
 			if (err) throw err;
-		//	console.log(fields)
+			console.log("Sending Data --------------------");
+			console.log(result);
+
+			query_result = [];
+			for(i=0; i<result.length; i++)
+			{
+				var entry = {};
+				for (const [gen_key, gen_value] of Object.entries(result[i]))
+				{
+					console.log(`${gen_key}`, `${gen_value}`);
+					entry[`${gen_key}`] = `${gen_value}`;
+				}
+				query_result.push(entry);
+				console.log(query_result);
+				
+			}
+			console.log(query_result);
+			JSON.stringify(query_result);
+			res.send(query_result);
+		});
+	});
+
+});
+
+
+app.get("/currData", function(req, res){
+	res.send(query_result);
+});
+
+app.get("/test", function(req, res){
+	res.sendFile("/home/debbido/Desktop/prototype/public/data/arrays.txt");
+});
+
+app.get("/keys", function(req, res){
+
+	query = "SELECT * FROM " + table_name + " LIMIT 1";
+	con.connect(function(err) {
+		if (err) throw err;
+		con.query(query, function (err, result, fields) {
+			if (err) throw err;
+			console.log(result);
 			res.send(result);
 
 		});
 	});
 
 });
+
 
 
 app.listen(3000);

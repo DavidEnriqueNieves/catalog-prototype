@@ -1,0 +1,616 @@
+{
+    "name": "03 - Ferreteria",
+    "code": "3",
+    "_children": [
+        {
+            "name": "2 - Micelaneos",
+            "code": "2",
+            "_children": [
+                {
+                    "name": "030200 - ??",
+                    "code": "??"
+                },
+                {
+                    "name": "030201 - Manecilla",
+                    "code": "Manecilla"
+                },
+                {
+                    "name": "030202 - Argolla",
+                    "code": "Argolla"
+                },
+                {
+                    "name": "030203 - Asiento",
+                    "code": "Asiento"
+                },
+                {
+                    "name": "030204 - Balanza",
+                    "code": "Balanza"
+                },
+                {
+                    "name": "030205 - Balas",
+                    "code": "Balas"
+                },
+                {
+                    "name": "030206 - Bandeja",
+                    "code": "Bandeja"
+                },
+                {
+                    "name": "030207 - Barra",
+                    "code": "Barra"
+                },
+                {
+                    "name": "030208 - Tape",
+                    "code": "Tape"
+                },
+                {
+                    "name": "030209 - Bolsa",
+                    "code": "Bolsa"
+                },
+                {
+                    "name": "030210 - Buzon",
+                    "code": "Buz\u00f3n"
+                },
+                {
+                    "name": "030211 - Caja",
+                    "code": "Caja"
+                },
+                {
+                    "name": "030212 - Capa de Agua",
+                    "code": "Capa de Agua"
+                },
+                {
+                    "name": "030213 - Capacete",
+                    "code": "Capacete"
+                },
+                {
+                    "name": "030214 - Caulking Latex",
+                    "code": "Caulking Latex"
+                },
+                {
+                    "name": "030215 - Cernidor",
+                    "code": "Cernidor"
+                },
+                {
+                    "name": "030216 - Citronela",
+                    "code": "Citronela"
+                },
+                {
+                    "name": "030217 - Clip",
+                    "code": "Clip"
+                },
+                {
+                    "name": "030218 - Collar",
+                    "code": "Collar"
+                },
+                {
+                    "name": "030219 - Comb Switch",
+                    "code": "Comb Switch"
+                },
+                {
+                    "name": "030220 - Red Bush",
+                    "code": "Red Bush"
+                },
+                {
+                    "name": "030221 - Tee",
+                    "code": "Tee"
+                },
+                {
+                    "name": "030222 - Crayola",
+                    "code": "Crayola"
+                },
+                {
+                    "name": "030223 - Cristal",
+                    "code": "Cristal"
+                },
+                {
+                    "name": "030224 - Tuerca",
+                    "code": "Tuerca"
+                },
+                {
+                    "name": "030225 - Red Copa",
+                    "code": "Red Copa"
+                }
+            ]
+        },
+        {
+            "name": "11 - Plomeria",
+            "code": "11",
+            "_children": [
+                {
+                    "name": "031100 - Niples",
+                    "code": "Niples"
+                },
+                {
+                    "name": "031101 - Abrasaderas",
+                    "code": "Abrasaderas"
+                },
+                {
+                    "name": "031102 - Sistema ACS",
+                    "code": "Sistema ACS"
+                },
+                {
+                    "name": "031103 -  ",
+                    "code": " "
+                },
+                {
+                    "name": "031104 - AD",
+                    "code": "AD"
+                },
+                {
+                    "name": "031105 - Manga",
+                    "code": "Manga"
+                },
+                {
+                    "name": "031106 - Motor",
+                    "code": "Motor"
+                },
+                {
+                    "name": "031107 - Aereator",
+                    "code": "Aereator"
+                },
+                {
+                    "name": "031108 - Arandela",
+                    "code": "Arandela"
+                },
+                {
+                    "name": "031109 - Automatic Pump Control  Control de Pompas",
+                    "code": "Automatic Pump Control \u2013 Control de Pompas"
+                },
+                {
+                    "name": "031110 - Bola",
+                    "code": "Bola"
+                },
+                {
+                    "name": "031111 - Bomba",
+                    "code": "Bomba"
+                },
+                {
+                    "name": "031112 - Boya",
+                    "code": "Boya"
+                },
+                {
+                    "name": "031113 - Brazo Ducha",
+                    "code": "Brazo Ducha"
+                },
+                {
+                    "name": "031114 - Calentador",
+                    "code": "Calentador"
+                },
+                {
+                    "name": "031115 - Canasto",
+                    "code": "Canasto"
+                },
+                {
+                    "name": "031116 - Cap",
+                    "code": "Cap"
+                },
+                {
+                    "name": "031117 - Cedazo Canasto",
+                    "code": "Cedazo Canasto"
+                },
+                {
+                    "name": "031118 - Cepillera",
+                    "code": "Cepillera"
+                },
+                {
+                    "name": "031119 - Check Valve",
+                    "code": "Check Valve"
+                },
+                {
+                    "name": "031120 - Codo",
+                    "code": "Codo"
+                },
+                {
+                    "name": "031121 - Compresor",
+                    "code": "Compresor"
+                },
+                {
+                    "name": "031122 - Tubo",
+                    "code": "Tubo"
+                },
+                {
+                    "name": "031123 - Union",
+                    "code": "Uni\u00f3n"
+                },
+                {
+                    "name": "031124 - CTC",
+                    "code": "CTC"
+                },
+                {
+                    "name": "031125 - Curva",
+                    "code": "Curva"
+                },
+                {
+                    "name": "031126 - D/Coupling",
+                    "code": "D/Coupling"
+                }
+            ]
+        },
+        {
+            "name": "1 - Herramientas Mecanicas",
+            "code": "1",
+            "_children": [
+                {
+                    "name": "030100 - Aceite",
+                    "code": "Aceite"
+                },
+                {
+                    "name": "030101 - Alicate",
+                    "code": "Alicate"
+                },
+                {
+                    "name": "030102 - Llave",
+                    "code": "Llave"
+                },
+                {
+                    "name": "030103 - Bomba",
+                    "code": "Bomba"
+                },
+                {
+                    "name": "030104 - Bracket",
+                    "code": "Bracket"
+                },
+                {
+                    "name": "030105 - C Clamp",
+                    "code": "C Clamp"
+                },
+                {
+                    "name": "030106 - Sujetacables",
+                    "code": "Sujetacables"
+                },
+                {
+                    "name": "030107 - Cables",
+                    "code": "Cables"
+                },
+                {
+                    "name": "030108 - Comelon",
+                    "code": "Comel\u00f3n"
+                },
+                {
+                    "name": "030109 - Corta Ceramica",
+                    "code": "Corta Cer\u00e1mica"
+                },
+                {
+                    "name": "030110 - Cortador Maleza",
+                    "code": "Cortador Maleza"
+                },
+                {
+                    "name": "030111 - Cortatubo",
+                    "code": "Cortatubo"
+                },
+                {
+                    "name": "030112 - Grapa",
+                    "code": "Grapa"
+                }
+            ]
+        },
+        {
+            "name": "5 - Equipos",
+            "code": "5",
+            "_children": [
+                {
+                    "name": "030500 - Aceite",
+                    "code": "Aceite"
+                },
+                {
+                    "name": "030501 - Aceitera",
+                    "code": "Aceitera"
+                },
+                {
+                    "name": "030502 - Ajuste",
+                    "code": "Ajuste"
+                },
+                {
+                    "name": "030503 - Amarras",
+                    "code": "Amarras"
+                },
+                {
+                    "name": "030504 - Amolador",
+                    "code": "Amolador"
+                },
+                {
+                    "name": "030505 - Angulo",
+                    "code": "Angulo"
+                },
+                {
+                    "name": "030506 - Antorcha",
+                    "code": "Antorcha"
+                },
+                {
+                    "name": "030507 - Anzuelo",
+                    "code": "Anzuelo"
+                },
+                {
+                    "name": "030508 - Arnes",
+                    "code": "Arn\u00e9s"
+                },
+                {
+                    "name": "030509 - Articulo Especial",
+                    "code": "Art\u00edculo Especial"
+                },
+                {
+                    "name": "030510 - Bejuco Pajulla",
+                    "code": "Bejuco Pajulla"
+                },
+                {
+                    "name": "030511 - Berbioui Manaul",
+                    "code": "Berbioui Manaul"
+                },
+                {
+                    "name": "030512 - Botas",
+                    "code": "Botas"
+                },
+                {
+                    "name": "030513 - Corta Frio",
+                    "code": "Corta Fr\u00edo"
+                },
+                {
+                    "name": "030514 - Chalk Line",
+                    "code": "Chalk Line"
+                },
+                {
+                    "name": "030515 - Careta",
+                    "code": "Careta"
+                },
+                {
+                    "name": "030516 - Carretilla",
+                    "code": "Carretilla"
+                },
+                {
+                    "name": "030517 - Carrito",
+                    "code": "Carrito"
+                },
+                {
+                    "name": "030518 - Cartabon",
+                    "code": "Cartab\u00f3n"
+                },
+                {
+                    "name": "030519 - Cartucho Mascarilla",
+                    "code": "Cartucho Mascarilla"
+                },
+                {
+                    "name": "030520 - Cepillo",
+                    "code": "Cepillo"
+                },
+                {
+                    "name": "030521 - Chaleco",
+                    "code": "Chaleco"
+                },
+                {
+                    "name": "030522 - Taladro",
+                    "code": "Taladro"
+                },
+                {
+                    "name": "030523 - Cinta",
+                    "code": "Cinta"
+                },
+                {
+                    "name": "030524 - Cono",
+                    "code": "Cono"
+                },
+                {
+                    "name": "030525 - Cordel",
+                    "code": "Cordel"
+                },
+                {
+                    "name": "030526 - Corder",
+                    "code": "Corder"
+                },
+                {
+                    "name": "030527 - Correa",
+                    "code": "Correa"
+                },
+                {
+                    "name": "030528 - Llave",
+                    "code": "Llave"
+                },
+                {
+                    "name": "030529 - Pega",
+                    "code": "Pega"
+                }
+            ]
+        },
+        {
+            "name": "7 - Ferreteria General",
+            "code": "7",
+            "_children": [
+                {
+                    "name": "030700 - Alambre",
+                    "code": "Alambre"
+                },
+                {
+                    "name": "030701 - Aldaba",
+                    "code": "Aldaba"
+                },
+                {
+                    "name": "030702 - Avellanador",
+                    "code": "Avellanador"
+                },
+                {
+                    "name": "030703 - Barrena",
+                    "code": "Barrena"
+                },
+                {
+                    "name": "030704 - Base",
+                    "code": "Base"
+                },
+                {
+                    "name": "030705 - Cable",
+                    "code": "Cable"
+                },
+                {
+                    "name": "030706 - C/Bola",
+                    "code": "C/Bola"
+                },
+                {
+                    "name": "030707 - Cancamo",
+                    "code": "Cancamo"
+                },
+                {
+                    "name": "030708 - Contac",
+                    "code": "Contac"
+                },
+                {
+                    "name": "030709 - PVC",
+                    "code": "PVC"
+                },
+                {
+                    "name": "030710 - Copa Magnetica",
+                    "code": "Copa Magn\u00e9tica"
+                },
+                {
+                    "name": "030711 - Copa Wing Nut",
+                    "code": "Copa Wing Nut"
+                },
+                {
+                    "name": "030712 - CPVC",
+                    "code": "CPVC"
+                },
+                {
+                    "name": "030713 - Cap",
+                    "code": "Cap"
+                },
+                {
+                    "name": "030714 - Curva",
+                    "code": "Curva"
+                }
+            ]
+        },
+        {
+            "name": "12 - Pesca",
+            "code": "12",
+            "_children": [
+                {
+                    "name": "031200 - Anclaje",
+                    "code": "Anclaje"
+                },
+                {
+                    "name": "031201 - Anzuelo",
+                    "code": "Anzuelo"
+                },
+                {
+                    "name": "031202 - Antorcha",
+                    "code": "Antorcha"
+                },
+                {
+                    "name": "031203 - Cana de Pescar",
+                    "code": "Ca\u00f1a de Pescar"
+                }
+            ]
+        },
+        {
+            "name": "10 - Jardineria",
+            "code": "10",
+            "_children": [
+                {
+                    "name": "031000 - Avellanador",
+                    "code": "Avellanador"
+                },
+                {
+                    "name": "031001 - Azada",
+                    "code": "Azada"
+                },
+                {
+                    "name": "031002 - Azadon",
+                    "code": "Azad\u00f3n"
+                },
+                {
+                    "name": "031003 - Cabo",
+                    "code": "Cabo"
+                },
+                {
+                    "name": "031004 - Coa",
+                    "code": "Coa"
+                }
+            ]
+        },
+        {
+            "name": "3 - Electricidad",
+            "code": "3",
+            "_children": [
+                {
+                    "name": "030300 - Bateria",
+                    "code": "Bater\u00eda"
+                },
+                {
+                    "name": "030301 - Bombilla",
+                    "code": "Bombilla"
+                },
+                {
+                    "name": "030302 - Cautin",
+                    "code": "Caut\u00edn"
+                },
+                {
+                    "name": "030303 - Conector",
+                    "code": "Conector"
+                }
+            ]
+        },
+        {
+            "name": "4 - Ebanisteria",
+            "code": "4",
+            "_children": [
+                {
+                    "name": "030400 - Bisagra",
+                    "code": "Bisagra"
+                },
+                {
+                    "name": "030401 - Boton",
+                    "code": "Bot\u00f3n"
+                },
+                {
+                    "name": "030402 - Cadena",
+                    "code": "Cadena"
+                },
+                {
+                    "name": "030403 - Clavo",
+                    "code": "Clavo"
+                }
+            ]
+        },
+        {
+            "name": "6 - Pintura",
+            "code": "6",
+            "_children": [
+                {
+                    "name": "030600 - Brocha",
+                    "code": "Brocha"
+                }
+            ]
+        },
+        {
+            "name": "9 - Herreria",
+            "code": "9",
+            "_children": [
+                {
+                    "name": "030900 - Candado",
+                    "code": "Candado"
+                },
+                {
+                    "name": "030901 - Cerradura",
+                    "code": "Cerradura"
+                }
+            ]
+        },
+        {
+            "name": "0 - Extra",
+            "code": "0",
+            "_children": [
+                {
+                    "name": "030000 - Cautin",
+                    "code": "Caut\u00edn"
+                }
+            ]
+        },
+        {
+            "name": "  - ??",
+            "code": " ",
+            "_children": [
+                {
+                    "name": "030 00 - Corder",
+                    "code": "Corder"
+                }
+            ]
+        }
+    ]
+}

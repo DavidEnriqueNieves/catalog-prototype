@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="foundation.css" />
+    <link rel="stylesheet" type="text/css" href="app.css" />
+    <link rel="stylesheet" type="text/css" href="d3-context-menu.css" />
+    <link rel="stylesheet" type="text/css" href="select2.min.css"/>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+    <meta charSet="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+<body>
+        <div class="search-box">
+            <div id="block_container">
+                <div id="searchName"></div>
+            </div>
+        </div>
+
+        <div id="tree-container"></div>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="d3.v3.min.js"></script>
+        <script type="text/javascript" src="dndTree.js"></script>
+        <script type="text/javascript" src="d3-context-menu.js"></script>
+        <script type="text/javascript" src="underscore-min.js"></script>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="fastclick.js"></script>
+        <script type="text/javascript" src="foundation.min.js"></script>
+        <script type="text/javascript" src="modernizr.js"></script>
+        <script type="text/javascript" src="select2.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+        <script>
+                // for the first initialization
+                $('document').ready(function(){
+                    $(document).foundation();
+                    $(document).on('opened', '[data-reveal]', function () {
+                        var element = $(".inputName:visible").first();
+                        element.focus(function(){
+                            this.selectionStart = this.selectionEnd = this.value.length;
+                        });
+                        element.focus();
+                    });
+                    $("#searchName").on("select2-selecting", function(e) {
+                        clearAll(tree_root);
+                        expandAll(tree_root);
+                        outer_update(tree_root);
+
+                        searchField = "d.name";
+                        searchText = e.object.text;
+                        firstCall = true;
+                        searchTree(tree_root, firstCall);
+			console.log(tree_root);
+                        tree_root.children.forEach(collapseAllNotFound);
+                        outer_update(tree_root);
+                        tree_root.children.forEach(centerSearchTarget);
+                    })
+                    var treeJSON = d3.json("sql_tree.json", draw_tree);
+                });
+        </script>
+        <script>
+function centerSearchTarget(d) {
+    if (d.search_target) {
+        outer_centerNode(d);
+        console.log("Found search target: " + d.name);
+	console.log(d.name);
+	console.log(d);
+	console.log("HGELLO");
+	//getTable(d.parent.parent.code, d.parent.code, d.code);
+  	//updateTable();
+    }
+    if (d.children) {
+        d.children.forEach(centerSearchTarget);
+    }
+}
+
+initTable();
+
+//updateTable(3, 2, "Asiento");
+
+$(document).ready(function() {
+    $('#data_table').DataTable( {
+        "ajax": "http://localhost:3000/test",
+    } );
+} );
+
+function updateTable(gen, subgen, prod)
+{
+
+	$.ajax({
+	url: 'http://localhost:3000/data2',
+	type: 'GET',
+	dataType: 'json',
+	data : {"genero" : gen, "subgenero" : subgen, "prod" : prod},
+	success: function(data) {
+
+
+	}
+	
+	});
+
+	$('#data_table').DataTable().ajax.reload();
+	console.log("Success!");
+	addItems(2);
+
+}
+
+
+function initTable()
+{
+	$.ajax({
+		url: 'http://localhost:3000/keys',
+		type: 'GET',
+		async: true,
+		success: function(data) {
+
+			tableHTML = "";
+			console.log(data);
+			footerHTML = "";
+
+			for(i = 0; i < data.length; i++)
+			{
+
+
+				if(i == 0)
+				{
+					footerHTML+="<tfoot><tr>";
+
+					tableHTML += "<thead><tr>";
+					for (const [key, value] of Object.entries(data[i])) {
+						console.log(`${key}: ${value}`);
+						footerHTML+="<th>" + `${key}`+"</th>";
+						tableHTML+="<th>" + `${key}` + "</th>";
+
+					}
+					tableHTML+="</tr></thead>";
+					footerHTML+="</tr></tfoot>";
+
+				}
+
+			}
+			tableHTML+=footerHTML;
+			document.getElementById("data_table").innerHTML = tableHTML;
+		}
+	});
+
+
+
+}
+function getTable(genero, subgenero, prod)
+{
+	$.ajax({
+		url: 'http://localhost:3000/data2',
+		type: 'GET',
+		data: {"genero" : genero, "subgenero" : subgenero, "prod" : prod},
+		async: true,
+		success: function(data) {
+
+			tableHTML = "";
+			console.log(data);
+			footerHTML = "";
+
+			for(i = 0; i < data.length; i++)
+			{
+
+
+				if(i == 0)
+				{
+					footerHTML+="<tfoot><tr>";
+
+					tableHTML += "<thead><tr>";
+					for (const [key, value] of Object.entries(data[i])) {
+						console.log(`${key}: ${value}`);
+						footerHTML+="<th>" + `${key}`+"</th>";
+						tableHTML+="<th>" + `${key}` + "</th>";
+
+					}
+					tableHTML+="</tr></thead>";
+					footerHTML+="</tr></tfoot>";
+					tableHTML+="<tbody>";
+
+				}
+				tableHTML += "<tr>"
+
+
+				for (const [key, value] of Object.entries(data[i])) {
+
+					//console.log(`${key}: ${value}`);
+					tableHTML+="<td>" + `${value}` + "</td>";
+				} 
+
+				tableHTML+="</tr>"
+
+			}
+			tableHTML+="</tbody>"
+			tableHTML+=footerHTML;
+			document.getElementById("data_table").innerHTML = tableHTML;
+		}
+	});
+
+}
+
+
+	</script>
+
+<table id="data_table" class="display">
+</table>
+
+<button onClick="updateTable(3, 2, 'Bandeja');"></button>
+<table id="data_table2" class="display">
+
+	<div id="myGrid" class="ag-theme-alpine" style="height: 100%;">
+	</div>
+	<script>var __basePath = './';</script>
+	<script src="https://unpkg.com/@ag-grid-enterprise/all-modules@25.3.0/dist/ag-grid-enterprise.min.js">
+	</script>
+	<script src="main.js">
+	</script>
+</table>
+</body>
+</html>
+
