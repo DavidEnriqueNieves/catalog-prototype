@@ -261,6 +261,13 @@ app.get('/catalog' , function(req, res){
 	res.sendFile(path.join(__dirname, 'public/data/flares.json'));
 })
 
+
+
+app.get('/sql_tree' , function(req, res){
+	res.sendFile(path.join(__dirname, 'public/data/sql_tree.json'));
+})
+
+
 app.get("/data", function(req, res){
 
 	console.log(req);
@@ -284,7 +291,7 @@ app.get("/data2", function(req, res){
 	genero = req.query['genero'];
 	subgenero = req.query['subgenero'];
 	prod = req.query['prod'];
-	query = "SELECT * FROM " + table_name + " WHERE SubGenero=\"" + subgenero + "\" AND Genero=\"" + genero + "\" AND Producto=\"" + prod + "\"" ;
+	query = "SELECT * FROM " + table_name + " WHERE Producto=\"" + prod + "\"" ;
 	con.connect(function(err) {
 		if (err) throw err;
 		con.query(query, function (err, result, fields) {

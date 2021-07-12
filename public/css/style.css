@@ -1,0 +1,244 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);  /* <-- Just for the demo, Yes I like pretty fonts... */
+
+.square {
+    float:left;
+    position: relative;
+    width: 80%;
+    padding-bottom : 80%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color:#FFFFFF;
+    overflow:hidden;
+}
+
+.square :hover
+{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.7;
+    top: 1;
+
+}
+
+.content {
+    position:absolute;
+    height:90%; /* = 100% - 2*5% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding: 5%;
+    
+}
+.table{
+    display:table;
+    width:100%;
+    height:100%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:middle;
+    top: 60%;
+    color: #444444;
+}
+/*  For list */
+ul{
+    text-align:left;
+    margin:5% 0 0;
+    padding:0;
+    list-style-position:inside;
+}
+li{
+    margin: 0 0 0 5%;
+    padding:0;
+}
+
+
+/*  For responsive images */
+
+.content .rs{
+    width:auto;
+    height:auto;
+    max-height:90%;
+    max-width:100%;
+}
+/*  For responsive images as background */
+
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#fff;
+}
+
+.img1{
+    background-image: url('https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg');
+}
+.img2{
+    background-image: url('https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg');
+}
+.img3{
+    background-image: url('https://farm4.staticflickr.com/3794/13893055574_3df0ab636b.jpg');
+}
+
+/*  following just for the demo */
+
+
+body {
+    font-size:35px;
+    font-weight: bold;
+
+    font-family: 'Lato',verdana, sans-serif;
+    color: #fff;
+    text-align:center;
+    background:#ECECEC;
+	-webkit-text-stroke: 1px #000000;
+
+}
+p{
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+
+.numbers{
+    font-weight:900;
+    font-size:100px;
+}
+
+#bottom {
+    clear:both;
+    margin:0 1.66%;
+    width:89.68%;
+    padding: 3.5%;
+    background-color:#1E1E1E;
+    color: #fff;
+}
+#bottom p{
+    text-align:center;
+    line-height:2em;
+}
+#bottom a{
+    color: #000;
+    text-decoration:none;
+    border:1px solid #000;
+    padding:10px 20px 12px;
+    line-height:70px;
+    background:#ccc;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#bottom a:hover{
+    background:#ECECEC;
+    border:1px solid #fff;
+}
+
+
+  .node, .link {
+	      cursor: pointer;
+	        }
+
+    .overlay{
+	          background-color:#EEE;
+		    }
+       
+      .node circle {
+	          fill: #fff;
+		      stroke: steelblue;
+		          stroke-width: 1.5px;
+			  transform: scale(2.5);
+			    }
+         
+        .node text {
+		    font-size:10px; 
+		        font-family:sans-serif;
+			  }
+	   
+	  .link {
+		      fill: none;
+		          stroke: #ccc;
+			      stroke-width: 4px;
+			        }
+
+	    .templink {
+		        fill: none;
+			    stroke: red;
+			        stroke-width: 3px;
+				  }
+
+	    m
+	      .ghostCircle.show{
+		            display:block;
+			      }
+
+	        .ghostCircle, .activeDrag .ghostCircle{
+			       display: none;
+			       width: 100px;
+			       height: auto;
+			         }
+
+
+
+
+
+		/* Dropdown Button */
+		.dropbtn {
+			  background-color: #04AA6D;
+			    color: white;
+			      padding: 16px;
+			        font-size: 16px;
+				  border: none;
+				    cursor: pointer;
+		}
+
+		/* Dropdown button on hover & focus */
+		.dropbtn:hover, .dropbtn:focus {
+			  background-color: #3e8e41;
+		}
+
+		/* The search field */
+		#myInput {
+			  box-sizing: border-box;
+			    background-image: url('searchicon.png');
+			      background-position: 14px 12px;
+			        background-repeat: no-repeat;
+				  font-size: 16px;
+				    padding: 14px 20px 12px 45px;
+				      border: none;
+				        border-bottom: 1px solid #ddd;
+		}
+
+		/* The search field when it gets focus/clicked on */
+		#myInput:focus {outline: 3px solid #ddd;}
+
+		/* The container <div> - needed to position the dropdown content */
+		.dropdown {
+			  position: relative;
+			    display: inline-block;
+		}
+
+		/* Dropdown Content (Hidden by Default) */
+		.dropdown-content {
+			  display: none;
+			    position: absolute;
+			      background-color: #f6f6f6;
+			        min-width: 230px;
+				  border: 1px solid #ddd;
+				    z-index: 1;
+		}
+
+		/* Links inside the dropdown */
+		.dropdown-content a {
+			  color: black;
+			    padding: 12px 16px;
+			      text-decoration: none;
+			        display: block;
+		}
+
+		/* Change color of dropdown links on hover */
+		.dropdown-content a:hover {background-color: #f1f1f1}
+
+		/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+		.show {display:block;}
+
+
