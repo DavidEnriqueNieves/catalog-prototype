@@ -11,7 +11,7 @@ var fs = require('fs');
 var parse = require('csv-parse');
 //var parse = require('csv-parse/lib/sync');
 var csvData=[];
-var reset=false;
+var reset=true;
 var database_name = "prototype";
 var table_name = database_name + "_table";
 
@@ -135,15 +135,56 @@ fs.createReadStream("/home/debbido/Desktop/prototype/public/data/listadoSWD.csv"
 	});
 }
 
+function reFormat()
+{
+		query = "SELECT * FROM " + table_name;
+		var sql_type = [];
+
+		
+		console.log(query);
+		con.connect(function(err) {
+			if (err) throw err;
+			con.query(query, function (err, result, fields) {
+				if (err) throw err;
+				console.log(result);
+				for(let i=0; i<result.length;i++)
+				{
+					var sequence = ["Giro", "Genero", "Articulo", "Material_o_Especificaciones", "Attr_o_Gauge", "Medida","MedidaAd", "Color", "Distribuidora"];
+					queryPref = "SELECT DISTINCT ";
+					const codeArr = [];
+					for(let p =0; p<sequence.length;p++)
+					{
+
+
+					}
+					// con.query(query, function (err, result, fields) {
+					// 	if (err) throw err;
+					// }
+
+				}
+			});
+		});
+}
+
 if(reset==true)
 {
+	// query = "DROP TABLE prototype_table";
+	// con.connect(function(err) {
+	// 	if (err) throw err;
+	// 	con.query(query, function (err, result, fields) {
+	// 		if (err) throw err;
+	// 		console.log(result);
+	// 	});
+	// });
 	ingest();
 }
+
+// reFormat();
 create_tree2();
 
 function create_tree2()
 {
- const python = spawn('python3', ['createTree.py']);
+//  const python = spawn('python3', ['createTree.py']);
 
 
 }
@@ -288,10 +329,15 @@ var query_result = {};
 
 app.get("/data2", function(req, res){
 
-	genero = req.query['genero'];
-	subgenero = req.query['subgenero'];
-	prod = req.query['prod'];
-	query = "SELECT * FROM " + table_name + " WHERE Producto=\"" + prod + "\"" ;
+	console.log(String(req.query));
+	for(const [key, value] of Object.entries(req.query))
+	{
+		console.log("Printing key" + value);
+	}
+	prod = String(req.query['prod']);
+	console.log('Prod is ' + prod);
+	query = "SELECT * FROM " + table_name + " WHERE Articulo=\"" + prod + "\"" ;
+	console.log("Query is " + query); 
 	con.connect(function(err) {
 		if (err) throw err;
 		con.query(query, function (err, result, fields) {
