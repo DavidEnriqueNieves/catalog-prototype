@@ -11,7 +11,7 @@ var fs = require('fs');
 var parse = require('csv-parse');
 //var parse = require('csv-parse/lib/sync');
 var csvData=[];
-var reset=true;
+var reset=false;
 var database_name = "prototype";
 var table_name = database_name + "_table";
 
@@ -378,6 +378,21 @@ app.get("/test", function(req, res){
 app.get("/keys", function(req, res){
 
 	query = "SELECT * FROM " + table_name + " LIMIT 1";
+	con.connect(function(err) {
+		if (err) throw err;
+		con.query(query, function (err, result, fields) {
+			if (err) throw err;
+			console.log(result);
+			res.send(result);
+
+		});
+	});
+
+});
+
+app.get("/articulos", function(req, res){
+
+	query = "SELECT DISTINCT Giro, Genero, Articulo FROM " + table_name;
 	con.connect(function(err) {
 		if (err) throw err;
 		con.query(query, function (err, result, fields) {
